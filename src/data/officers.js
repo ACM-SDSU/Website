@@ -8,7 +8,7 @@ export const officers = [
         url: "https://everettrichards.com",
         major: "Computer Science / Applied Math",
         committees: ["Finance","Recruitment & Public Relations","Workshops & Curricula"],
-        photo: require("../images/officers/everett.png"),
+        photo: require("../images/officers/everett.jpg"),
     },
     {
         name: "Jake Basile",
