@@ -16,7 +16,7 @@ function App() {
       <Overview />
       <About />
       <Officers />
-      <Outreach />
+      {/*<Outreach />*/}
       {/*<GuestSpeakers />*/}
       <Events />
       <Contact />
