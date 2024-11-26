@@ -15,8 +15,8 @@ function App() {
       <Navbar />
       <Overview />
       <About />
+      <Outreach />
       <Officers />
-      {/*<Outreach />*/}
       {/*<GuestSpeakers />*/}
       <Events />
       <Contact />

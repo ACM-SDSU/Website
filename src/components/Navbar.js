@@ -11,7 +11,7 @@ const buttons = [
   ["About", "about"],
   ["Officers", "officers"],
   //["Guest Speakers", "guestspeakers"],
-  ["Outreach", "outreach"],
+  ["Sponsors & Outreach", "outreach"],
   ["Upcoming Events", "events"],
   ["Contact Us", "contact"],
 ]
@@ -41,7 +41,7 @@ export default function Navbar() {
                 smooth={true}
                 offset={-64}
                 duration={500}
-                className="mr-6 hover:text-acm-yellow cursor-pointer"
+                className="mr-6 ml-1 hover:text-acm-yellow cursor-pointer"
                 >
                 {button[0]}
                 </Link>

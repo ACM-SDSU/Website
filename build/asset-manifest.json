@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.f518afb6.css",
-    "main.js": "/static/js/main.19546fde.js",
+    "main.css": "/static/css/main.4603b4be.css",
+    "main.js": "/static/js/main.a7b346d3.js",
     "static/js/453.988f4f0d.chunk.js": "/static/js/453.988f4f0d.chunk.js",
+    "static/media/lecture.jpg": "/static/media/lecture.2532c94afee880543218.jpg",
+    "static/media/welcome_event.png": "/static/media/welcome_event.7998e24e6371b25a2c47.png",
     "static/media/tanish.png": "/static/media/tanish.201e6d06c4d03adb5d93.png",
     "static/media/ComputerChip.jpg": "/static/media/ComputerChip.386e64ab850e6de624e3.jpg",
     "static/media/bella.png": "/static/media/bella.f337b881f2fc6d1eb83c.png",
     "static/media/ian.png": "/static/media/ian.48855c99a92709f9f522.png",
-    "static/media/jake.png": "/static/media/jake.9019e24b067ac5cfb44e.png",
     "static/media/nitin.png": "/static/media/nitin.03af7e6527472e6b5847.png",
     "static/media/jp.png": "/static/media/jp.1d7ccfde4fd7f78a30dd.png",
+    "static/media/big_meeting.jpg": "/static/media/big_meeting.4f7a620cf1c5af9c6a59.jpg",
+    "static/media/small_meeting.JPG": "/static/media/small_meeting.8d4bf1390d5596cb3a9c.JPG",
+    "static/media/google.png": "/static/media/google.1a0437279553e2e75d52.png",
     "static/media/everett.jpg": "/static/media/everett.c6811759f9e57bdb6e3e.jpg",
+    "static/media/cssc.svg": "/static/media/cssc.13d48460ab01d087e79ca512a5f959b3.svg",
+    "static/media/jake.JPG": "/static/media/jake.d8f8df7d9bc597b26b61.JPG",
     "index.html": "/index.html",
-    "main.f518afb6.css.map": "/static/css/main.f518afb6.css.map",
-    "main.19546fde.js.map": "/static/js/main.19546fde.js.map",
+    "main.4603b4be.css.map": "/static/css/main.4603b4be.css.map",
+    "main.a7b346d3.js.map": "/static/js/main.a7b346d3.js.map",
     "453.988f4f0d.chunk.js.map": "/static/js/453.988f4f0d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f518afb6.css",
-    "static/js/main.19546fde.js"
+    "static/css/main.4603b4be.css",
+    "static/js/main.a7b346d3.js"
   ]
 }

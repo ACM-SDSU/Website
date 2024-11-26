@@ -3,7 +3,7 @@ import { Link, Element, animateScroll as scroll } from "react-scroll";
 import ComputerChip from "../images/logos/ComputerChip.jpg";
 import { InfoChip, ChipTitle, ChipContent, ChipButton } from "./InfoChip";
 import ILink from "./Link";
-import { AcmAtSdsu } from "./AcmAtSdsu";
+import { AcmAtSdsu } from "./Modules";
 
 export default function Overview() {
 	return (

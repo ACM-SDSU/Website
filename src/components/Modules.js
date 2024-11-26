@@ -1,5 +1,6 @@
 import React from "react";
 import ILink from "./Link";
+import googlepng from "../images/logos/google.png";
 
 export function AcmAtSdsu({ children }) {
 	return (
@@ -16,6 +17,16 @@ export function AcmAtSdsuLightBg({ children }) {
         <ILink to="overview">
             <span class="acm-at-sdsu font-bold hover:text-yellow-500 cursor-pointer">
                 <span class="text-acm-blue">ACM</span> @<span class="text-acm-red">SDSU</span>
+            </span>
+        </ILink>
+	);
+}
+
+export function GoogleLogo({ children }) {
+    return (
+        <ILink to="outreach">
+            <span class="google-logo font-bold cursor-pointer inline-block">
+                <img src={googlepng} class="h-4 mx-1" />
             </span>
         </ILink>
 	);

@@ -16,7 +16,7 @@ export const officers = [
         email: "jbasile0009@sdsu.edu",
         major: "Statistics / Data Science",
         committees: ["Finance","Workshops & Curricula"],
-        photo: require("../images/officers/jake.png"),
+        photo: require("../images/officers/jake.JPG"),
     },
     {
         name: "Nitin Chatlani",
