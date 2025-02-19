@@ -37,7 +37,7 @@ export default function Navbar({ navItems }) {
             <RouterLink
               key={index}
               to="/hack"
-              className="mr-6 ml-1 hover:text-acm-yellow cursor-pointer"
+              className="mr-8 ml-1 hover:text-acm-yellow cursor-pointer"
             >
               {button[0]}
             </RouterLink>
@@ -49,7 +49,7 @@ export default function Navbar({ navItems }) {
               smooth={true}
               offset={-40}
               duration={500}
-              className="mr-6 ml-1 hover:text-acm-yellow cursor-pointer"
+              className="mr-8 ml-1 hover:text-acm-yellow cursor-pointer"
               >
               {button[0]}
               </Link>

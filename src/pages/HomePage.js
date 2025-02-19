@@ -16,7 +16,7 @@ const homepage_buttons = [
   ["Outreach", "outreach"],
   ["Calendar", "events"],
   ["Contact Us", "contact"],
-  ["Hackathon","hackathon"],
+  ["Hackathon 2025","hackathon"],
 ]
 
 function App() {

@@ -5,7 +5,7 @@ import About from "../components/hackathon2025/About";
 //import Register from "../components/hackathon2025/Register";
 
 const hackathon_buttons = [
-    ["About", "about"],
+    ["Getting Started", "about"],
     //["Timeline","timeline"]
     //["Register", "register"],
 ]
