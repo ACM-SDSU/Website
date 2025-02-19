@@ -27,8 +27,8 @@ export default function Navbar({ navItems }) {
   return (
     <header className="bg-acm-dark-blue md:sticky top-0 z-10 border-b-2 border-gray-900">
       <div className="container mx-auto flex flex-wrap p-1 flex-col md:flex-row items-center">
-        <button onClick={handleClick} className="flex justify-center items-center ml-3 text-lg title-font font-medium text-white mb-4 md:mb-0 cursor-pointer">
-            <img src={SDSU_Mini_Logo_32px} className="h-7 mt-0 mr-2 bg-sdsu-bright-red" alt="SDSU Logo" />
+        <button onClick={handleClick} className="flex justify-center items-center ml-3 text-lg title-font font-medium text-white mb-4 md:mb-0 cursor-pointer drop-shadow-[0px_0px_2px_black]">
+            <img src={SDSU_Mini_Logo_32px} className="h-7 mt-0 mr-2 bg-sdsu-bright-red " alt="SDSU Logo" />
             Association for Computing Machinery
         </button>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-900	flex flex-wrap items-center text-base justify-center text-gray-200">
@@ -37,7 +37,7 @@ export default function Navbar({ navItems }) {
             <RouterLink
               key={index}
               to="/hack"
-              className="mr-8 ml-1 hover:text-acm-yellow cursor-pointer"
+              className="mr-8 ml-1 hover:text-acm-yellow cursor-pointer drop-shadow-[0px_0px_2px_black]"
             >
               {button[0]}
             </RouterLink>
@@ -49,7 +49,7 @@ export default function Navbar({ navItems }) {
               smooth={true}
               offset={-40}
               duration={500}
-              className="mr-8 ml-1 hover:text-acm-yellow cursor-pointer"
+              className="mr-8 ml-1 hover:text-acm-yellow cursor-pointer drop-shadow-[0px_0px_2px_black]"
               >
               {button[0]}
               </Link>

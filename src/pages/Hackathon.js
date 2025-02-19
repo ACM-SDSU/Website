@@ -10,6 +10,13 @@ const hackathon_buttons = [
     //["Register", "register"],
 ]
 
+// Basic info (Date/logistics)
+// Timeline?
+// Registration / application form
+// Info about potential sponsors?
+// FAQ
+// Contact info
+
 function Hackathon() {
     return (
         <main className="text-gray-900 bg-gray-100 body-font font-ACM">
