@@ -10,13 +10,17 @@ export default function Overview() {
 	return (
 		<section id="overview" class="min-h-screen bg-cover bg-center grid" style={{ backgroundImage: `url(${ComputerChip})` }}>
 			<div class="bg-black bg-cover bg-opacity-50 w-full h-full flex flex-col justify-center items-center py-8">
-				<h1 class="text-6xl lg:text-8xl text-gray-100 w-4/5 font-bold text-center mb-4 drop-shadow-[0px_0px_4px_black]">Welcome to <AcmAtSdsu />!</h1>
+				<h1 class="text-6xl lg:text-8xl text-gray-100 w-4/5 font-bold text-center mb-4 drop-shadow-[0px_0px_4px_black]">
+				Welcome to <AcmAtSdsu />!
+				</h1>
 				
 				<RouterLink
 					to="/hack"
 					className="mr-8 ml-1 hover:text-acm-yellow cursor-pointer"
 					>
-					<h2 class="text-4xl text-acm-yellow w-full font-bold text-center mb-4 underline drop-shadow-[0px_0px_3px_black]">Learn about the 2025 "Innovate 4 SDSU" Hackathon</h2>
+					<h2 class="text-4xl text-acm-yellow w-full font-bold text-center mb-4 underline drop-shadow-[0px_0px_3px_black]">
+						Learn about the 2025 "Innovate 4 SDSU" Hackathon
+					</h2>
 				</RouterLink>
 
 				<div class="flex flex-row flex-wrap gap-4 p-4 justify-center">

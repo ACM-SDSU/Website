@@ -17,3 +17,9 @@ code {
 @tailwind components;
 
 @tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply drop-shadow-[1px_1px_1px_currentColor];
+  }
+}

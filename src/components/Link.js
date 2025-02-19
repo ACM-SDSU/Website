@@ -6,7 +6,7 @@ export default function ILink(params) {
 			activeClass="active"
 			spy={true}
 			smooth={true}
-			offset={-64}
+			offset={-40}
 			duration={500}
 			{...params}
 		/>
