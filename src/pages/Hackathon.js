@@ -1,19 +1,15 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Overview from "../components/hackathon2025/Overview";
-// import Timeline from "../components/hackathon2025/Timeline";
-// import Register from "../components/hackathon2025/Register";
-// import Sponsors from "../components/hackathon2025/Register";
-// import FAQ from "../components/hackathon2025/Register";
-// import Contact from "../components/hackathon2025/Register";
+import Contact from "../components/hackathon2025/Contact";
 
 const hackathon_buttons = [
-    ["Getting Started", "overview"],
+    ["Overview", "overview"],
     // ["Timeline","timeline"],
     // ["Register", "register"],
     // ["Sponsors", "sponsors"],
     // ["FAQ","faq"],
-    // ["Contact Us","contact"]
+    ["Contact Us","contact"],
 ]
 
 // Basic info (Date/logistics)
@@ -31,8 +27,8 @@ function Hackathon() {
             {/* <Timeline />
             <Register />
             <Sponsors />
-            <FAQ />
-            <Contact /> */}
+            <FAQ /> */}
+            <Contact />
         </main>
     );
 }

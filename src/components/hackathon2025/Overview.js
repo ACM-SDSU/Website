@@ -4,6 +4,8 @@ import { Link, Element, animateScroll as scroll } from "react-scroll";
 import { Link as RouterLink, useLocation, useNavigate } from "react-router-dom";
 
 import ComputerChip from "../../images/logos/ComputerChip.jpg";
+import HackBackground from "../../images/logos/hackathon_bg.jpg";
+
 import { InfoChip, ChipTitle, ChipContent, ChipButton } from "../InfoChip";
 
 import ILink from "../Link";
@@ -13,7 +15,7 @@ import { HackLogo } from "../Modules"
 
 export default function Overview() {
 	return (
-		<section id="overview" class="min-h-screen bg-cover bg-center grid" style={{ backgroundImage: `url(${ComputerChip})` }}>
+		<section id="overview" class="min-h-screen bg-cover bg-center grid" style={{ backgroundImage: `url(${HackBackground})` }}>
 			<div class="bg-black bg-cover bg-opacity-50 w-full h-full flex flex-col justify-center items-center py-">
 				<h1 class="text-6xl lg:text-8xl text-gray-100 w-4/5 font-bold text-center mb-4 drop-shadow-[0px_0px_4px_black]">
 					{/* <span class="text-2xl lg:text-4xl text-gray-300">
@@ -33,35 +35,35 @@ export default function Overview() {
 				</RouterLink>
 
 				<div class="flex flex-row flex-wrap gap-4 p-4 justify-center">
-					<InfoChip>
+					<InfoChip bgcolor="gray-200" textcolor="gray-900">
 						<ChipTitle>About the Hackathon</ChipTitle>
 						<ChipContent>
 							The <HackLogo /> Hackathon invites all SDSU students to compete in teams to develop projects that benefit the SDSU community.
 						</ChipContent>
-						<ChipButton>
+						<ChipButton bgcolor="acm-orange" hovercolor="acm-blue">
 							<ILink to="about">
 								Learn More
 							</ILink>
 						</ChipButton>
 					</InfoChip>
 
-					<InfoChip>
+					<InfoChip bgcolor="gray-200" textcolor="gray-900">
 						<ChipTitle>Time and Location</ChipTitle>
 						<ChipContent>
 							The <HackLogo /> Hackathon will take place on Saturday, April 26, 2025 at Park Place, on the first floor of the Conrad Prebys Aztec Student Union.
 						</ChipContent>
-						<ChipButton>
+						<ChipButton bgcolor="acm-orange" hovercolor="acm-blue">
 							<ILink to="overview">
 								Frequently Asked Questions
 							</ILink>
 						</ChipButton>
 					</InfoChip>
-					<InfoChip>
+					<InfoChip bgcolor="gray-200" textcolor="gray-900">
 						<ChipTitle>Register for the Hackathon</ChipTitle>
 						<ChipContent>
-							Registration for <HackLogo /> will begin in mid March. Join our <a href="https://discord.gg/UuNuggpKYV" target="_blank" class="text-acm-light-blue font-bold underline">Discord Server</a> to stay up to date with all the latest ACM news and upcoming events.
+							Registration for <HackLogo /> will begin in mid March. Join our <a href="https://discord.gg/UuNuggpKYV" target="_blank" class="text-acm-dark-blue font-bold underline">Discord Server</a> to stay up to date with all the latest ACM news and upcoming events.
 						</ChipContent>
-						<ChipButton>
+						<ChipButton bgcolor="acm-orange" hovercolor="acm-blue">
 							<ILink to="timeline">
 								Timeline
 							</ILink>
