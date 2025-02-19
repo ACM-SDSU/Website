@@ -1,0 +1,22 @@
+import React from "react";
+import Navbar from "../components/Navbar";
+import About from "../components/hackathon2025/About";
+//import Timeline from "../components/hackathon2025/Timeline";
+//import Register from "../components/hackathon2025/Register";
+
+const hackathon_buttons = [
+    ["About", "about"],
+    //["Timeline","timeline"]
+    //["Register", "register"],
+]
+
+function Hackathon() {
+    return (
+        <main className="text-gray-900 bg-gray-100 body-font font-ACM">
+            <Navbar navItems={hackathon_buttons} />
+            <About />
+        </main>
+    );
+}
+
+export default Hackathon;

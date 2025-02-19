@@ -6,7 +6,7 @@ export const officers = [
         position: "President",
         email: "erichards5198@sdsu.edu",
         url: "https://everettrichards.com",
-        major: "Computer Science / Applied Math",
+        major: "Computer Science & Applied Math",
         committees: ["Finance","Recruitment & Public Relations","Workshops & Curricula"],
         photo: require("../images/officers/everett.jpg"),
     },
@@ -14,7 +14,7 @@ export const officers = [
         name: "Jake Basile",
         position: "Executive Vice President",
         email: "jbasile0009@sdsu.edu",
-        major: "Statistics / Data Science",
+        major: "Statistics, emph. Data Science",
         committees: ["Finance","Workshops & Curricula"],
         photo: require("../images/officers/jake.JPG"),
     },
@@ -28,7 +28,7 @@ export const officers = [
     },
     {
         name: "Tanish Gheewala",
-        position: "Treasurer",
+        position: "Treasurer & CSSC Rep.",
         email: "tgheewala4792@sdsu.edu",
         major: "Computer Engineering",
         committees: ["Finance"],
@@ -59,12 +59,12 @@ export const officers = [
         photo: require("../images/officers/jp.png")
     },
     {
-        name: "Dr. Miranda Parker",
+        name: "Joann Chen",
         position: "Faculty Advisor",
-        email: "mcparker@sdsu.edu",
+        email: "https://joannqc.com/",
         major: "Professor of Computer Science",
         committees: ["N/A"],
-        photo: "https://cs.sdsu.edu/wp-content/uploads/profiles/miranda-parker-300.jpg"
+        photo: "https://cs.sdsu.edu/wp-content/uploads/profiles/joann-chen-300.jpg"
     },
 ]
 
