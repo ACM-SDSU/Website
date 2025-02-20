@@ -35,35 +35,35 @@ export default function Overview() {
 				</RouterLink>
 
 				<div class="flex flex-row flex-wrap gap-4 p-4 justify-center">
-					<InfoChip bgcolor="gray-200" textcolor="gray-900">
+					<InfoChip bgcolor="bg-gray-200" textcolor="text-gray-900">
 						<ChipTitle>About the Hackathon</ChipTitle>
 						<ChipContent>
 							The <HackLogo /> Hackathon invites all SDSU students to compete in teams to develop projects that benefit the SDSU community.
 						</ChipContent>
-						<ChipButton bgcolor="acm-orange" hovercolor="acm-blue">
+						<ChipButton bgcolor="bg-acm-orange" hovercolor="acm-blue">
 							<ILink to="about">
 								Learn More
 							</ILink>
 						</ChipButton>
 					</InfoChip>
 
-					<InfoChip bgcolor="gray-200" textcolor="gray-900">
+					<InfoChip bgcolor="bg-gray-200" textcolor="text-gray-900">
 						<ChipTitle>Time and Location</ChipTitle>
 						<ChipContent>
-							The <HackLogo /> Hackathon will take place on Saturday, April 26, 2025 at Park Place, on the first floor of the Conrad Prebys Aztec Student Union.
+							The <HackLogo /> Hackathon will take place on Saturday, April 26, 2025 from 9am-5pm at Park Place, in the Conrad Prebys Aztec Student Union.
 						</ChipContent>
-						<ChipButton bgcolor="acm-orange" hovercolor="acm-blue">
+						<ChipButton bgcolor="bg-acm-orange" hovercolor="acm-blue">
 							<ILink to="overview">
 								Frequently Asked Questions
 							</ILink>
 						</ChipButton>
 					</InfoChip>
-					<InfoChip bgcolor="gray-200" textcolor="gray-900">
+					<InfoChip bgcolor="bg-gray-200" textcolor="text-gray-900">
 						<ChipTitle>Register for the Hackathon</ChipTitle>
 						<ChipContent>
 							Registration for <HackLogo /> will begin in mid March. Join our <a href="https://discord.gg/UuNuggpKYV" target="_blank" class="text-acm-dark-blue font-bold underline">Discord Server</a> to stay up to date with all the latest ACM news and upcoming events.
 						</ChipContent>
-						<ChipButton bgcolor="acm-orange" hovercolor="acm-blue">
+						<ChipButton bgcolor="bg-acm-orange" hovercolor="acm-blue">
 							<ILink to="timeline">
 								Timeline
 							</ILink>
