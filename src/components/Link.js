@@ -13,6 +13,14 @@ export default function ILink(params) {
 	);
 }
 
+export function StyleLink({children}, to = "overview") {
+	return (
+		<ILink to={to} class="text-acm-blue font-bold underline">
+			{children}
+		</ILink>
+	);
+}
+
 /*
 NOTE: ILink should offset differently (less) on mobile devices.
 */

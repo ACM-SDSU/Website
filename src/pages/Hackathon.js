@@ -1,13 +1,14 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Overview from "../components/hackathon2025/Overview";
+import Sponsors from "../components/hackathon2025/Sponsors";
 import Contact from "../components/hackathon2025/Contact";
 
 const hackathon_buttons = [
     ["Overview", "overview"],
     // ["Timeline","timeline"],
     // ["Register", "register"],
-    // ["Sponsors", "sponsors"],
+    ["Sponsors", "sponsors"],
     // ["FAQ","faq"],
     ["Contact Us","contact"],
 ]
@@ -24,6 +25,7 @@ function Hackathon() {
         <main className="text-gray-900 bg-gray-100 body-font font-ACM">
             <Navbar navItems={hackathon_buttons} />
             <Overview />
+            <Sponsors />
             {/* <Timeline />
             <Register />
             <Sponsors />
