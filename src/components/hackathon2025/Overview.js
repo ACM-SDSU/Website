@@ -50,7 +50,7 @@ export default function Overview() {
 					<InfoChip bgcolor="bg-gray-200" textcolor="text-gray-900">
 						<ChipTitle>Time and Location</ChipTitle>
 						<ChipContent>
-							The <HackLogo /> Hackathon will take place on Saturday, April 26, 2025 from 9am-5pm at Park Place, in the Conrad Prebys Aztec Student Union.
+							The <HackLogo /> Hackathon will take place on Saturday, April 26, 2025 from 9am-5pm at Park Boulevard, in the Conrad Prebys Aztec Student Union.
 						</ChipContent>
 						<ChipButton bgcolor="bg-acm-orange" hovercolor="acm-blue">
 							<ILink to="overview">
