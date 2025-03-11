@@ -5,12 +5,14 @@ import Register from "../components/hackathon2025/Register"
 import Sponsors from "../components/hackathon2025/Sponsors";
 import Prompt from "../components/hackathon2025/Prompt";
 import Contact from "../components/hackathon2025/Contact";
+import Judges from "../components/hackathon2025/Judges";
 
 const hackathon_buttons = [
     ["Home", "overview"],
     // ["Timeline","timeline"],
     ["About the Hackathon", "prompt"],
     ["Register", "register"],
+    ["Judges", "judges"],
     ["Sponsors", "sponsors"],
     // ["FAQ","faq"],
     ["Contact Us","contact"],
@@ -30,6 +32,7 @@ function Hackathon() {
             <Overview />
             <Prompt />
             <Register />
+            <Judges />
             <Sponsors />
             {/* <Timeline />
             <Register />
