@@ -4,14 +4,14 @@ import { Link, Element, animateScroll as scroll } from "react-scroll";
 import { Link as RouterLink, useLocation, useNavigate } from "react-router-dom";
 
 import ComputerChip from "../../images/logos/ComputerChip.jpg";
-import HackBackground from "../../images/logos/hackathon_bg.jpg";
+import HackBackground from "../../images/logos/hackathon_bg_compressed.jpg";
 
 import { InfoChip, ChipTitle, ChipContent, ChipButton } from "../InfoChip";
 
 import ILink from "../Link";
 
 import { AcmAtSdsu } from "../Modules";
-import { HackLogo } from "../Modules"
+import { HackLogo } from "../Modules";
 
 export default function Overview() {
 	return (
@@ -40,10 +40,8 @@ export default function Overview() {
 						<ChipContent>
 							The <HackLogo /> Hackathon invites all SDSU students to compete in teams to develop projects that benefit the SDSU community.
 						</ChipContent>
-						<ChipButton bgcolor="bg-acm-orange" hovercolor="acm-blue">
-							<ILink to="about">
-								Learn More
-							</ILink>
+						<ChipButton bgcolor="bg-acm-blue" hovercolor="acm-orange" goal="overview">
+							Learn More
 						</ChipButton>
 					</InfoChip>
 
@@ -52,21 +50,18 @@ export default function Overview() {
 						<ChipContent>
 							The <HackLogo /> Hackathon will take place on Saturday, April 26, 2025 from 9am-5pm at Park Boulevard, in the Conrad Prebys Aztec Student Union.
 						</ChipContent>
-						<ChipButton bgcolor="bg-acm-orange" hovercolor="acm-blue">
-							<ILink to="overview">
+						<ChipButton bgcolor="bg-acm-blue" hovercolor="acm-orange" goal="FAQ">
 								Frequently Asked Questions
-							</ILink>
 						</ChipButton>
 					</InfoChip>
+
 					<InfoChip bgcolor="bg-gray-200" textcolor="text-gray-900">
 						<ChipTitle>Register for the Hackathon</ChipTitle>
 						<ChipContent>
 							Registration for <HackLogo /> will begin in mid March. Join our <a href="https://discord.gg/UuNuggpKYV" target="_blank" class="text-acm-dark-blue font-bold underline">Discord Server</a> to stay up to date with all the latest ACM news and upcoming events.
 						</ChipContent>
-						<ChipButton bgcolor="bg-acm-orange" hovercolor="acm-blue">
-							<ILink to="timeline">
+						<ChipButton bgcolor="bg-acm-blue" hovercolor="acm-orange" goal="prompt">
 								Timeline
-							</ILink>
 						</ChipButton>
 					</InfoChip>
 					{/*<InfoChip>

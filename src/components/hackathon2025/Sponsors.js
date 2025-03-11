@@ -11,7 +11,7 @@ import CSSC from "../../images/logos/cssc.svg";
 
 export default function Sponsors() {
 	return (
-		<section id="sponsors" class="p-8 pb-10 bg-grey-100 xl:inline-block">
+		<section id="sponsors" class="p-8 pb-10 bg-gray-900 text-white xl:inline-block lg:min-h-screen">
 			<h1 class="text-5xl font-bold text-center m-4 mb-8">Sponsors</h1>
             <div class="text-lg xl:mx-36">
 
@@ -25,7 +25,7 @@ export default function Sponsors() {
                 <br /><br />
                 We would also like to say thank you to <b>Associated Students</b> for providing funding for our event through the Campus Program Funding (CPF) system, as well as the <b>SDSU College of Sciences Student Council</b>, which will also partially fund the event.
                 <br /><br /><br />
-                If you are interested in sponsoring <HackLogo />, please <StyleLink to="contact" class="text-acm-dark-blue font-bold underline">Contact Us</StyleLink> to discuss further details.
+                If you are interested in sponsoring <HackLogo />, please <StyleLink to="contact" class="text-acm-blue font-bold underline">Contact Us</StyleLink> to discuss further details.
             </div>
 		</section>
 	);

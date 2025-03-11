@@ -27,10 +27,8 @@ export default function Overview() {
 					<InfoChip>
 						<ChipTitle>About Us</ChipTitle>
 						<ChipContent>We are the <span class="text-acm-light-blue font-bold">Association for Computing Machinery (ACM)</span> Student Chapter at <span class="NOTtext-acm-red NOTfont-bold">San Diego State University</span>.</ChipContent>
-						<ChipButton>
-							<ILink to="about">
-								See What We Offer
-							</ILink>
+						<ChipButton goal="about">
+							See What We Offer
 						</ChipButton>
 					</InfoChip>
 
@@ -50,19 +48,15 @@ export default function Overview() {
 							</a>
 							, plus additional workshops and seminars throughout the week.
 						</ChipContent>
-						<ChipButton>
-							<ILink to="events">
-								View Event Calendar
-							</ILink>
+						<ChipButton goal="events">
+							View Event Calendar
 						</ChipButton>
 					</InfoChip>
 					<InfoChip>
 						<ChipTitle>Join the ACM Chapter</ChipTitle>
 						<ChipContent>Join our <a href="https://discord.gg/UuNuggpKYV" target="_blank" class="text-acm-light-blue font-bold underline">Discord Server</a> to stay up to date with all the latest ACM news and upcoming events.</ChipContent>
-						<ChipButton>
-							<ILink to="contact">
-								Connect With Us
-							</ILink>
+						<ChipButton goal="contact">
+							Connect With Us
 						</ChipButton>
 					</InfoChip>
 					{/*<InfoChip>

@@ -25,7 +25,7 @@ export default function Navbar({ navItems }) {
   };
 
   return (
-    <header className="bg-acm-blue md:sticky top-0 z-10 border-b-2 border-gray-900">
+    <header className="bg-acm-dark-blue md:sticky top-0 z-10 border-b-2 border-gray-900">
       <div className="container mx-auto flex flex-wrap p-1 flex-col md:flex-row items-center">
         <button onClick={handleClick} className="flex justify-center items-center ml-3 text-lg title-font font-medium text-white mb-4 md:mb-0 cursor-pointer drop-shadow-[0px_0px_2px_black]">
             <img src={SDSU_Mini_Logo_32px} className="h-7 mt-0 mr-2 bg-sdsu-bright-red " alt="SDSU Logo" />
