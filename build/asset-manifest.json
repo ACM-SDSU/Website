@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.ee612db0.css",
-    "main.js": "/static/js/main.26b16aaa.js",
+    "main.css": "/static/css/main.9487e9bc.css",
+    "main.js": "/static/js/main.ca9cc858.js",
     "static/js/453.988f4f0d.chunk.js": "/static/js/453.988f4f0d.chunk.js",
-    "static/media/hackathon_bg.jpg": "/static/media/hackathon_bg.d8b41159b9a2cecdd298.jpg",
     "static/media/lecture.jpg": "/static/media/lecture.2532c94afee880543218.jpg",
     "static/media/welcome_event.png": "/static/media/welcome_event.7998e24e6371b25a2c47.png",
+    "static/media/hackathon_bg_compressed.jpg": "/static/media/hackathon_bg_compressed.7ee07fe1a61b4f330e18.jpg",
     "static/media/tanish.png": "/static/media/tanish.201e6d06c4d03adb5d93.png",
     "static/media/ComputerChip.jpg": "/static/media/ComputerChip.386e64ab850e6de624e3.jpg",
     "static/media/bella.png": "/static/media/bella.f337b881f2fc6d1eb83c.png",
@@ -19,12 +19,12 @@
     "static/media/cssc.svg": "/static/media/cssc.00be85fe56095382c05902f61cf97ba7.svg",
     "static/media/jake.JPG": "/static/media/jake.d8f8df7d9bc597b26b61.JPG",
     "index.html": "/index.html",
-    "main.ee612db0.css.map": "/static/css/main.ee612db0.css.map",
-    "main.26b16aaa.js.map": "/static/js/main.26b16aaa.js.map",
+    "main.9487e9bc.css.map": "/static/css/main.9487e9bc.css.map",
+    "main.ca9cc858.js.map": "/static/js/main.ca9cc858.js.map",
     "453.988f4f0d.chunk.js.map": "/static/js/453.988f4f0d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee612db0.css",
-    "static/js/main.26b16aaa.js"
+    "static/css/main.9487e9bc.css",
+    "static/js/main.ca9cc858.js"
   ]
 }
