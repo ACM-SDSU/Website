@@ -40,7 +40,7 @@ export default function Overview() {
 						<ChipContent>
 							The <HackLogo /> Hackathon invites all SDSU students to compete in teams to develop projects that benefit the SDSU community.
 						</ChipContent>
-						<ChipButton bgcolor="bg-acm-blue" hovercolor="acm-orange" goal="overview">
+						<ChipButton bgcolor="bg-acm-blue" hovercolor="acm-orange" goal="prompt">
 							Learn More
 						</ChipButton>
 					</InfoChip>
@@ -50,7 +50,7 @@ export default function Overview() {
 						<ChipContent>
 							The <HackLogo /> Hackathon will take place on Saturday, April 26, 2025 from 9am-5pm at Park Boulevard, in the Conrad Prebys Aztec Student Union.
 						</ChipContent>
-						<ChipButton bgcolor="bg-acm-blue" hovercolor="acm-orange" goal="FAQ">
+						<ChipButton bgcolor="bg-acm-blue" hovercolor="acm-orange" goal="faq">
 								Frequently Asked Questions
 						</ChipButton>
 					</InfoChip>
@@ -60,7 +60,7 @@ export default function Overview() {
 						<ChipContent>
 							Registration for <HackLogo /> will begin in mid March. Join our <a href="https://discord.gg/UuNuggpKYV" target="_blank" class="text-acm-dark-blue font-bold underline">Discord Server</a> to stay up to date with all the latest ACM news and upcoming events.
 						</ChipContent>
-						<ChipButton bgcolor="bg-acm-blue" hovercolor="acm-orange" goal="prompt">
+						<ChipButton bgcolor="bg-acm-blue" hovercolor="acm-orange" goal="timeline">
 								Timeline
 						</ChipButton>
 					</InfoChip>

@@ -6,17 +6,21 @@ import Sponsors from "../components/hackathon2025/Sponsors";
 import Prompt from "../components/hackathon2025/Prompt";
 import Contact from "../components/hackathon2025/Contact";
 import Judges from "../components/hackathon2025/Judges";
+import FAQ from "../components/hackathon2025/FAQ";
+import Timeline from "../components/hackathon2025/Timeline";
 
 const hackathon_buttons = [
     ["Home", "overview"],
     // ["Timeline","timeline"],
     ["About the Hackathon", "prompt"],
+    ["Timeline", "timeline"],
     ["Register", "register"],
     ["Judges", "judges"],
     ["Sponsors", "sponsors"],
+    ["FAQs","faq"],
     // ["FAQ","faq"],
     ["Contact Us","contact"],
-]
+];
 
 // Basic info (Date/logistics)
 // Timeline?
@@ -31,9 +35,11 @@ function Hackathon() {
             <Navbar navItems={hackathon_buttons} />
             <Overview />
             <Prompt />
+            <Timeline />
             <Register />
             <Judges />
             <Sponsors />
+            <FAQ />
             {/* <Timeline />
             <Register />
             <Sponsors />
