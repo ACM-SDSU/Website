@@ -30,7 +30,7 @@ export default function Sponsors() {
                 
                 <br /><br />
                 <div class="flex flex-col xl:flex-row items-center">
-                    <p class="max-w-[100%] xl:max-w-[80%] mx-auto">
+                    <p class="max-w-[100%] xl:max-w-[80%] mx-auto text-3xl">
                         If you are interested in sponsoring <HackLogo /> or <AcmAtSdsuLightBg />, please <StyleLink to="contact" class="text-acm-blue font-bold underline">Contact Us</StyleLink> to discuss further details.
                     </p>
                 </div>
