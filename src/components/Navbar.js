@@ -41,6 +41,14 @@ export default function Navbar({ navItems }) {
             >
               {button[0]}
             </RouterLink>
+          ):button[1] === "homepage" ? (
+            <RouterLink
+              key={index}
+              to="/"
+              className="mr-8 ml-1 hover:text-acm-yellow cursor-pointer drop-shadow-[0px_0px_2px_black]"
+            >
+              {button[0]}
+            </RouterLink>
           ):(
             <Link
               activeClass="active"

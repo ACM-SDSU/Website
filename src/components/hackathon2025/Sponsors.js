@@ -12,7 +12,7 @@ import CSSC from "../../images/logos/cssc.svg";
 export default function Sponsors() {
 	return (
 		<section id="sponsors" class="pt-6 pb-12 items-center bg-gray-900 text-white lg:min-h-screen">
-			<h1 class="text-5xl font-bold text-center m-4 mb-8">Sponsors</h1>
+			<h1 class="text-5xl font-bold text-center m-4 mb-8 text-acm-light-blue">Sponsors</h1>
             <div class="text-base xl:mx-36">
                 <br />
                 <img src={GooglePNG} class="w-full mx-auto lg:w-1/5 xl:my-auto" />
@@ -30,7 +30,7 @@ export default function Sponsors() {
                 
                 <br /><br />
                 <div class="flex flex-col xl:flex-row items-center">
-                    <p class="max-w-[100%] xl:max-w-[80%] mx-auto text-3xl">
+                    <p class="max-w-[100%] xl:max-w-[80%] mx-auto text-xl">
                         If you are interested in sponsoring <HackLogo /> or <AcmAtSdsuLightBg />, please <StyleLink to="contact" class="text-acm-blue font-bold underline">Contact Us</StyleLink> to discuss further details.
                     </p>
                 </div>

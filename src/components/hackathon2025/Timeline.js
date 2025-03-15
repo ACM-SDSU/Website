@@ -41,7 +41,7 @@ let chips = [
 export default function Timeline(){
     return (
         <section id="timeline" class="pt-6 pb-12 items-center bg-gray-900 text-white lg:min-h-screen">
-            <h1 class="text-5xl font-bold text-center m-4 mb-8">Hackathon Timeline</h1>
+            <h1 class="text-5xl font-bold text-center m-4 mb-8 text-acm-light-blue">Hackathon Timeline</h1>
             <p class="text-center text-2xl mt-6 p-2">
                 View the Hackathon Timeline below for more information about important dates and times.
             </p>

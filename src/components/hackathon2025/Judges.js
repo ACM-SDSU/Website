@@ -4,7 +4,7 @@ import { judges } from "../../data/hack2025judges";
 export default function Judges() {
     return (
         <section id="judges" class="pt-6 pb-12 items-center bg-gray-900 text-white lg:min-h-screen">
-            <h1 class="text-5xl font-bold text-center m-4 mb-8 text-white">Hackathon Judges</h1>
+            <h1 class="text-5xl font-bold text-center m-4 mb-8 text-acm-light-blue">Hackathon Judges</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 lg:w-1/2 mx-auto justify-center gap-4 m-4">
                 {judges.map((officer) => (
                     <a href={officer.url ? officer.url : "https://acm.sdsu.edu/hack"} target="_blank">

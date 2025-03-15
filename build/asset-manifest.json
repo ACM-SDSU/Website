@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.054af17f.css",
-    "main.js": "/static/js/main.cf0d562b.js",
+    "main.css": "/static/css/main.88142072.css",
+    "main.js": "/static/js/main.54e8df3f.js",
     "static/js/453.988f4f0d.chunk.js": "/static/js/453.988f4f0d.chunk.js",
     "static/media/lecture.jpg": "/static/media/lecture.2532c94afee880543218.jpg",
     "static/media/welcome_event.png": "/static/media/welcome_event.7998e24e6371b25a2c47.png",
@@ -13,18 +13,18 @@
     "static/media/nitin.png": "/static/media/nitin.03af7e6527472e6b5847.png",
     "static/media/jp.png": "/static/media/jp.1d7ccfde4fd7f78a30dd.png",
     "static/media/big_meeting.jpg": "/static/media/big_meeting.4f7a620cf1c5af9c6a59.jpg",
+    "static/media/everett.jpg": "/static/media/everett.2b178de111916b34a3ad.jpg",
     "static/media/small_meeting.JPG": "/static/media/small_meeting.8d4bf1390d5596cb3a9c.JPG",
     "static/media/google.png": "/static/media/google.1a0437279553e2e75d52.png",
-    "static/media/everett.jpg": "/static/media/everett.c6811759f9e57bdb6e3e.jpg",
     "static/media/cssc.svg": "/static/media/cssc.00be85fe56095382c05902f61cf97ba7.svg",
     "static/media/jake.JPG": "/static/media/jake.d8f8df7d9bc597b26b61.JPG",
     "index.html": "/index.html",
-    "main.054af17f.css.map": "/static/css/main.054af17f.css.map",
-    "main.cf0d562b.js.map": "/static/js/main.cf0d562b.js.map",
+    "main.88142072.css.map": "/static/css/main.88142072.css.map",
+    "main.54e8df3f.js.map": "/static/js/main.54e8df3f.js.map",
     "453.988f4f0d.chunk.js.map": "/static/js/453.988f4f0d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.054af17f.css",
-    "static/js/main.cf0d562b.js"
+    "static/css/main.88142072.css",
+    "static/js/main.54e8df3f.js"
   ]
 }

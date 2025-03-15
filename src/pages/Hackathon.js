@@ -12,14 +12,15 @@ import Timeline from "../components/hackathon2025/Timeline";
 const hackathon_buttons = [
     ["Home", "overview"],
     // ["Timeline","timeline"],
-    ["About the Hackathon", "prompt"],
+    ["Prompt", "prompt"],
     ["Timeline", "timeline"],
     ["Register", "register"],
     ["Judges", "judges"],
     ["Sponsors", "sponsors"],
     ["FAQs","faq"],
     // ["FAQ","faq"],
-    ["Contact Us","contact"],
+    ["Contact","contact"],
+    ["Back to ACM","homepage"]
 ];
 
 // Basic info (Date/logistics)

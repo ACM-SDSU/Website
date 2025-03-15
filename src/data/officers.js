@@ -28,7 +28,7 @@ export const officers = [
     },
     {
         name: "Tanish Gheewala",
-        position: "Treasurer & CSSC Rep.",
+        position: "Treasurer",
         email: "tgheewala4792@sdsu.edu",
         major: "Computer Engineering",
         committees: ["Finance"],
