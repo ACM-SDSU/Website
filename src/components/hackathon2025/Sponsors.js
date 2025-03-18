@@ -9,10 +9,10 @@ import GooglePNG from "../../images/logos/google.png";
 import CSSC from "../../images/logos/cssc.svg";
 
 
-export default function Sponsors() {
+export default function Sponsors({headerStyle}) {
 	return (
 		<section id="sponsors" class="pt-6 pb-12 items-center bg-gray-900 text-white lg:min-h-screen">
-			<h1 class="text-5xl font-bold text-center m-4 mb-8 text-acm-light-blue">Sponsors</h1>
+			<h1 className={`text-5xl font-bold text-center m-4 mb-8 ${headerStyle}`}>Sponsors</h1>
             <div class="text-base xl:mx-36">
                 <br />
                 <img src={GooglePNG} class="w-full mx-auto lg:w-1/5 xl:my-auto" />

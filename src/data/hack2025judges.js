@@ -8,19 +8,30 @@ export const judges = [
         photo: "https://cs.sdsu.edu/wp-content/uploads/2022/08/patty-kraft-512.jpg"
     },
     {
+        name: "Manju Priya Muralidharan",
+        position: "Lecturer of Computer Science",
+        url: "https://cs.sdsu.edu/people/priya-manju-muralidharan/",
+        photo: blank
+    },
+    {
         name: "JP Zendejas",
         position: "Undergraduate Student",
         url: "https://jp.zendejas.org/",
         photo: require("../images/officers/jp.png")
     },
-    {
-        name: "TBA",
-        position: "To Be Announced",
-        photo: blank
-    },
-    {
-        name: "TBA",
-        position: "To Be Announced",
-        photo: blank
-    },
+    // {
+    //     name: "TBA",
+    //     position: "To Be Announced",
+    //     photo: blank
+    // },
+    // {
+    //     name: "TBA",
+    //     position: "To Be Announced",
+    //     photo: blank
+    // },
+    // {
+    //     name: "TBA",
+    //     position: "To Be Announced",
+    //     photo: blank
+    // },
 ]

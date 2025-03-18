@@ -3,15 +3,15 @@ import React from "react";
 import { AcmAtSdsu } from "../Modules";
 import { HackLogo } from "../Modules";
 
-export default function Prompt(){
+export default function Prompt({headerStyle}){
     return (
         <section id="prompt" className="pt-6 pb-12 items-center bg-gray-900 text-white lg:min-h-screen">
             {/* <h1 className="text-5xl font-bold text-center m-4 mb-8">Register for <HackLogo /> Today!</h1> */}
-            <h1 className="text-5xl font-bold text-center m-4 mb-8 text-acm-light-blue">Hackathon Theme: <HackLogo /></h1>
+            <h1 className={`text-5xl font-bold text-center m-4 mb-8 ${headerStyle}`}>Hackathon Theme: <HackLogo /></h1>
             <div className="text-left mt-4 p-2 w-full lg:w-4/5 mx-auto">
                 <span className="block">
                     <span className="font-bold text-xl text-acm-green">
-                        PROMPT: Design a comprehensive digital solution to revolutionize student life at SDSU.
+                        PROMPT: Work in teams of 1–3 students to design a comprehensive digital solution to revolutionize student life at SDSU.
                     </span>
                     <br />
                     <span className="italic text-lg">

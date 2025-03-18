@@ -30,22 +30,20 @@ const hackathon_buttons = [
 // FAQ
 // Contact info
 
+const headerStyle = "text-white";
+
 function Hackathon() {
     return (
         <main className="text-gray-900 bg-gray-100 body-font font-ACM">
-            <Navbar navItems={hackathon_buttons} />
-            <Overview />
-            <Prompt />
-            <Timeline />
-            <Register />
-            <Judges />
-            <Sponsors />
-            <FAQ />
-            {/* <Timeline />
-            <Register />
-            <Sponsors />
-            <FAQ /> */}
-            <Contact />
+            <Navbar navItems={hackathon_buttons} headerStyle={headerStyle} />
+            <Overview headerStyle={headerStyle} />
+            <Prompt headerStyle={headerStyle} />
+            <Timeline headerStyle={headerStyle} />
+            <Register headerStyle={headerStyle} />
+            <Judges headerStyle={headerStyle} />
+            <Sponsors headerStyle={headerStyle} />
+            <FAQ headerStyle={headerStyle} />
+            <Contact headerStyle={headerStyle} />
         </main>
     );
 }

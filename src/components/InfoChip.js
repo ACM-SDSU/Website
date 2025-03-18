@@ -17,10 +17,10 @@ export function ChipContent({ children }) {
 	return (<p class="text-lg">{children}</p>);
 }
 
-export function ChipButton({ children, bgcolor="bg-acm-blue", hovercolor="acm-light-blue", goal="overview" }) {
+export function ChipButton({ children, bgcolor="bg-acm-blue", hovercolor="acm-light-blue", goal="overview", otherstyle }) {
 	return (
 		<ILink to={goal}>
-			<div className={`${bgcolor} flex items-center justify-center bg-opacity-70 py-1 px-6 mt-4 mb-1 rounded-xl space-x-2 text-xl hover:text-${hovercolor} cursor-pointer`}>
+			<div className={`${bgcolor} ${otherstyle} flex items-center justify-center bg-opacity-70 py-1 px-6 mt-4 mb-1 rounded-xl space-x-2 text-xl hover:text-${hovercolor} cursor-pointer`}>
 				{children}
 			</div>
 		</ILink>

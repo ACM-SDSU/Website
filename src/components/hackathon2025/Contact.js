@@ -1,10 +1,10 @@
 import React from "react";
 import { AcmAtSdsuLightBg } from "../Modules";
 
-export default function Contact(){
+export default function Contact({headerStyle}){
     return (
         <section id="contact" class="pt-6 pb-12 bg-gray-900 text-white lg:min-h-screen">
-            <h1 class="text-5xl font-bold text-center m-4 mb-8 text-acm-light-blue">Contact Us</h1>
+            <h1 className={`text-5xl font-bold text-center m-4 mb-8 ${headerStyle}`}>Contact Us</h1>
             <p class="text-center text-2xl mt-6 p-2">
                 If you have any questions or concerns, please don't hesitate to reach out!
             </p>

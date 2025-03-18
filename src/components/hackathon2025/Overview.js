@@ -50,18 +50,18 @@ export default function Overview() {
 						<ChipContent>
 							The <HackLogo /> Hackathon will take place on Saturday, April 26, 2025 from 9am-5pm at Park Boulevard, in the Conrad Prebys Aztec Student Union.
 						</ChipContent>
-						<ChipButton bgcolor="bg-acm-blue" hovercolor="acm-orange" goal="faq">
-								Frequently Asked Questions
+						<ChipButton bgcolor="bg-acm-blue" hovercolor="acm-orange" goal="timeline">
+								Event Timeline
 						</ChipButton>
 					</InfoChip>
 
 					<InfoChip bgcolor="bg-gray-200" textcolor="text-gray-900">
 						<ChipTitle>Register for the Hackathon</ChipTitle>
 						<ChipContent>
-							Registration for <HackLogo /> will begin in mid March. Join our <a href="https://discord.gg/UuNuggpKYV" target="_blank" class="text-acm-dark-blue font-bold underline">Discord Server</a> to stay up to date with all the latest ACM news and upcoming events.
+							Registration for <HackLogo /> is now open! Fill out the <a href="https://forms.gle/5x5n7pMwsoVJtg1q7" target="_blank" class="underline text-acm-dark-blue">registration form</a> by <b>Friday, April 18th</b> to get your name on the list.
 						</ChipContent>
-						<ChipButton bgcolor="bg-acm-blue" hovercolor="acm-orange" goal="timeline">
-								Timeline
+						<ChipButton bgcolor="bg-acm-blue" hovercolor="acm-orange" goal="register">
+								Register Today
 						</ChipButton>
 					</InfoChip>
 					{/*<InfoChip>

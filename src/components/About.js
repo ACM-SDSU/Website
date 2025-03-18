@@ -14,8 +14,8 @@ export default function About() {
 			{/*<p class="m-4 mx-auto max-w-3xl text-lg" dangerouslySetInnerHTML={{ __html: info.description }}></p>*/}
 			<div class="flex flex-col xl:flex-row items-center">
 				<div class="flex flex-col items-center w-[100%] xl:max-w-[25%]">
-					<img src={img2} class="h-48 w-64 m-4 rounded-lg" />
-					<img src={img4} class="h-48 w-64 m-4 rounded-lg" />
+					<img src={img2} class="h-48 w-64 my-2 lg:m-4 rounded-lg" />
+					<img src={img4} class="h-48 w-64 my-2 lg:m-4 rounded-lg" />
 				</div>
 				<div className="max-w-4xl mx-auto text-white">
 					<p className="text-xl mb-6">
