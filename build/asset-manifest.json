@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.88142072.css",
-    "main.js": "/static/js/main.54e8df3f.js",
+    "main.css": "/static/css/main.c1ed56cc.css",
+    "main.js": "/static/js/main.0ccc597d.js",
     "static/js/453.988f4f0d.chunk.js": "/static/js/453.988f4f0d.chunk.js",
+    "static/media/manju.jpg": "/static/media/manju.1f44df623bcc31bc07e3.jpg",
     "static/media/lecture.jpg": "/static/media/lecture.2532c94afee880543218.jpg",
     "static/media/welcome_event.png": "/static/media/welcome_event.7998e24e6371b25a2c47.png",
     "static/media/hackathon_bg_compressed.jpg": "/static/media/hackathon_bg_compressed.7ee07fe1a61b4f330e18.jpg",
@@ -19,12 +20,12 @@
     "static/media/cssc.svg": "/static/media/cssc.00be85fe56095382c05902f61cf97ba7.svg",
     "static/media/jake.JPG": "/static/media/jake.d8f8df7d9bc597b26b61.JPG",
     "index.html": "/index.html",
-    "main.88142072.css.map": "/static/css/main.88142072.css.map",
-    "main.54e8df3f.js.map": "/static/js/main.54e8df3f.js.map",
+    "main.c1ed56cc.css.map": "/static/css/main.c1ed56cc.css.map",
+    "main.0ccc597d.js.map": "/static/js/main.0ccc597d.js.map",
     "453.988f4f0d.chunk.js.map": "/static/js/453.988f4f0d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.88142072.css",
-    "static/js/main.54e8df3f.js"
+    "static/css/main.c1ed56cc.css",
+    "static/js/main.0ccc597d.js"
   ]
 }

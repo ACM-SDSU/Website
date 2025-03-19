@@ -11,7 +11,7 @@ export const judges = [
         name: "Manju Priya Muralidharan",
         position: "Lecturer of Computer Science",
         url: "https://cs.sdsu.edu/people/priya-manju-muralidharan/",
-        photo: blank
+        photo: require("../images/officers/manju.jpg")
     },
     {
         name: "JP Zendejas",
