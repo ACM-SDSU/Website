@@ -15,15 +15,26 @@ export const judges = [
     },
     {
         name: "JP Zendejas",
-        position: "Undergraduate Student",
+        position: "ACM Secretary",
         url: "https://jp.zendejas.org/",
         photo: require("../images/officers/jp.png")
     },
-    // {
-    //     name: "TBA",
-    //     position: "To Be Announced",
-    //     photo: blank
-    // },
+    {
+        name: "Everett Richards",
+        position: "ACM President",
+        url: "https://everettrichards.com",
+        photo: require("../images/officers/everett.jpg")
+    },
+    {
+        name: "TBA",
+        position: "To Be Announced",
+        photo: blank
+    },
+    {
+        name: "TBA",
+        position: "To Be Announced",
+        photo: blank
+    },
     // {
     //     name: "TBA",
     //     position: "To Be Announced",

@@ -58,7 +58,7 @@ export default function Overview() {
 					<InfoChip bgcolor="bg-gray-200" textcolor="text-gray-900">
 						<ChipTitle>Register for the Hackathon</ChipTitle>
 						<ChipContent>
-							Registration for <HackLogo /> is now open! Fill out the <a href="https://forms.gle/5x5n7pMwsoVJtg1q7" target="_blank" class="underline text-acm-dark-blue">registration form</a> by <b>Friday, April 18th</b> to get your name on the list.
+							Registration for <HackLogo /> is now open! Fill out the <a href="https://docs.google.com/forms/d/e/1FAIpQLSfVBn0qV4BnCcdq6tb0uollsxSLknYDYx-efIrcZQFg4JG22w/viewform?usp=dialog" target="_blank" class="underline text-acm-dark-blue">registration form</a> by <b>Friday, April 18th</b> to get your name on the list.
 						</ChipContent>
 						<ChipButton bgcolor="bg-acm-blue" hovercolor="acm-orange" goal="register">
 								Register Today

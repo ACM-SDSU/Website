@@ -12,9 +12,9 @@ import { HackLogo } from "../Modules";
 
 let chips = [
     {
-        date: "March 24",
-        weekday: "Monday",
-        event: "Registration for the Hackathon will begin.",
+        date: "March 19",
+        weekday: "Wednesday",
+        event: "Registration for the Hackathon began.",
     },
     {
         date: "April 18",
