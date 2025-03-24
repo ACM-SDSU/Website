@@ -11,7 +11,7 @@ export default function Prompt({headerStyle}){
             <div className="text-left mt-4 p-2 w-full lg:w-4/5 mx-auto">
                 <span className="block">
                     <span className="font-bold text-xl text-acm-green">
-                        PROMPT: Work in teams of 1–3 students to design a comprehensive digital solution to revolutionize student life at SDSU.
+                        PROMPT: Design a comprehensive digital solution to revolutionize student life at SDSU.
                     </span>
                     <br />
                     <span className="italic text-lg">

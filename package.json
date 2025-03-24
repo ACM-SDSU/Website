@@ -17,7 +17,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "postbuild": "python C:/Users/ehric/OneDrive/Documents/ACM_Website/acm/zipper.py",
+    "postbuild": "python C:/ACM_Website/zipper.py",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

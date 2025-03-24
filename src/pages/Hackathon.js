@@ -8,11 +8,13 @@ import Contact from "../components/hackathon2025/Contact";
 import Judges from "../components/hackathon2025/Judges";
 import FAQ from "../components/hackathon2025/FAQ";
 import Timeline from "../components/hackathon2025/Timeline";
+import Prizes from "../components/hackathon2025/Prizes";
 
 const hackathon_buttons = [
     ["Home", "overview"],
     // ["Timeline","timeline"],
     ["Prompt", "prompt"],
+    ["Prizes","prizes"],
     ["Timeline", "timeline"],
     ["Register", "register"],
     ["Judges", "judges"],
@@ -20,7 +22,7 @@ const hackathon_buttons = [
     ["FAQs","faq"],
     // ["FAQ","faq"],
     ["Contact","contact"],
-    ["Back to ACM","homepage"]
+    // ["Back to ACM","homepage"]
 ];
 
 // Basic info (Date/logistics)
@@ -38,6 +40,7 @@ function Hackathon() {
             <Navbar navItems={hackathon_buttons} headerStyle={headerStyle} />
             <Overview headerStyle={headerStyle} />
             <Prompt headerStyle={headerStyle} />
+            <Prizes headerStyle={headerStyle}/>
             <Timeline headerStyle={headerStyle} />
             <Register headerStyle={headerStyle} />
             <Judges headerStyle={headerStyle} />
