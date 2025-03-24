@@ -52,12 +52,12 @@ export default function Timeline({headerStyle}){
             </p>
             <div class="flex flex-row flex-wrap gap-x-6 gap-y-6 p-4 justify-center">
                 {chips.map((chip) => (
-                    <InfoChip key={chip.date} bgcolor="bg-gray-200" textcolor="text-gray-900" otherstyle="h-full lg:w-1/6 lg:h-[56vh]">
+                    <InfoChip key={chip.date} bgcolor="bg-gray-200" textcolor="text-gray-900" otherstyle="h-full lg:w-1/6 lg:h-auto">
                         <ChipTitle otherstyle="text-lg">{chip.weekday}</ChipTitle>
                         <ChipTitle otherstyle="text-3xl">{chip.date}</ChipTitle>
                         <ChipContent>
                             {chip.event}
-                            <img src={chip.icon} class="px-2 mt-2" />
+                            <img src={chip.icon} class="w-[90%] mx-auto mt-2 border-2 border-[#ED3624]"/>
                             <p class="text-xs text-center text-gray-400">img credit: Isabella King</p>
                         </ChipContent>
                         {/* <ChipButton bgcolor="bg-acm-blue" hovercolor="acm-orange" goal="register">
