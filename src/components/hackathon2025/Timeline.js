@@ -15,26 +15,31 @@ let chips = [
         date: "March 19",
         weekday: "Wednesday",
         event: "Registration for the Hackathon began.",
+        icon: require("../../images/hack25/register.jpeg"),
     },
     {
         date: "April 18",
         weekday: "Friday",
         event: "Last day to register for the Hackathon.",
+        icon: require("../../images/hack25/lastday_swap.jpeg"),
     },
     {
         date: "April 21",
         weekday: "Monday",
         event: "Project proposal submissions open.",
+        icon: require("../../images/hack25/proposal.jpeg"),
     },
     {
         date: "April 25",
         weekday: "Friday",
         event: "Final deadline to submit project proposal.",
+        icon: require("../../images/hack25/projectdue.jpeg"),
     },
     {
         date: "April 26",
         weekday: "Saturday",
         event: "The Hackathon will begin promptly at 9:00am.",
+        icon: require("../../images/hack25/hackathon.jpeg"),
     },
 ];
 
@@ -52,6 +57,8 @@ export default function Timeline({headerStyle}){
                         <ChipTitle otherstyle="text-3xl">{chip.date}</ChipTitle>
                         <ChipContent>
                             {chip.event}
+                            <img src={chip.icon} class="px-2 mt-2" />
+                            <p class="text-xs text-center text-gray-400">img credit: Isabella King</p>
                         </ChipContent>
                         {/* <ChipButton bgcolor="bg-acm-blue" hovercolor="acm-orange" goal="register">
                             Register
