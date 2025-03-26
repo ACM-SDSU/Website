@@ -13,7 +13,7 @@ import Prizes from "../components/hackathon2025/Prizes";
 const hackathon_buttons = [
     ["Home", "overview"],
     // ["Timeline","timeline"],
-    ["Prompt", "prompt"],
+    ["Theme", "prompt"],
     ["Prizes","prizes"],
     ["Timeline", "timeline"],
     ["Register", "register"],

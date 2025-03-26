@@ -17,6 +17,7 @@ export default function Prizes({headerStyle}) {
                     </div>
                 ))}
             </div>
+            <p class="w-4/5 lg:w-2/3 mx-auto text-center">...and many more!</p>
         </section>
     );
 }
