@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import HomePage from './pages/HomePage'; // Your main index page
 import Hackathon from './pages/Hackathon';   // Your new subpage
+import History from "./pages/History";
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
                 <Route path="/hackathon" element={<Hackathon />} />
                 <Route path="/innovate" element={<Hackathon />} />
                 <Route path="/innovate4sdsu" element={<Hackathon />} />
+                <Route path="/history" element={<History />} />
             </Routes>
         </Router>
     );

@@ -4,10 +4,13 @@ import Officers2024 from "../components/history/Officers2024";
 
 // Navbar
 
-navbar_buttons = [
-    ["Home","overview"],
-    ["2024","officers2024"]
+const navbar_buttons = [
+    ["Overview","overview"],
+    ["2024-2025","officers2024"],
+    ["Back to ACM","homepage"],
 ];
+
+// Highlights: Workshops hosted? Funds raised? Key events held? Other fun facts?
 
 const headerStyle = "text-white";
 
@@ -20,4 +23,4 @@ function History() {
     );
 }
 
-export default Hackathon;
+export default History;
