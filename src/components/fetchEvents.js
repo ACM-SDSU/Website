@@ -3,8 +3,8 @@ const fetchEvents = async () => {
     const API_KEY = "AIzaSyA40eo7r7qepeP-wHgbFz4c4TUq_dNkydk";
     const CALENDAR_ID = "1e79b55343290be5c7bf935f61f48f8906b1e91d26116edc26b9ebbfe16d6cf8@group.calendar.google.com";
     const MAJOR_CALENDAR_ID = "e02db2fdfdf2fba777e3d5e451b87c7f7a7e5a82716006da59a5052e04b6a964@group.calendar.google.com";
-    const timeMin = new Date().toISOString(); // Current time
-    const timeMax = new Date(new Date().setDate(new Date().getDate() + 30)).toISOString(); // Next 30 days
+    const timeMin = new Date(new Date().setDate(new Date().getDate()-1)).toISOString(); // Current time
+    const timeMax = new Date(new Date().setDate(new Date().getDate() + 21)).toISOString(); // Next 21 days
     const timeMax_major = new Date(new Date().setDate(new Date().getDate() + 60)).toISOString(); // Next 60 days
     
     const url_base = `https://www.googleapis.com/calendar/v3/calendars/${CALENDAR_ID}/events?key=${API_KEY}&timeMin=${timeMin}&timeMax=${timeMax}&singleEvents=true&orderBy=startTime`;
