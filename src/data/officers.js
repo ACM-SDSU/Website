@@ -21,7 +21,14 @@ export const officers = [
         position: "Treasurer",
         email: "",
         major: "Computer Science",
-        photo: blank,
+        photo: require("../images/officers/matt.jpg"),
+    },
+    {
+        name: "Shelvy Millado",
+        position: "Secretary",
+        email: "",
+        major: "Computer Science",
+        photo: require("../images/officers/shelvy.jpg"),
     },
     {
         name: "Kurt Lara-Rosales",
@@ -35,7 +42,7 @@ export const officers = [
         position: "Event Coordinator",
         email: "",
         major: "Public Health",
-        photo: blank,
+        photo: require("../images/officers/thea.jpeg"),
     },
     {
         name: "Isabella King",
@@ -45,28 +52,10 @@ export const officers = [
         photo: require("../images/officers/bella.png"),
     },
     {
-        name: "Shelvy Millado",
-        position: "Secretary",
-        email: "",
-        major: "Computer Science and Finance",
-        photo: blank,
-    },
-    {
         name: "Joann Chen",
         position: "Faculty Advisor",
         email: "https://joannqc.com/",
         major: "Professor of Computer Science",
         photo: "https://cs.sdsu.edu/wp-content/uploads/profiles/joann-chen-300.jpg"
-    },
-]
-
-export const guests = [
-    {
-        name: "Jaxon Hill",
-        expertise: "Web Scraping, Modern Web Development, Real-World Applications",
-        email: "jhill4135@sdsu.edu",
-        status: "Undergraduate",
-        knownfor: "Created a web scraper, fastclass.io, for the SDSU course catalog",
-        photo: blank
     },
 ]
