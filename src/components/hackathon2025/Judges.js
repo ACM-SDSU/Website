@@ -7,7 +7,7 @@ export default function Judges({headerStyle}) {
         <section id="judges" class="pt-6 pb-12 items-center bg-gray-900 text-white lg:min-h-screen">
             <h1 className={`text-5xl font-bold text-center m-4 mb-8 ${headerStyle}`}>Project Judges</h1>
             <p class="w-4/5 lg:w-2/3 mx-auto text-center"><HackLogo /> has invited a diverse array of judges to evaluate the technical merits and potential impact of each project.</p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:w-2/3 mx-auto justify-center gap-4 m-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 md:w-[90%] lg:w-2/3 mx-auto justify-center gap-4 m-4">
                 {judges.map((officer) => (
                     <a href={officer.url ? officer.url : "https://acm.sdsu.edu/hack"} target="_blank">
                         <div key={officer.id} className="min-h-32 min-w-16 text-center text-gray-200 bg-gradient-to-r from-acm-dark-blue to-acm-dark-blue via-acm-blue p-2 rounded-lg flex flex-col items-center justify-center">

@@ -13,47 +13,26 @@ export default function About() {
 			<h1 class="text-5xl font-bold text-acm-light-blue text-center m-4 mb-8">Welcome to ACM @ SDSU</h1>
 			{/*<p class="m-4 mx-auto max-w-3xl text-lg" dangerouslySetInnerHTML={{ __html: info.description }}></p>*/}
 			<div class="flex flex-col xl:flex-row items-center">
-				<div class="flex flex-col items-center w-[100%] xl:max-w-[25%]">
-					<img src={img2} class="h-48 w-64 my-2 lg:m-4 rounded-lg" />
-					<img src={img4} class="h-48 w-64 my-2 lg:m-4 rounded-lg" />
-				</div>
-				<div className="max-w-4xl mx-auto text-white">
-					<p className="text-xl mb-6">
+				<div className="max-w-6xl mx-auto text-white text-xl xl:text-2xl bg-gray-800 p-3">
+					<p className="mb-6">
 					The <span className="font-semibold text-acm-light-blue">Association for Computing Machinery (ACM)</span> is the world’s largest computing society, dedicated to advancing the science and application of computing technology.
 					</p>
-					<p className="text-xl mb-6">
+					<p className="mb-6">
 					At <span className="font-semibold text-acm-light-blue">SDSU’s ACM Student Chapter</span>, we are a vibrant community of tech enthusiasts passionate about innovation, learning, and collaboration. Our mission is to equip students with cutting-edge skills, industry connections, and real-world experience.
 					</p>
-					<p className="text-xl mb-6">
+					<p className="mb-6">
 					We host <span className="font-semibold text-acm-light-blue">weekly workshops</span>, guest lectures, and networking events covering topics like <span className="italic">machine learning, web development, AI, cybersecurity, and software engineering.</span>
 					</p>
-					<p className="text-xl mb-6">
+					<p className="mb-6">
 					Open to all SDSU students—regardless of major—ACM @ SDSU is your gateway to the tech industry. Join us and elevate your computing journey!
 					</p>
 				</div>
-				{/* <p class="m-4 mx-auto max-w-[100%] xl:max-w-[50%] text-lg xl:text-md">
-				Welcome to the Association for Computing Machinery (ACM) Student Chapter at San Diego State University!
 
-				<br /><br />
-
-				The Association for Computing Machinery (ACM), founded in 1947, is an international scientific and educational organization
-				dedicated to advancing the art, science, engineering, and application of information technology, serving both professional
-				and public interests by fostering the open interchange of information and by promoting the highest professional and ethical standards.
-
-				<br /><br />
-
-				The <AcmAtSdsuLightBg /> is a group of SDSU students who are
-				passionate about computing and technology. We are dedicated to providing our members with opportunities to learn about
-				the latest technologies, network with professionals, and develop their skills.
-				We host weekly workshops and lectures on a variety of topics, including machine learning, web development, and version control systems (Git/GitHub).
-
-				<br /><br />
-
-				The <AcmAtSdsuLightBg /> is open to all students at SDSU, regardless of major.
-				</p> */}
-				<div class="flex flex-col items-center w-[100%] xl:max-w-[25%]">
-					<img src={img1} class="h-48 w-64 m-4 rounded-lg" />
-					<img src={img3} class="h-48 w-64 m-4 rounded-lg" />
+				<div class="grid grid-cols-2 grid-rows-2 items-center justify-center w-[100%] lg:max-w-[40%] xl:max-w-[33%] md:mt-3 lg:mt-0">
+					<img src={img2} class="h-48 w-64 my-2 mx-auto rounded-sm" />
+					<img src={img4} class="h-48 w-64 my-2 mx-auto rounded-sm" />
+					<img src={img1} class="h-48 w-64 m-4 mx-auto rounded-sm" />
+					<img src={img3} class="h-48 w-64 m-4 mx-auto rounded-sm" />
 				</div>
 			</div>
 		</section>

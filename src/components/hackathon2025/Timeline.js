@@ -11,12 +11,12 @@ import { AcmAtSdsu } from "../Modules";
 import { HackLogo } from "../Modules";
 
 let chips = [
-    {
-        date: "March 19",
-        weekday: "Wednesday",
-        event: "Registration for the Hackathon began.",
-        icon: require("../../images/hack25/register_final.jpeg"),
-    },
+    // {
+    //     date: "March 19",
+    //     weekday: "Wednesday",
+    //     event: "Registration for the Hackathon began.",
+    //     icon: require("../../images/hack25/register_final.jpeg"),
+    // },
     {
         date: "April 18",
         weekday: "Friday",
@@ -24,8 +24,8 @@ let chips = [
         icon: require("../../images/hack25/lastday_final.jpeg"),
     },
     {
-        date: "April 21",
-        weekday: "Monday",
+        date: "April 19",
+        weekday: "Saturday",
         event: "Project proposal submissions open.",
         icon: require("../../images/hack25/proposal_final.jpeg"),
     },
@@ -52,7 +52,7 @@ export default function Timeline({headerStyle}){
             </p>
             <div class="flex flex-row flex-wrap gap-x-3 gap-y-3 lg:gap-x-6 lg:gap-y-6 py-2 lg:p-4 justify-center">
                 {chips.map((chip) => (
-                    <InfoChip key={chip.date} bgcolor="bg-gray-200" textcolor="text-gray-900" otherstyle="h-full w-2/5 lg:w-1/6 lg:h-auto">
+                    <InfoChip key={chip.date} bgcolor="bg-gray-200" textcolor="text-gray-900" otherstyle="h-full w-1/3 lg:w-1/5 h-auto">
                         <ChipTitle otherstyle="text-base lg:text-lg">{chip.weekday}</ChipTitle>
                         <ChipTitle otherstyle="text-xl lg:text-3xl">{chip.date}</ChipTitle>
                         <ChipContent>

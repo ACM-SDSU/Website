@@ -4,7 +4,7 @@ import ILink from "./Link";
 
 export function InfoChip({ children, bgcolor="bg-gray-800", textcolor="text-gray-100", otherstyle="lg:w-1/4" }) {
 	return (
-		<div className={`${textcolor} ${bgcolor} bg-opacity-90 p-4 rounded-xl flex flex-col items-center justify-start w-full ${otherstyle}`}>
+		<div className={`${textcolor} ${bgcolor} bg-opacity-90 p-4 rounded-xl flex flex-col items-center justify-start w-full md:w-[70%] ${otherstyle}`}>
 			{children}
 		</div>
 	);

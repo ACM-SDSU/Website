@@ -48,7 +48,7 @@ export default function Overview() {
 					<InfoChip bgcolor="bg-gray-200" textcolor="text-gray-900">
 						<ChipTitle>Time and Location</ChipTitle>
 						<ChipContent>
-							The <HackLogo /> Hackathon will take place on Saturday, April 26, 2025 from 9am-5pm at Park Boulevard, in the Conrad Prebys Aztec Student Union.
+							The <HackLogo /> Hackathon will take place on Saturday, April 26, 2025 from 9:00am-5:00pm at Park Boulevard, in the Conrad Prebys Aztec Student Union.
 						</ChipContent>
 						<ChipButton bgcolor="bg-acm-blue" hovercolor="acm-orange" goal="timeline">
 								Event Timeline
@@ -56,9 +56,9 @@ export default function Overview() {
 					</InfoChip>
 
 					<InfoChip bgcolor="bg-gray-200" textcolor="text-gray-900">
-						<ChipTitle>Register for the Hackathon</ChipTitle>
+						<ChipTitle>Registration Closed</ChipTitle>
 						<ChipContent>
-							Registration for <HackLogo /> is now open! Fill out the <a href="https://docs.google.com/forms/d/e/1FAIpQLSfVBn0qV4BnCcdq6tb0uollsxSLknYDYx-efIrcZQFg4JG22w/viewform?usp=dialog" target="_blank" class="underline text-acm-dark-blue">registration form</a> by <b>Friday, April 18th</b> to get your name on the list.
+							Registration for <HackLogo /> is has closed. Due to logisitcal constraints, late registrations will not be accepted. Thank you for understanding.
 						</ChipContent>
 						<ChipButton bgcolor="bg-acm-blue" hovercolor="acm-orange" goal="register">
 								Register Today

@@ -8,7 +8,7 @@ export default function Prompt({headerStyle}){
         <section id="prompt" className="pt-6 pb-12 items-center bg-gray-900 text-white lg:min-h-screen">
             {/* <h1 className="text-5xl font-bold text-center m-4 mb-8">Register for <HackLogo /> Today!</h1> */}
             <h1 className={`text-5xl font-bold text-center m-4 mb-8 ${headerStyle}`}>Hackathon Theme: <HackLogo /></h1>
-            <div className="text-left mt-4 p-2 w-full lg:w-4/5 mx-auto">
+            <div className="text-left mt-4 p-2 w-full md:w-[90%] lg:w-4/5 mx-auto">
                 <span className="block">
                     <span className="font-bold text-xl text-acm-green">
                         PROMPT: Design a comprehensive digital solution to revolutionize student life at SDSU.

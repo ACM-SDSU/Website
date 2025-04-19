@@ -16,7 +16,7 @@ const hackathon_buttons = [
     ["Theme", "prompt"],
     ["Prizes","prizes"],
     ["Timeline", "timeline"],
-    ["Register", "register"],
+    // ["Register", "register"],
     ["Judges", "judges"],
     ["Sponsors", "sponsors"],
     ["FAQs","faq"],
@@ -42,7 +42,7 @@ function Hackathon() {
             <Prompt headerStyle={headerStyle} />
             <Prizes headerStyle={headerStyle}/>
             <Timeline headerStyle={headerStyle} />
-            <Register headerStyle={headerStyle} />
+            {/* <Register headerStyle={headerStyle} /> */}
             <Judges headerStyle={headerStyle} />
             <Sponsors headerStyle={headerStyle} />
             <FAQ headerStyle={headerStyle} />

@@ -9,7 +9,7 @@ export default function Officers() {
 				{officers.map((officer) => (
 					<a href={officer.url ? officer.url : `mailto:${officer.email}`} target="_blank">
 						<div key={officer.id} className="min-h-12 min-w-16 text-center text-gray-200 bg-gradient-to-r from-acm-dark-blue to-acm-dark-blue via-acm-blue p-4 rounded-lg flex flex-col items-center justify-center">
-							<img src={officer.photo} class="w-32 xl:w-48 h-32 xl:h-48 mb-1 rounded-xl"></img>
+							<img src={officer.photo} class="w-32 h-32 md:w-40 md:h-40 xl:w-48 xl:h-48 mb-1 rounded-xl"></img>
 							<p class="text-2xl xl:text-3xl flex items-center justify-center space-x-2 font-bold">
 								{officer.name}
 								{/*(
