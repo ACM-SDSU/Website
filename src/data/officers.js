@@ -21,7 +21,7 @@ export const officers = [
         position: "Treasurer",
         email: "",
         major: "Computer Science",
-        photo: require("../images/officers/matt.jpg"),
+        photo: require("../images/officers/mattpic.JPG"),
     },
     {
         name: "Shelvy Millado",
@@ -49,7 +49,7 @@ export const officers = [
         position: "Marketing Director",
         email: "iking4380@sdsu.edu",
         major: "Computer Science",
-        photo: require("../images/officers/bella.png"),
+        photo: require("../images/officers/bella6.jpg"),
     },
     {
         name: "Joann Chen",
