@@ -14,7 +14,7 @@ export const officers = [
         position: "Vice President",
         email: "tgheewala4792@sdsu.edu",
         major: "Computer Engineering",
-        photo: require("../images/officers/tanish.png")
+        photo: require("../images/officers/tanish.jpg")
     },
     {
         name: "Matthew Long",
