@@ -7,7 +7,7 @@ import { ChipButton } from "../InfoChip"
 export default function Register({headerStyle}){
     return (
         <section id="register" class="pt-6 pb-12 bg-gray-900 text-white lg:min-h-screen">
-            <h1 className={`text-5xl font-bold text-center m-4 mb-8 ${headerStyle}`}>Register for <HackLogo /> Today!</h1>
+            <h1 class="hackheader">Register for <HackLogo /> Today!</h1>
             <div class="px-2 lg:w-1/2 mx-auto">
                 <p class="text-left text-xl mt-6 p-2">
                     Please fill out the <a href="https://docs.google.com/forms/d/e/1FAIpQLSfVBn0qV4BnCcdq6tb0uollsxSLknYDYx-efIrcZQFg4JG22w/viewform?usp=dialog" target="_blank" class="text-acm-light-blue hover:text-acm-blue underline">Registration Form</a> when you are ready to register.

@@ -10,7 +10,7 @@ import img4 from "../images/media/lecture.jpg";
 export default function About() {
 	return (
 		<section id="about" class="p-8 pb-10 bg-gray-900">
-			<h1 class="text-5xl font-bold text-acm-light-blue text-center m-4 mb-8">Welcome to ACM @ SDSU</h1>
+			<h1 class="mainheader">Welcome to ACM @ SDSU</h1>
 			{/*<p class="m-4 mx-auto max-w-3xl text-lg" dangerouslySetInnerHTML={{ __html: info.description }}></p>*/}
 			<div class="flex flex-col xl:flex-row items-center">
 				<div className="max-w-6xl mx-auto text-white text-xl xl:text-2xl bg-gray-800 p-3">

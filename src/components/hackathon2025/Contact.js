@@ -4,11 +4,11 @@ import { AcmAtSdsuLightBg } from "../Modules";
 export default function Contact({headerStyle}){
     return (
         <section id="contact" class="pt-6 pb-12 bg-gray-900 text-white lg:min-h-screen">
-            <h1 className={`text-5xl font-bold text-center m-4 mb-8 ${headerStyle}`}>Contact Us</h1>
+            <h1 class="hackheader">Contact Us</h1>
             <p class="text-center text-2xl mt-6 p-2">
                 If you have any questions or concerns, please don't hesitate to reach out!
             </p>
-            <p class="text-center text-xl mt-4 p-0">
+            <p class="text-center text-xl xl:text-2xl mt-4 p-0">
                 The best way to contact us is by <b>Email</b> and <b>Discord</b>:
             </p>
             <div class="flex flex-row flex-wrap space-x-4 m-2 lg:m-2 justify-left xl:justify-center text-2xl text-center">
@@ -25,7 +25,7 @@ export default function Contact({headerStyle}){
                     </a>
                 </div>
             </div>
-            <p class="text-center text-xl mt-4 p-0">
+            <p class="text-center text-xl xl:text-2xl mt-4 p-0">
                 You can also follow us on <b>Instagram</b> and <b>YouTube</b> for further updates and information:
             </p>
             {/* <p class="text-center text-xl m-4 p-4">Feel free to reach out at any time via Discord, Instagram, or Email.</p> */}

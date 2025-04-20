@@ -4,8 +4,8 @@ import { AcmAtSdsuLightBg } from "./Modules";
 export default function Contact(){
     return (
         <section id="contact" class="pt-6 pb-12 bg-gray-900 text-white">
-            <h1 class="text-5xl font-bold text-center m-4 mb-8 text-acm-light-blue">Get Involved</h1>
-            <p class="text-center text-xl m-4 p-4">Come join us at our weekly chapter meeting, every Wednesday from 4:00-5:00pm in GMCS 408.<br /><br />You can also stay connected by joining our Discord server and following us on Instagram.</p>
+            <h1 class="mainheader">Get Involved</h1>
+            <p class="text-center text-xl m-4 p-4">Come join us at our weekly chapter meeting, every Wednesday from 4:00-5:00pm in GMCS 405.<br /><br />You can also stay connected by joining our Discord server and following us on Instagram.</p>
             {/* <p class="text-center text-xl m-4 p-4">Feel free to reach out at any time via Discord, Instagram, or Email.</p> */}
             <div class="flex flex-row flex-wrap space-x-4 m-2 lg:m-4 justify-left xl:justify-center text-2xl text-center">
                 <div class="p-4 min-w-1/6">

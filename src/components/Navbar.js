@@ -26,12 +26,12 @@ export default function Navbar({ navItems }) {
 
   return (
     <header className="bg-acm-dark-blue md:sticky top-0 z-10 border-b-2 border-gray-900">
-      <div className="container mx-auto flex flex-wrap p-1 flex-col md:flex-row items-center">
+      <div className="container flex flex-wrap p-1 xl:py-2 flex-col md:flex-row items-center">
         <button onClick={handleClick} className="flex justify-center items-center ml-3 text-lg title-font font-medium text-white mb-4 md:mb-0 cursor-pointer drop-shadow-[0px_0px_2px_black]">
-            <img src={SDSU_Mini_Logo_32px} className="h-7 mt-0 mr-2 bg-sdsu-bright-red " alt="SDSU Logo" />
-            Association for Computing Machinery
+            <img src={SDSU_Mini_Logo_32px} className="h-7 xl:h-8 mt-0 mr-2 bg-sdsu-bright-red" alt="SDSU Logo" />
+            <p class="xl:text-xl">Association for Computing Machinery</p>
         </button>
-        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-900	flex flex-wrap items-center text-base justify-center text-gray-200">
+        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-900	flex flex-wrap items-center text-base xl:text-lg justify-center text-gray-200">
           {navItems.map((button,index) => 
           button[1] === "hackathon" ? (
             <RouterLink

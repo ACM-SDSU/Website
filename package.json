@@ -18,7 +18,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "postbuild": "python C:/ACM_Website/zipper.py",
+    "postbuild": "python zipper.py",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

@@ -10,7 +10,7 @@ import CSSC from "../images/logos/cssc.svg";
 export default function Outreach() {
 	return (
 		<section id="outreach" class="p-8 pb-10 bg-gray-900 text-white xl:inline-block">
-			<h1 class="text-5xl font-bold text-center m-4 mb-8 text-acm-light-blue">Sponsors & Outreach</h1>
+			<h1 class="mainheader">Sponsors & Outreach</h1>
             <div class="text-lg xl:mx-36">
 
                 <h2 class="text-3xl font-bold my-4">Google Sponsorship</h2>

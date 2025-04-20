@@ -4,7 +4,7 @@ import { officers } from "../data/officers";
 export default function Officers() {
 	return (
 		<section id="officers" class="p-8 pb-10 bg-gray-900 text-gray-200">
-			<h1 class="text-5xl font-bold text-center m-4 mb-8 text-acm-light-blue">Executive Committee</h1>
+			<h1 class="mainheader">Executive Committee</h1>
 			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 justify-center gap-4 m-4">
 				{officers.map((officer) => (
 					<a href={officer.url ? officer.url : `mailto:${officer.email}`} target="_blank">
