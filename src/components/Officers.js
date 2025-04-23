@@ -23,6 +23,9 @@ export default function Officers() {
 					</a>
 				))}
 			</div>
+			<a href="history" class="text-center w-[100%] block text-lg xl:text-xl">
+				Click <u>here</u> to see a list of past ACM officers.
+			</a>
 		</section>
 	);
 }

@@ -54,7 +54,8 @@ export const officers = [
     {
         name: "Joann Chen",
         position: "Faculty Advisor",
-        email: "https://joannqc.com/",
+        email: "jchen27@sdsu.edu",
+        url: "https://joannqc.com/",
         major: "Professor of Computer Science",
         photo: "https://cs.sdsu.edu/wp-content/uploads/profiles/joann-chen-300.jpg"
     },

@@ -8,7 +8,7 @@ export const officers = [
         url: "https://everettrichards.com",
         major: "Computer Science & Applied Math",
         committees: ["Finance","Recruitment & Public Relations","Workshops & Curricula"],
-        photo: require("../images/officers/everett.jpg"),
+        photo: require("../images/officers/everett_old.jpg"),
     },
     {
         name: "Jake Basile",
@@ -59,12 +59,12 @@ export const officers = [
         photo: require("../images/officers/jp.png")
     },
     {
-        name: "Joann Chen",
+        name: "Miranda Parker",
         position: "Faculty Advisor",
-        email: "https://joannqc.com/",
+        url: "https://mirandacparker.com/",
         major: "Professor of Computer Science",
         committees: ["N/A"],
-        photo: "https://cs.sdsu.edu/wp-content/uploads/profiles/joann-chen-300.jpg"
+        photo: require("../images/officers/parker.jpeg")
     },
 ]
 
