@@ -14,14 +14,14 @@ export default function Overview() {
 				Welcome to <AcmAtSdsu />!
 				</h1>
 				
-				<RouterLink
+				{/* <RouterLink
 					to="/hack"
 					className="mr-8 ml-1 hover:text-acm-yellow cursor-pointer"
 					>
 					<h2 class="text-4xl text-acm-yellow w-full font-bold text-center mb-4 underline drop-shadow-[0px_0px_3px_black]">
 						Learn about the 2025 "Innovate 4 SDSU" Hackathon
 					</h2>
-				</RouterLink>
+				</RouterLink> */}
 
 				<div class="flex flex-row flex-wrap gap-4 p-4 justify-center">
 					<InfoChip>
