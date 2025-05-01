@@ -3,6 +3,7 @@ import About from "../components/About";
 import Officers from "../components/Officers";
 import Contact from "../components/Contact";
 import Events from "../components/Events";
+import PastEvents from "../components/PastEvents";
 import Outreach from "../components/Outreach";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -15,8 +16,9 @@ const homepage_buttons = [
   //["Guest Speakers", "guestspeakers"],
   ["Outreach", "outreach"],
   ["Upcoming Events", "events"],
-  ["Contact", "contact"],
-  ["Hackathon 2025","hackathon"],
+  ["Past Events", "pastevents"],
+  ["Get Involved", "contact"],
+  // ["Hackathon 2025","hackathon"],
 ]
 
 function App() {
@@ -29,6 +31,7 @@ function App() {
       <Outreach />
       {/*<GuestSpeakers />*/}
       <Events />
+      <PastEvents />
       <Contact />
       {/*<Footer />*/}
     </main>

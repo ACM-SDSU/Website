@@ -5,11 +5,11 @@ export default function Officers() {
 	return (
 		<section id="officers" class="p-8 pb-10 bg-gray-900 text-gray-200">
 			<h1 class="mainheader">Executive Committee</h1>
-			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 justify-center gap-4 m-4">
+			<div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 justify-center gap-4 m-4">
 				{officers.map((officer) => (
 					<a href={officer.url ? officer.url : `mailto:${officer.email}`} target="_blank">
 						<div key={officer.id} className="min-h-12 min-w-16 text-center text-gray-200 bg-gradient-to-r from-acm-dark-blue to-acm-dark-blue via-acm-blue p-4 rounded-lg flex flex-col items-center justify-center">
-							<img src={officer.photo} class="w-32 h-32 md:w-40 md:h-40 xl:w-48 xl:h-48 mb-1 rounded-xl"></img>
+							<img src={officer.photo} class="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 xl:w-48 xl:h-48 mb-1 rounded-xl"></img>
 							<p class="text-2xl xl:text-3xl flex items-center justify-center space-x-2 font-bold">
 								{officer.name}
 								{/*(

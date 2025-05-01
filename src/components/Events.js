@@ -17,7 +17,7 @@ const EventsList = () => {
 	}, []);
   
 	return (
-	  <div className="max-w-3xl mx-auto p-5 text-white">
+	  <div className="max-w-3xl xl:max-w-4xl mx-auto p-5 text-white">
 		{loading ? (
 		  <p>Loading events...</p>
 		) : events.length > 0 ? (
