@@ -7,49 +7,49 @@ export const officers = [
         email: "erichards5198@sdsu.edu",
         url: "https://everettrichards.com",
         major: "Computer Science & Applied Math",
-        photo: require("../images/officers/everett.jpg"),
+        photo: require("../images/officers25/everett.png"),
     },
     {
         name: "Tanish Gheewala",
         position: "Vice President",
         email: "tgheewala4792@sdsu.edu",
         major: "Computer Engineering",
-        photo: require("../images/officers/tanish.jpg")
+        photo: require("../images/officers25/tanish.png")
     },
     {
         name: "Matthew Long",
         position: "Treasurer",
         email: "",
         major: "Computer Science",
-        photo: require("../images/officers/mattpic.JPG"),
+        photo: require("../images/officers25/matt.png"),
     },
     {
         name: "Isabella King",
         position: "Marketing Director",
         email: "iking4380@sdsu.edu",
         major: "Computer Science",
-        photo: require("../images/officers/bella6.jpg"),
+        photo: require("../images/officers25/bella.png"),
     },
     {
         name: "Kurt Lara-Rosales",
         position: "Curriculum Chair",
         email: "",
         major: "Computer Science",
-        photo: require("../images/officers/kurt.JPG"),
+        photo: require("../images/officers25/kurt.png"),
     },
     {
         name: "Thea Enache",
         position: "Event Coordinator",
         email: "",
         major: "Public Health",
-        photo: require("../images/officers/thea.jpg"),
+        photo: require("../images/officers25/thea.png"),
     },
     {
         name: "Shelvy Millado",
         position: "Secretary",
         email: "",
         major: "Computer Science",
-        photo: require("../images/officers/shelvy.jpg"),
+        photo: require("../images/officers25/shelvy.png"),
     },
     {
         name: "Joann Chen",
@@ -57,6 +57,6 @@ export const officers = [
         email: "jchen27@sdsu.edu",
         url: "https://joannqc.com/",
         major: "Professor of Computer Science",
-        photo: "https://cs.sdsu.edu/wp-content/uploads/profiles/joann-chen-300.jpg"
+        photo: require("../images/officers25/chen.png")
     },
 ]
