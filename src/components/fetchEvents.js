@@ -21,9 +21,9 @@ const fetchEvents = async (past = false) => {
     const rangeEndBase = new Date(now);
     if (past) {
       rangeStartBase.setDate(now.getDate() - timeOffsets.minor.past);
-      rangeEndBase.setDate(now.getDate() - 1);
+      rangeEndBase.setDate(now.getDate() - 0);
     } else {
-      rangeStartBase.setDate(now.getDate() - 1);
+      rangeStartBase.setDate(now.getDate() - 0);
       rangeEndBase.setDate(now.getDate() + timeOffsets.minor.future);
     }
   

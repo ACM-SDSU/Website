@@ -42,7 +42,7 @@ export const officers = [
         position: "Event Coordinator",
         email: "",
         major: "Public Health",
-        photo: require("../images/officers/thea.jpeg"),
+        photo: require("../images/officers/thea.jpg"),
     },
     {
         name: "Shelvy Millado",

@@ -23,7 +23,7 @@ const EventsList = () => {
 		) : events.length > 0 ? (
 		  events.map(event => <EventCard key={event.id} event={event} />)
 		) : (
-		  <p>There was an error fetching the latest information on upcoming events. Please refresh the page.</p>
+		  <p>There was an error fetching the latest information on past events. Please refresh the page.</p>
 		)}
 	  </div>
 	);

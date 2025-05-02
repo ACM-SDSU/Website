@@ -29,10 +29,10 @@ export default function About() {
 				</div>
 
 				<div class="grid grid-cols-2 grid-rows-2 items-center justify-center w-[100%] lg:max-w-[40%] xl:max-w-[33%] md:mt-3 lg:mt-0">
-					<img src={img2} class="h-48 w-64 my-2 mx-auto rounded-sm" />
-					<img src={img4} class="h-48 w-64 my-2 mx-auto rounded-sm" />
-					<img src={img1} class="h-48 w-64 m-4 mx-auto rounded-sm" />
-					<img src={img3} class="h-48 w-64 m-4 mx-auto rounded-sm" />
+					<img src={img2} class="max-w-64 h-auto my-2 mx-auto rounded-sm" />
+					<img src={img4} class="max-w-64 h-auto my-2 mx-auto rounded-sm" />
+					<img src={img1} class="max-w-64 h-auto m-4 mx-auto rounded-sm" />
+					<img src={img3} class="max-w-64 h-auto m-4 mx-auto rounded-sm" />
 				</div>
 			</div>
 		</section>

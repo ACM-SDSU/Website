@@ -23,7 +23,7 @@ const homepage_buttons = [
 
 function App() {
   return (
-    <main className="text-gray-900 bg-gray-100 body-font font-ACM">
+    <main className="text-gray-900 bg-gray-900 body-font font-ACM">
       <Navbar navItems={homepage_buttons}/>
       <Overview />
       <About />
