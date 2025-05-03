@@ -13,7 +13,7 @@ export default function About() {
 			<h1 class="mainheader">Welcome to ACM @ SDSU</h1>
 			{/*<p class="m-4 mx-auto max-w-3xl text-lg" dangerouslySetInnerHTML={{ __html: info.description }}></p>*/}
 			<div class="flex flex-col xl:flex-row items-center">
-				<div className="max-w-6xl mx-auto text-white text-xl xl:text-2xl bg-gray-800 p-3">
+				<div className="max-w-6xl mx-auto text-white text-base md:text-xl xl:text-2xl bg-gray-800 p-3">
 					<p className="mb-6">
 					The <span className="font-semibold text-acm-light-blue">Association for Computing Machinery (ACM)</span> is the world’s largest computing society, dedicated to advancing the science and application of computing technology.
 					</p>

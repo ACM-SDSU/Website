@@ -55,11 +55,11 @@ const EventCard = ({ event }) => {
         </div>
       )}
       <div>
-        <h3 className="text-xl font-semibold">{summary}</h3>
-        <p className="text-acm-blue">
+        <h3 className="text-lg md:text-xl font-semibold">{summary}</h3>
+        <p className="text-base md:text-lg text-acm-blue">
           {formatDate(startDate)}, {formatTime(startDate)} {endDate ? ` - ${formatTime(endDate)}` : ""}, {location}
         </p>
-        {description && <p className="mt-2 text-gray-800">{cleanDescription(description)}</p>}
+        {description && <p className="text-sm md:text-base mt-2 text-gray-800">{cleanDescription(description)}</p>}
       </div>
     </div>
   );
