@@ -18,7 +18,7 @@ export default function OfficerCards({officers = curr}) {
                                 )*/}
                         </p>
                         <p class="text-lg md:text-xl xl:text-2xl">{officer.position}</p>
-                        <p class="text-gray-200 text-md xl:text-lg italic">{officer.major}</p>
+                        <p class="text-gray-200 text-md xl:text-lg italic mb-auto">{officer.major}</p>
                         {/* <p class="text-center text-gray-400">Committees: {officer.committees.join(", ")}</p> */}
                     </div>
                 </a>
