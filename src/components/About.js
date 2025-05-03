@@ -9,7 +9,7 @@ import img4 from "../images/media/lecture.jpg";
 
 export default function About() {
 	return (
-		<section id="about" class="p-8 pb-10 bg-gray-900">
+		<section id="about" class="p-3 md:p-8 pb-0 bg-gray-900">
 			<h1 class="mainheader">Welcome to ACM @ SDSU</h1>
 			{/*<p class="m-4 mx-auto max-w-3xl text-lg" dangerouslySetInnerHTML={{ __html: info.description }}></p>*/}
 			<div class="flex flex-col xl:flex-row items-center">
@@ -28,11 +28,11 @@ export default function About() {
 					</p>
 				</div>
 
-				<div class="grid grid-cols-1 md:grid-cols-2 grid-rows-2 items-center justify-center w-[100%] lg:max-w-[40%] xl:max-w-[33%] md:mt-3 lg:mt-0">
-					<img src={img2} class="max-w-64 h-auto my-2 mx-auto rounded-sm" />
-					<img src={img4} class="max-w-64 h-auto my-2 mx-auto rounded-sm" />
-					<img src={img1} class="max-w-64 h-auto m-4 mx-auto rounded-sm" />
-					<img src={img3} class="max-w-64 h-auto m-4 mx-auto rounded-sm" />
+				<div class="grid grid-cols-1 md:grid-cols-2 grid-rows-1 md:grid-rows-2 items-center justify-center w-[100%] lg:max-w-[40%] xl:max-w-[33%] md:mt-3 lg:mt-0">
+					<img src={img2} class="w-full md:w-full md:px-4 lg:px-2 h-auto my-2 mx-auto rounded-sm" />
+					<img src={img4} class="hide w-full md:w-full px-4 lg:px-2 h-auto my-2 mx-auto rounded-sm" />
+					<img src={img1} class="hide w-full md:w-full px-4 lg:px-2 h-auto m-4 mx-auto rounded-sm" />
+					<img src={img3} class="hide w-full md:w-full px-4 lg:px-2 h-auto m-4 mx-auto rounded-sm" />
 				</div>
 			</div>
 		</section>

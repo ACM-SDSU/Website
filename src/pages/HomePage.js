@@ -14,7 +14,7 @@ const homepage_buttons = [
   ["About", "about"],
   ["Officers", "officers"],
   //["Guest Speakers", "guestspeakers"],
-  ["Outreach", "outreach"],
+  // ["Outreach", "outreach"],
   ["Upcoming Events", "events"],
   ["Recent Events", "pastevents"],
   ["Get Involved", "contact"],
@@ -28,7 +28,7 @@ function App() {
       <Overview />
       <About />
       <Officers />
-      <Outreach />
+      {/* <Outreach /> */}
       {/*<GuestSpeakers />*/}
       <Events />
       <PastEvents />

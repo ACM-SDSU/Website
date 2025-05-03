@@ -31,7 +31,7 @@ export const officers = [
         photo: require("../images/officers25/bella.png"),
     },
     {
-        name: "Kurt Lara-Rosales",
+        name: "Kurt Rosales",
         position: "Curriculum Chair",
         email: "",
         major: "Computer Science",

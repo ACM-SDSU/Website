@@ -11,14 +11,14 @@ export default function OfficerCards({officers = curr}) {
                     p-4 rounded-lg flex flex-col items-center justify-center h-full"
                     >
                         <img src={officer.photo} class="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 xl:w-48 xl:h-48 mb-1 rounded-xl bg-gray-300"></img>
-                        <p class="text-xl md:text-2xl xl:text-3xl flex items-center justify-center space-x-2 font-bold">
+                        <p class="text-lg md:text-2xl xl:text-3xl flex items-center justify-center space-x-2 font-bold">
                             {officer.name}
                             {/*(
                                 <img class="w-7 h-7 opacity-50" src="https://as.sdsu.edu/images/assets/assets-icons/email.svg" alt="Email Icon" />
                                 )*/}
                         </p>
-                        <p class="text-lg md:text-xl xl:text-2xl">{officer.position}</p>
-                        <p class="text-gray-200 text-md xl:text-lg italic mb-auto">{officer.major}</p>
+                        <p class="text-base md:text-xl xl:text-2xl">{officer.position}</p>
+                        <p class="text-gray-200 text-sm xl:text-lg italic mb-auto">{officer.major}</p>
                         {/* <p class="text-center text-gray-400">Committees: {officer.committees.join(", ")}</p> */}
                     </div>
                 </a>

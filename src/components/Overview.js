@@ -23,7 +23,7 @@ export default function Overview() {
 					</h2>
 				</RouterLink> */}
 
-				<div class="flex flex-row flex-wrap gap-4 p-4 justify-center">
+				<div class="flex flex-row flex-wrap gap-4 p-2 md:p-4 justify-center">
 					<InfoChip>
 						<ChipTitle>About Us</ChipTitle>
 						<ChipContent>We are the <span class="text-acm-light-blue font-bold">Association for Computing Machinery (ACM)</span> Student Chapter at <span class="NOTtext-acm-red NOTfont-bold">San Diego State University</span>.</ChipContent>
@@ -43,17 +43,17 @@ export default function Overview() {
 								4:00&nbsp;-&nbsp;5:00pm
 							</b> at <a href="https://maps.app.goo.gl/iuyL9JJoyQMHhB6s7" target="_blank" class="text-acm-light-blue">
 								<b class="underline hover:text-acm-blue">
-									GMCS&nbsp;408
+									GMCS&nbsp;405
 								</b>
 							</a>
 							, plus additional workshops and seminars throughout the week.
 						</ChipContent>
 						<ChipButton goal="events">
-							View Event Calendar
+							View Upcoming Events
 						</ChipButton>
 					</InfoChip>
 					<InfoChip>
-						<ChipTitle>Join the ACM Chapter</ChipTitle>
+						<ChipTitle>Get Involved</ChipTitle>
 						<ChipContent>Join our <a href="https://discord.gg/UuNuggpKYV" target="_blank" class="text-acm-light-blue font-bold underline">Discord Server</a> to stay up to date with all the latest ACM news and upcoming events.</ChipContent>
 						<ChipButton goal="contact">
 							Connect With Us
