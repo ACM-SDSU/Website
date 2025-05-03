@@ -32,6 +32,6 @@ code {
     @apply text-5xl font-bold text-center m-4 mb-8 text-acm-light-blue bg-gray-800 py-2 xl:py-3;
   }
   section {
-    @apply px-8
+    @apply px-0
   }
 }

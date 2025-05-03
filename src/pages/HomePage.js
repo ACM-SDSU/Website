@@ -16,7 +16,7 @@ const homepage_buttons = [
   //["Guest Speakers", "guestspeakers"],
   ["Outreach", "outreach"],
   ["Upcoming Events", "events"],
-  ["Past Events", "pastevents"],
+  ["Recent Events", "pastevents"],
   ["Get Involved", "contact"],
   // ["Hackathon 2025","hackathon"],
 ]
