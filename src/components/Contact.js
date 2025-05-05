@@ -35,6 +35,7 @@ export default function Contact(){
                 </div>
             </div>
             {/* <p class="text-center text-xl m-4 p-4 italic">If you miss a meeting, you can always catch up by watching our recorded lectures and workshops on our <a href="https://www.youtube.com/@SDSUACM/videos" target="_blank" class="underline">YouTube Channel</a>.</p> */}
+            <p class="text-gray-700 text-center md:text-right text-sm md:text-base">Website Credits: Everett Richards, JP Zendejas</p>
         </section>
     );
 }
