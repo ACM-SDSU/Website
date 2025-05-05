@@ -8,7 +8,7 @@ export default function Contact(){
             {/* <p class="text-center text-xl m-4 p-4">Come join us at our weekly chapter meeting, every Wednesday from 4:00-5:00pm in GMCS 405.<br /><br />You can also stay connected by joining our Discord server and following us on Instagram.</p> */}
             <p class="text-center text-base md:text-xl m-4 p-4">Come join us at our weekly chapter meeting, every Wednesday from 4:00-5:00pm in GMCS 405.</p>
             {/* <p class="text-center text-xl m-4 p-4">Feel free to reach out at any time via Discord, Instagram, or Email.</p> */}
-            <div class="flex flex-row flex-wrap md:space-x-4 m-2 lg:m-4 justify-left xl:justify-center text-lg md:text-2xl text-center">
+            <div class="flex flex-row flex-wrap md:space-x-4 m-2 lg:m-4 justify-left md:justify-center text-lg md:text-2xl text-center">
                 <div class="p-2 md:p-4 min-w-1/6">
                     <a href="https://discord.gg/UuNuggpKYV" target="_blank" class="flex space-x-2 hover:text-acm-blue">
                         <img class="w-7 h-7 mr-3 xl:ml-0" src="https://cdn.iconscout.com/icon/free/png-256/free-discord-3691244-3073764.png?f=webp"/>
