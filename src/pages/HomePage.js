@@ -13,10 +13,10 @@ import GuestSpeakers from "../components/GuestSpeakers";
 const homepage_buttons = [
   ["About", "about"],
   ["Upcoming Events", "events"],
+  ["Recent Events", "pastevents"],
   ["Officers", "officers"],
   //["Guest Speakers", "guestspeakers"],
   // ["Outreach", "outreach"],
-  ["Recent Events", "pastevents"],
   ["Get Involved", "contact"],
   // ["Hackathon 2025","hackathon"],
 ]
