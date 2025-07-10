@@ -43,7 +43,7 @@ export default function Overview() {
 								4:00&nbsp;-&nbsp;5:00pm
 							</b> at <a href="https://maps.app.goo.gl/iuyL9JJoyQMHhB6s7" target="_blank" class="text-acm-light-blue">
 								<b class="underline hover:text-acm-blue">
-									GMCS&nbsp;405
+									(Location TBD)
 								</b>
 							</a>
 							, plus additional workshops and seminars throughout the week.

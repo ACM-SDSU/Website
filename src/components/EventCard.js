@@ -48,15 +48,15 @@ const EventCard = ({ event }) => {
     date ? date.toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit", hour12: true }) : "All day";
 
   return (
-    <div className="flex flex-col md:flex-row items-center bg-white shadow-lg rounded-lg md:rounded-2xl p-2 md:p-4 xl:p-6 border border-gray-200 mb-4 text-acm-dark-blue">
+    <div className="flex flex-col md:flex-row items-center bg-white shadow-lg rounded-lg md:rounded-2xl p-2 md:py-3 md:px-5 xl:p-4 border border-gray-200 mb-4 text-acm-dark-blue">
       {icon && (
         <div className="hide flex-shrink-0 mb-4 md:mb-0 md:mr-4">
-          <img src={icon} alt={category} className="w-20 md:w-24 lg:w-28 xl:w-32 h-auto object-contain" />
+          <img src={icon} alt={category} className="w-20 md:w-24 lg:w-24 xl:w-26 h-auto object-contain" />
         </div>
       )}
       <div>
-        <h3 className="text-md md:text-xl font-semibold">{summary}</h3>
-        <p className="text-sm md:text-lg text-acm-blue">
+        <h3 className="text-base md:text-lg font-semibold">{summary}</h3>
+        <p className="text-sm md:text-base text-acm-blue">
           {formatDate(startDate)}, {formatTime(startDate)} {endDate ? ` - ${formatTime(endDate)}` : ""}, {location}
         </p>
         {description && <p className="text-xs md:text-base mt-2 text-gray-800">{cleanDescription(description)}</p>}
