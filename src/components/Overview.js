@@ -36,11 +36,11 @@ export default function Overview() {
 						<ChipTitle>Meeting Times</ChipTitle>
 						<ChipContent>
 							<b class="text-acm-light-blue">
-								Wednesdays
+								(Day TBD)
 							</b>
 							&nbsp;from&nbsp;
 							<b class="text-acm-light-blue">
-								4:00&nbsp;-&nbsp;5:00pm
+								(TBD)&nbsp;-&nbsp;(TBD)
 							</b> at <a href="https://maps.app.goo.gl/iuyL9JJoyQMHhB6s7" target="_blank" class="text-acm-light-blue">
 								<b class="underline hover:text-acm-blue">
 									(Location TBD)
