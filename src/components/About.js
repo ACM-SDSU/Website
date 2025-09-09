@@ -21,7 +21,7 @@ export default function About() {
 					At <span className="font-semibold text-acm-light-blue">SDSU’s ACM Student Chapter</span>, we are a vibrant community of tech enthusiasts passionate about innovation, learning, and collaboration. Our mission is to equip students with cutting-edge skills, industry connections, and real-world experience.
 					</p>
 					<p className="mb-6">
-					We host <span className="font-semibold text-acm-light-blue">weekly workshops</span>, guest lectures, and networking events covering topics like <span className="italic">machine learning, web development, AI, cybersecurity, and software engineering.</span>
+					In addition to frequent <span className="font-semibold text-acm-light-blue">social events</span> and <span className="font-semibold text-acm-light-blue">competitions</span>, We host <span className="font-semibold text-acm-light-blue">biweekly workshops</span> covering a wide range of beginner-friendly tech topics, including <span className="italic">machine learning, web development, AI, cybersecurity, and software engineering.</span>
 					</p>
 					<p className="mb-6">
 					Open to all SDSU students—regardless of major—ACM @ SDSU is your gateway to the tech industry. Join us and elevate your computing journey!

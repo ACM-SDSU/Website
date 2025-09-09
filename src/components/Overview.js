@@ -26,7 +26,7 @@ export default function Overview() {
 				<div class="flex flex-row flex-wrap gap-4 p-2 md:p-4 justify-center">
 					<InfoChip>
 						<ChipTitle>About Us</ChipTitle>
-						<ChipContent>We are the <span class="text-acm-light-blue font-bold">Association for Computing Machinery (ACM)</span> Student Chapter at <span class="NOTtext-acm-red NOTfont-bold">San Diego State University</span>.</ChipContent>
+						<ChipContent>We are the <span class="text-acm-light-blue font-bold">Association for Computing Machinery (ACM)</span> Student Chapter at <span class="NOTtext-acm-red NOTfont-bold">San Diego State University!</span>.</ChipContent>
 						<ChipButton goal="about">
 							See What We Offer
 						</ChipButton>
@@ -35,18 +35,18 @@ export default function Overview() {
 					<InfoChip>
 						<ChipTitle>Meeting Times</ChipTitle>
 						<ChipContent>
-							<b class="text-acm-light-blue">
-								(Day TBD)
+							We host biweekly tech workshops on specific <b class="text-acm-light-blue">
+								Wednesdays
 							</b>
 							&nbsp;from&nbsp;
 							<b class="text-acm-light-blue">
-								(TBD)&nbsp;-&nbsp;(TBD)
-							</b> at <a href="https://maps.app.goo.gl/iuyL9JJoyQMHhB6s7" target="_blank" class="text-acm-light-blue">
+								4:00&nbsp;-&nbsp;5:00pm
+							</b> in <a href="https://maps.app.goo.gl/iuyL9JJoyQMHhB6s7" target="_blank" class="text-acm-light-blue">
 								<b class="underline hover:text-acm-blue">
-									(Location TBD)
+									E-300
 								</b>
-							</a>
-							, plus additional workshops and seminars throughout the week.
+							</a> (Engineering Building, Room 300)
+							, in addition to social events and competitions throughout the semester.
 						</ChipContent>
 						<ChipButton goal="events">
 							View Upcoming Events
@@ -54,7 +54,7 @@ export default function Overview() {
 					</InfoChip>
 					<InfoChip>
 						<ChipTitle>Get Involved</ChipTitle>
-						<ChipContent>Join our <a href="https://discord.gg/UuNuggpKYV" target="_blank" class="text-acm-light-blue font-bold underline">Discord Server</a> to stay up to date with all the latest ACM news and upcoming events.</ChipContent>
+						<ChipContent>Join our <a href="https://discord.gg/UuNuggpKYV" target="_blank" class="text-acm-light-blue font-bold underline">Discord Server</a> and follow us on <a href="https://www.instagram.com/sdsu_acm/" target="_blank" class="text-acm-light-blue font-bold underline">Instagram</a> to stay up to date with all the latest ACM news and upcoming events.</ChipContent>
 						<ChipButton goal="contact">
 							Connect With Us
 						</ChipButton>
