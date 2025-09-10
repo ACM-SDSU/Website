@@ -41,7 +41,7 @@ export default function Overview() {
 							&nbsp;from&nbsp;
 							<b class="text-acm-light-blue">
 								4:00&nbsp;-&nbsp;5:00pm
-							</b> in <a href="https://maps.app.goo.gl/iuyL9JJoyQMHhB6s7" target="_blank" class="text-acm-light-blue">
+							</b> in <a href="https://maps.app.goo.gl/tgdibpQhui853wTw5" target="_blank" class="text-acm-light-blue">
 								<b class="underline hover:text-acm-blue">
 									E-300
 								</b>
