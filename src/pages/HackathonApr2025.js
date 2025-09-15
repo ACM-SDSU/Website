@@ -37,7 +37,7 @@ const headerStyle = "text-white";
 function Hackathon() {
     return (
         <main className="text-gray-900 bg-gray-100 body-font font-ACM">
-            <Navbar navItems={hackathon_buttons} headerStyle={headerStyle} />
+            <Navbar navItems={hackathon_buttons} headerStyle={headerStyle} logotype={"acm"} />
             <Overview headerStyle={headerStyle} />
             <Prompt headerStyle={headerStyle} />
             <Prizes headerStyle={headerStyle}/>

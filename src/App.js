@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 //import Navbar from "./components/Navbar";
 
 import HomePage from './pages/HomePage'; // Your main index page
-//import HackathonApr2025 from './pages/HackathonApr2025';   // Your new subpage
+import HackathonApr2025 from './pages/HackathonApr2025';   // Your new subpage
 import Hackathon from './pages/HackathonNov2025';
 import History from "./pages/History";
 
@@ -22,6 +22,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/history" element={<History />} />
+                <Route path="/hack2025april" element={<HackathonApr2025 />} />
                 {hack_aliases.map(path => (
                     <Route key={path} path={path} element={<Hackathon />} />
                 ))}

@@ -24,7 +24,7 @@ const homepage_buttons = [
 function App() {
   return (
     <main className="text-gray-900 bg-gray-900 body-font font-ACM">
-      <Navbar navItems={homepage_buttons}/>
+      <Navbar navItems={homepage_buttons} logotype={"acm"}/>
       <Overview />
       <About />
       <Events />
