@@ -1,14 +1,14 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Overview from "../components/hackathon2025/Overview";
-import Register from "../components/hackathon2025/Register"
-import Sponsors from "../components/hackathon2025/Sponsors";
-import Prompt from "../components/hackathon2025/Prompt";
-import Contact from "../components/hackathon2025/Contact";
-import Judges from "../components/hackathon2025/Judges";
-import FAQ from "../components/hackathon2025/FAQ";
-import Timeline from "../components/hackathon2025/Timeline";
-import Prizes from "../components/hackathon2025/Prizes";
+import Overview from "../components/hackathon_apr2025/Overview";
+import Register from "../components/hackathon_apr2025/Register"
+import Sponsors from "../components/hackathon_apr2025/Sponsors";
+import Prompt from "../components/hackathon_apr2025/Prompt";
+import Contact from "../components/hackathon_apr2025/Contact";
+import Judges from "../components/hackathon_apr2025/Judges";
+import FAQ from "../components/hackathon_apr2025/FAQ";
+import Timeline from "../components/hackathon_apr2025/Timeline";
+import Prizes from "../components/hackathon_apr2025/Prizes";
 
 const hackathon_buttons = [
     ["Home", "overview"],

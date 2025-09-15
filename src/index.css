@@ -28,8 +28,11 @@ code {
   .mainheader {
     @apply text-2xl md:text-5xl font-bold text-center mb-2 md:m-4 mb-2 md:mb-8 text-acm-light-blue bg-gray-800 py-2 xl:py-3;
   }
-  .hackheader {
+  /* .hackheader {
     @apply text-2xl md:text-5xl font-bold text-center mb-2 md:m-4 mb-2 md:mb-8 text-acm-light-blue bg-gray-800 py-2 xl:py-3;
+  } */
+  .hackheader {
+    @apply text-2xl md:text-5xl font-bold text-center mb-2 md:m-4 mb-2 md:mb-8 text-acm-blue bg-black/50 py-2 xl:py-3;
   }
   section {
     @apply px-0;

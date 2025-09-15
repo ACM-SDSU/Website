@@ -18,11 +18,21 @@ export function ChipContent({ children }) {
 }
 
 export function ChipButton({ children, bgcolor="bg-acm-blue", hovercolor="acm-light-blue", goal="overview", otherstyle }) {
-	return (
-		<ILink to={goal}>
-			<div className={`${bgcolor} ${otherstyle} flex items-center justify-center bg-opacity-70 py-1 px-6 mt-4 mb-1 rounded-xl space-x-2 text-xl hover:text-${hovercolor} cursor-pointer`}>
-				{children}
-			</div>
-		</ILink>
-	);
+	if (goal.includes("https://")) {
+		return (
+			<a href={goal} target="_blank" rel="noopener noreferrer">
+				<div className={`${bgcolor} ${otherstyle} flex items-center justify-center bg-opacity-70 py-1 px-6 mt-4 mb-1 rounded-xl space-x-2 text-xl hover:text-${hovercolor} cursor-pointer`}>
+					{children}
+				</div>
+			</a>
+		);
+	} else {
+		return (
+			<ILink to={goal}>
+				<div className={`${bgcolor} ${otherstyle} flex items-center justify-center bg-opacity-70 py-1 px-6 mt-4 mb-1 rounded-xl space-x-2 text-xl hover:text-${hovercolor} cursor-pointer`}>
+					{children}
+				</div>
+			</ILink>
+		);
+	}
 }
