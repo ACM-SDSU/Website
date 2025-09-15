@@ -1,12 +1,14 @@
 // Example import paths – update based on your project structure
 import SocialIcon from "../images/logos/social.jpg";
-import WorkshopIcon from "../images/logos/workshop2.jpg";
+import WorkshopIcon from "../images/logos/workshop.jpg";
 import CompetitionIcon from "../images/logos/competition.jpg";
+import FundraiserIcon from "../images/logos/fundraiser.jpg";
 
 const categoryIcons = {
   social: SocialIcon,
   workshop: WorkshopIcon,
   competition: CompetitionIcon,
+  fundraiser: FundraiserIcon,
 };
 
 const cleanDescription = (description) => {
@@ -26,8 +28,9 @@ const detectCategory = (summary, description) => {
   if (lowerTitle.includes("workshop")) return "workshop";
   if (lowerTitle.includes("social")) return "social";
   if (lowerTitle.includes("competition")) return "competition";
+  if (lowerTitle.includes("fundraiser")) return "fundraiser";
 
-  return null;
+  return "workshop"; // default to workshop if no tag found
 };
 
 

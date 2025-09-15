@@ -18,7 +18,7 @@ const homepage_buttons = [
   //["Guest Speakers", "guestspeakers"],
   // ["Outreach", "outreach"],
   ["Get Involved", "contact"],
-  // ["Hackathon 2025","hackathon"],
+  ["Hackathon","hackathon"],
 ]
 
 function App() {

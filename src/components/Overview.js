@@ -14,14 +14,14 @@ export default function Overview() {
 				Welcome to <AcmAtSdsu />!
 				</h1>
 				
-				{/* <RouterLink
+				<RouterLink
 					to="/hack"
 					className="mr-8 ml-1 hover:text-acm-yellow cursor-pointer"
 					>
-					<h2 class="text-4xl text-acm-yellow w-full font-bold text-center mb-4 underline drop-shadow-[0px_0px_3px_black]">
-						Learn about the 2025 "Innovate 4 SDSU" Hackathon
+					<h2 class="text-4xl text-acm-yellow w-full hover:text-yellow-500 font-bold text-center mb-4 italic drop-shadow-[0px_0px_3px_black]">
+						Learn about the Hackathon on November 15, 2025
 					</h2>
-				</RouterLink> */}
+				</RouterLink>
 
 				<div class="flex flex-row flex-wrap gap-4 p-2 md:p-4 justify-center">
 					<InfoChip>
@@ -46,7 +46,7 @@ export default function Overview() {
 									E-300
 								</b>
 							</a> (Engineering Building, Room 300)
-							, in addition to social events and competitions throughout the semester.
+							, in addition to <b class="text-acm-light-blue">social events</b> and <b class="text-acm-light-blue">competitions</b> throughout the semester.
 						</ChipContent>
 						<ChipButton goal="events">
 							View Upcoming Events
