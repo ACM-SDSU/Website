@@ -11,15 +11,15 @@ export default function Overview() {
 		<section id="overview" class="min-h-screen bg-cover bg-center grid" style={{ backgroundImage: `url(${ComputerChip})` }}>
 			<div class="bg-black bg-cover bg-opacity-50 w-full h-full flex flex-col justify-center items-center py-8">
 				<h1 class="text-6xl lg:text-8xl text-gray-100 w-4/5 font-bold text-center mb-4 drop-shadow-[0px_0px_4px_black]">
-				Welcome to <AcmAtSdsu />!
+					Welcome to <AcmAtSdsu />!
 				</h1>
-				
+
 				<RouterLink
 					to="/hack"
 					className="mr-8 ml-1 hover:text-acm-yellow cursor-pointer"
-					>
+				>
 					<h2 class="text-4xl text-acm-yellow w-full hover:text-yellow-500 font-bold text-center mb-4 italic drop-shadow-[0px_0px_3px_black]">
-						Learn about the Hackathon on November 15, 2025
+						Learn about the CTRL Hackathon on November 15, 2025
 					</h2>
 				</RouterLink>
 
@@ -54,10 +54,15 @@ export default function Overview() {
 					</InfoChip>
 					<InfoChip>
 						<ChipTitle>Get Involved</ChipTitle>
-						<ChipContent>Join our <a href="https://discord.gg/UuNuggpKYV" target="_blank" class="text-acm-light-blue font-bold underline">Discord Server</a> and follow us on <a href="https://www.instagram.com/sdsu_acm/" target="_blank" class="text-acm-light-blue font-bold underline">Instagram</a> to stay up to date with all the latest ACM news and upcoming events.</ChipContent>
-						<ChipButton goal="contact">
-							Connect With Us
-						</ChipButton>
+						<ChipContent>Join our <a href="https://discord.gg/UuNuggpKYV" target="_blank" class="text-acm-light-blue font-bold underline">Discord Server</a> and follow us on <a href="https://www.instagram.com/sdsu_acm/" target="_blank" class="text-acm-light-blue font-bold underline">Instagram</a> to stay up to date with all the latest ACM news and upcoming events!</ChipContent>
+						<div className="flex flex-row gap-2">
+							<ChipButton goal="contact">
+								Connect With Us
+							</ChipButton>
+							<ChipButton goal="https://forms.gle/LVFbpKRk7Aen4CjG9" external={true}>
+								Pay Your Dues
+							</ChipButton>
+						</div>
 					</InfoChip>
 					{/*<InfoChip>
 						<ChipTitle>Join the ACM Chapter</ChipTitle>
