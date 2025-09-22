@@ -16,11 +16,12 @@ import HackBG2 from "../images/logos/hackbg2.jpeg";
 
 const hackathon_buttons = [
   ["Home", "overview"],
-  // ["Theme", "prompt"],
+  ["Prompt", "prompt"],
+  ["Register","register"],
   // ["Prizes", "prizes"],
   // ["Timeline", "timeline"],
   // ["Judges", "judges"],
-  // ["Sponsors", "sponsors"],
+  ["Sponsors", "sponsors"],
   // ["FAQs", "faq"],
   ["Contact", "contact"],
 ];
@@ -38,12 +39,12 @@ function Hackathon() {
       <main className="relative z-10 text-gray-900 body-font font-ACM bg-black/20">
         <Navbar navItems={hackathon_buttons} headerStyle={headerStyle} logotype={"acmctrl"} />
         <Overview headerStyle={headerStyle} />
-        {/* <Prompt headerStyle={headerStyle} /> */}
+        <Prompt headerStyle={headerStyle} />
         {/* <Prizes headerStyle={headerStyle} /> */}
         {/* <Timeline headerStyle={headerStyle} /> */}
-        {/* <Register headerStyle={headerStyle} /> */}
+        <Register headerStyle={headerStyle} />
         {/* <Judges headerStyle={headerStyle} /> */}
-        {/* <Sponsors headerStyle={headerStyle} /> */}
+        <Sponsors headerStyle={headerStyle} />
         {/* <FAQ headerStyle={headerStyle} /> */}
         <Contact headerStyle={headerStyle} />
       </main>

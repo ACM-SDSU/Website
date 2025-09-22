@@ -19,7 +19,7 @@ export function CtrlSdsu({ children }) {
         // <ILink to="overview">
         <a href="https://ctrl.sdsu.edu" target="_blank">
             <span class="acm-at-sdsu font-bold cursor-pointer">
-                <span class="text-acm-orange">CTRL</span> <span class="text-acm-red">SDSU</span>
+                <span class="text-purple-500">CTRL</span> <span class="text-acm-red">SDSU</span>
             </span>
         </a>
         // </ILink>

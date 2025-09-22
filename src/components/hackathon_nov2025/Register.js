@@ -6,10 +6,11 @@ import { ChipButton } from "../InfoChip"
 
 export default function Register({headerStyle}){
     return (
-        <section id="register" class="pt-6 pb-12 text-white lg:min-h-screen">
-            <h1 class="hackheader">Register for <HackLogo /> Today!</h1>
+        <section id="register" class="pt-6 pb-12 text-white">
+            <h1 class="hackheader">Registration Coming Soon</h1>
             <div class="px-2 lg:w-1/2 mx-auto">
-                <p class="text-left text-xl mt-6 p-2">
+                <p class="text-center text-xl">Registration will begin shortly. Please join the <a class="underline text-acm-light-blue" href="https://discord.com/invite/6MTk5wcH9T" target="_blank">CTRL Discord Server</a> for announcements and updates!</p>
+                {/* <p class="text-left text-xl mt-6 p-2">
                     Please fill out the <a href="https://docs.google.com/forms/d/e/1FAIpQLSfVBn0qV4BnCcdq6tb0uollsxSLknYDYx-efIrcZQFg4JG22w/viewform?usp=dialog" target="_blank" class="text-acm-light-blue hover:text-acm-blue underline">Registration Form</a> when you are ready to register.
                 </p>
                 <p class="text-left text-xl mt-2 p-2">
@@ -24,11 +25,11 @@ export default function Register({headerStyle}){
                     Join the <a href="https://discord.gg/UuNuggpKYV" target="_blank" class="text-acm-light-blue hover:text-acm-blue underline">ACM Discord Server</a> for the latest announcements!
                 </p> */}
             </div>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfVBn0qV4BnCcdq6tb0uollsxSLknYDYx-efIrcZQFg4JG22w/viewform?usp=dialog" target="_blank">
+            {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLSfVBn0qV4BnCcdq6tb0uollsxSLknYDYx-efIrcZQFg4JG22w/viewform?usp=dialog" target="_blank">
                 <p class="bg-acm-blue w-4/5 lg:w-1/2 text-3xl text-center mx-auto mt-8 p-2 bg-opacity-70 rounded-xl">
                     Register Today
                 </p>
-            </a>
+            </a> */}
         </section>
     );
 }
