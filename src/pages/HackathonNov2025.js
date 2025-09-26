@@ -17,6 +17,7 @@ import HackBG2 from "../images/logos/hackbg2.jpeg";
 const hackathon_buttons = [
   ["Home", "overview"],
   ["Prompt", "prompt"],
+  ["GenAI Policy", "ai_policy"],
   ["Register","register"],
   // ["Prizes", "prizes"],
   // ["Timeline", "timeline"],

@@ -43,7 +43,7 @@ export function HackLogo({ children }) {
     return (
         // <ILink to="overview">
         <span class="acm-at-sdsu font-bold hover:text-yellow-500 cursor-pointer">
-            <span class="text-acm-orange">Innovate</span><span class="text-acm-blue"> 4 </span><span class="text-acm-red">SDSU</span>
+            <span class="text-acm-orange">Innovate</span><span class="text-acm-blue">&nbsp;4&nbsp;</span><span class="text-acm-red">SDSU</span>
         </span>
         // </ILink>
     );
