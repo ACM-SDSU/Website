@@ -128,7 +128,7 @@ export default function Prompt({ headerStyle }) {
                             Use GenAI to <i>accelerate</i> your work, not <i>replace</i> it.
                         </span>
                     </span>
-                    <div className="mt-8 w-[90%] lg:w-[80%] mx-auto">
+                    <div className="mt-8 w-[90%] lg:w-[90%] mx-auto">
                         <div className="mt-2">
                             <span className="font-bold text-xl xl:text-2xl text-acm-orange">What’s Allowed:</span>
                             <ul className="list-disc list-inside mt-1 text-base lg:text-base xl:text-xl">
