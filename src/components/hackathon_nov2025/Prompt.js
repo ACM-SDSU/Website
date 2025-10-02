@@ -7,23 +7,24 @@ export default function Prompt({ headerStyle }) {
     return (
         <div>
             <section id="prompt" className="pt-6 pb-12 items-center text-white lg:min-h-screen">
-                {/* <h1 className="text-5xl font-bold text-center m-4 mb-8">Register for <HackLogo /> Today!</h1> */}
-                <h1 class="hackheader">Hackathon Theme: <HackLogo /></h1>
+                <h1 className="hackheader">Hackathon Theme: <HackLogo /></h1>
                 <div className="text-left mt-4 xl:mt-8 p-2 w-full md:w-[90%] lg:w-[45%] mx-auto">
-                    <span className="block">
-                        <span className="font-bold text-xl xl:text-3xl text-acm-yellow">
-                            PROMPT: Innovate to transform the SDSU student experience.
+                    <div className="rounded-xl border-2 border-acm-yellow bg-black/60 shadow-lg p-6 mb-8">
+                        <span className="block">
+                            <span className="font-bold text-xl xl:text-3xl text-acm-yellow">
+                                PROMPT: Innovate to transform the SDSU student experience.
+                            </span>
+                            <br />
+                            <span className="italic text-lg xl:text-2xl">
+                                Choose one of the following challenge areas and design a creative, impactful solution.
+                            </span>
                         </span>
-                        <br />
-                        <span className="italic text-lg xl:text-2xl">
-                            Choose one of the following challenge areas and design a creative, impactful solution.
-                        </span>
-                    </span>
+                    </div>
 
                     {/* Campus Experience & Third Spaces */}
-                    <div className="mt-6">
+                    <div className="rounded-xl border border-acm-orange bg-black/40 shadow p-5 mb-6">
                         <span className="font-bold text-acm-orange text-lg xl:text-2xl">
-                            Campus Experience & Third Spaces
+                            1) Campus Experience & Third Spaces
                         </span>
                         <p className="italic text-base xl:text-lg mt-1">
                             How can we create safe and flexible ways for students to study, collaborate, or hang out after hours?
@@ -36,9 +37,9 @@ export default function Prompt({ headerStyle }) {
                     </div>
 
                     {/* AI & Privacy */}
-                    <div className="mt-6">
+                    <div className="rounded-xl border border-acm-orange bg-black/40 shadow p-5 mb-6">
                         <span className="font-bold text-acm-orange text-lg xl:text-2xl">
-                            AI & Privacy
+                            2) AI & Privacy
                         </span>
                         <p className="italic text-base xl:text-lg mt-1">
                             How can AI be used responsibly to support students without invading their privacy?
@@ -50,9 +51,9 @@ export default function Prompt({ headerStyle }) {
                     </div>
 
                     {/* Safety & Security */}
-                    <div className="mt-6">
+                    <div className="rounded-xl border border-acm-orange bg-black/40 shadow p-5 mb-6">
                         <span className="font-bold text-acm-orange text-lg xl:text-2xl">
-                            Safety & Security
+                            3) Safety & Security
                         </span>
                         <p className="italic text-base xl:text-lg mt-1">
                             How can students feel safer moving around campus, especially at night or during emergencies?
@@ -65,9 +66,9 @@ export default function Prompt({ headerStyle }) {
                     </div>
 
                     {/* Student Success & Wellbeing */}
-                    <div className="mt-6">
+                    <div className="rounded-xl border border-acm-orange bg-black/40 shadow p-5 mb-6">
                         <span className="font-bold text-acm-orange text-lg xl:text-2xl">
-                            Student Success & Wellbeing
+                            4) Student Success & Wellbeing
                         </span>
                         <p className="italic text-base xl:text-lg mt-1">
                             How can we reduce stress and give students the right support at the right time?
@@ -79,9 +80,9 @@ export default function Prompt({ headerStyle }) {
                     </div>
 
                     {/* Sustainability & Community Impact */}
-                    <div className="mt-6">
+                    <div className="rounded-xl border border-acm-orange bg-black/40 shadow p-5 mb-6">
                         <span className="font-bold text-acm-orange text-lg xl:text-2xl">
-                            Sustainability & Community Impact
+                            5) Sustainability & Community Impact
                         </span>
                         <p className="italic text-base xl:text-lg mt-1">
                             How can students lead the way in making campus life more sustainable?
@@ -94,7 +95,7 @@ export default function Prompt({ headerStyle }) {
                     </div>
 
                     {/* Deliverables */}
-                    <div className="mt-8">
+                    <div className="rounded-xl border-2 border-acm-yellow bg-black/60 shadow-lg p-6 mt-10 mb-2">
                         <span className="font-bold text-2xl xl:text-3xl text-acm-yellow">
                             Deliverables
                         </span>
@@ -103,13 +104,13 @@ export default function Prompt({ headerStyle }) {
                         </p>
                         <ul className="list-disc list-inside mt-2 text-base lg:text-base xl:text-xl">
                             <li className="pb-1">
-                                <span className="font-bold text-acm-orange">Software:</span> A mobile app, web app, or dashboard with basic functionality. Doesn’t need full features, but must show a working demo.
+                                <span className="font-bold text-acm-yellow">Software:</span> A mobile app, web app, or dashboard with basic functionality. Doesn’t need full features, but must show a working demo.
                             </li>
                             <li className="pb-1">
-                                <span className="font-bold text-acm-orange">Hardware:</span> A low-cost prototype (Arduino, Raspberry Pi, sensors). Show at least one working feature.
+                                <span className="font-bold text-acm-yellow">Hardware:</span> A low-cost prototype (Arduino, Raspberry Pi, sensors). Show at least one working feature.
                             </li>
                             <li className="pb-1">
-                                <span className="font-bold text-acm-orange">Hybrid:</span> Show how hardware and software connect (even one interaction counts).
+                                <span className="font-bold text-acm-yellow">Hybrid:</span> Show how hardware and software connect (even one interaction counts).
                             </li>
                         </ul>
                         <p className="italic text-base xl:text-lg mt-3">
@@ -117,19 +118,20 @@ export default function Prompt({ headerStyle }) {
                         </p>
                     </div>
                 </div>
-
             </section>
 
             <section id="ai_policy" className="pt-6 pb-12 items-center text-white">
-                <h1 class="hackheader">Generative AI Policy</h1>
+                <h1 className="hackheader">Generative AI Policy</h1>
                 <div className="text-left mt-4 xl:mt-8 p-2 w-full md:w-[90%] lg:w-1/2 mx-auto">
-                    <span className="flex items-center">
-                        <span className="font-bold text-xl xl:text-3xl text-acm-yellow text-center mx-auto w-full">
-                            Use GenAI to <i>accelerate</i> your work, not <i>replace</i> it.
+                    <div className="rounded-xl border-2 border-acm-yellow bg-black/60 shadow-lg p-6 mb-8">
+                        <span className="flex items-center">
+                            <span className="font-bold text-xl xl:text-3xl text-acm-yellow text-center mx-auto w-full">
+                                Use GenAI to <i>accelerate</i> your work, not <i>replace</i> it.
+                            </span>
                         </span>
-                    </span>
-                    <div className="mt-8 w-[90%] lg:w-[90%] mx-auto">
-                        <div className="mt-2">
+                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-[90%] lg:w-[90%] mx-auto">
+                        <div className="rounded-xl border border-acm-orange bg-black/40 shadow p-5">
                             <span className="font-bold text-xl xl:text-2xl text-acm-orange">What’s Allowed:</span>
                             <ul className="list-disc list-inside mt-1 text-base lg:text-base xl:text-xl">
                                 <li className="pb-1">Coding help (debugging, boilerplate, explanations)</li>
@@ -138,7 +140,7 @@ export default function Prompt({ headerStyle }) {
                                 <li className="pb-1">Documentation support (README, slides, pitch)</li>
                             </ul>
                         </div>
-                        <div className="mt-4">
+                        <div className="rounded-xl border border-acm-orange bg-black/40 shadow p-5">
                             <span className="font-bold text-xl xl:text-2xl text-acm-orange">What’s Not Allowed:</span>
                             <ul className="list-disc list-inside mt-1 text-base lg:text-base xl:text-xl">
                                 <li className="pb-1">Submitting end-to-end AI-generated projects</li>
@@ -147,7 +149,7 @@ export default function Prompt({ headerStyle }) {
                                 <li className="pb-1">Training large AI models from scratch</li>
                             </ul>
                         </div>
-                        <div className="mt-4">
+                        <div className="rounded-xl border border-acm-orange bg-black/40 shadow p-5">
                             <span className="font-bold text-xl xl:text-2xl text-acm-orange">Expectations:</span>
                             <ul className="list-disc list-inside mt-1 text-base lg:text-base xl:text-xl">
                                 <li className="pb-1">Judges will look at your process as much as your demo</li>

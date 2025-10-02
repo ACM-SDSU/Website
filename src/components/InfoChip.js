@@ -14,7 +14,7 @@ export function ChipTitle({ children, otherstyle="" }) {
 	return (<p className={`text-2xl font-bold mb-1 ${otherstyle}`}>{children}</p>);
 }
 export function ChipContent({ children }) {
-	return (<p class="text-lg">{children}</p>);
+	return (<p class="text-base lg:text-lg">{children}</p>);
 }
 
 export function ChipButton({ children, bgcolor="bg-acm-blue", hovercolor="acm-light-blue", goal="overview", otherstyle }) {

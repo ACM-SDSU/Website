@@ -12,7 +12,7 @@ export default function Register({ headerStyle }) {
             <h1 class="hackheader">Register Today!</h1>
             <div class="px-2 lg:w-1/2 mx-auto">
                 <span className="font-bold text-xl xl:text-3xl text-acm-yellow">
-                    Note: If you are registering as a team, please have ALL team members fill out the form individually.
+                    Note: If you are registering as a team, please have <u>ALL</u> team members fill out the form individually.
                 </span>
                 <h1 class="text-xl lg:text-2xl text-acm-orange font-bold pt-6">
                     Before you register, you'll need:
@@ -43,7 +43,7 @@ export default function Register({ headerStyle }) {
                 </p>
             </div>
             <a href={FormLink} target="_blank">
-                <p class="bg-acm-blue w-4/5 lg:w-1/2 text-3xl text-center mx-auto mt-8 p-2 bg-opacity-70 rounded-xl">
+                <p class="bg-acm-blue w-[95%] lg:w-[22.5%] text-3xl text-center mx-auto mt-6 lg:mt-16 p-2 bg-opacity-70 rounded-xl">
                     Registration Form
                 </p>
             </a>

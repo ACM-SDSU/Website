@@ -9,6 +9,7 @@ import Judges from "../components/hackathon_nov2025/Judges";
 import FAQ from "../components/hackathon_nov2025/FAQ";
 import Timeline from "../components/hackathon_nov2025/Timeline";
 import Prizes from "../components/hackathon_nov2025/Prizes";
+import Logistics from "../components/hackathon_nov2025/Logistics";
 
 import BackgroundFX from "../components/hackathon_nov2025/BackgroundFX";  // 👈 your slideshow component
 import HackBG1 from "../images/logos/hackbg1.jpeg";
@@ -18,10 +19,11 @@ const hackathon_buttons = [
   ["Home", "overview"],
   ["Prompt", "prompt"],
   ["GenAI Policy", "ai_policy"],
+  ["Timeline", "timeline"],
+  // ["Logistics","logistics"],
   ["Register","register"],
   // ["Prizes", "prizes"],
-  // ["Timeline", "timeline"],
-  // ["Judges", "judges"],
+  ["Judges", "judges"],
   ["Sponsors", "sponsors"],
   // ["FAQs", "faq"],
   ["Contact", "contact"],
@@ -42,9 +44,10 @@ function Hackathon() {
         <Overview headerStyle={headerStyle} />
         <Prompt headerStyle={headerStyle} />
         {/* <Prizes headerStyle={headerStyle} /> */}
-        {/* <Timeline headerStyle={headerStyle} /> */}
+        <Timeline headerStyle={headerStyle} />
+        {/* <Logistics headerStyle={headerStyle} /> */}
         <Register headerStyle={headerStyle} />
-        {/* <Judges headerStyle={headerStyle} /> */}
+        <Judges headerStyle={headerStyle} />
         <Sponsors headerStyle={headerStyle} />
         {/* <FAQ headerStyle={headerStyle} /> */}
         <Contact headerStyle={headerStyle} />
@@ -52,5 +55,7 @@ function Hackathon() {
     </>
   );
 }
+
+// TODO: Update Logsitics page, Prizes page, FAQ page, add new Timeline pics
 
 export default Hackathon;

@@ -42,11 +42,11 @@ export default function Overview() {
 
       {/* foreground content */}
       <div className="relative z-10 flex flex-col justify-center items-center w-full h-full">
-        <h1 className="text-6xl lg:text-8xl text-gray-100 w-4/5 font-bold text-center mb-4 drop-shadow-[0px_0px_4px_black]">
+        <h1 className="text-5xl md:text-6xl lg:text-8xl text-gray-100 w-full lg:w-4/5 font-bold text-center mb-4 drop-shadow-[0px_0px_4px_black] mt-4 lg:mt-0">
           <HackLogo />
         </h1>
 
-        <h2 className="text-center text-4xl text-gray-300 w-full font-bold mb-4 drop-shadow-[0px_0px_3px_black]">
+        <h2 className="text-center text-2xl lg:text-4xl text-gray-300 w-full font-bold mb-4 drop-shadow-[0px_0px_3px_black]">
           Proudly hosted by <AcmAtSdsu /> and <CtrlSdsu />
         </h2>
 
@@ -65,8 +65,8 @@ export default function Overview() {
           <InfoChip bgcolor="bg-gray-200" textcolor="text-gray-900">
             <ChipTitle>Time and Location</ChipTitle>
             <ChipContent>
-              The <HackLogo /> Hackathon will take place on <b>Saturday, November 15, 2025 </b>
-              from 9:00am–8:00pm in Templo Mayor, Conrad Prebys Aztec
+              The <HackLogo /> Hackathon will take place on <b>Saturday & Sunday, November 15 & 16, 2025 </b>
+              from 9:00am–7:00pm in Templo Mayor, Aztec
               Student Union.
             </ChipContent>
             <ChipButton bgcolor="bg-acm-blue" hovercolor="acm-orange" goal="timeline">
@@ -75,12 +75,12 @@ export default function Overview() {
           </InfoChip>
 
 		  <InfoChip bgcolor="bg-gray-200" textcolor="text-gray-900">
-            <ChipTitle>Registration Begins Soon</ChipTitle>
+            <ChipTitle>Registration Now Open</ChipTitle>
             <ChipContent>
-              Registration for <HackLogo /> will begin soon. Stay tuned for updates! Fill out the Interest Form below to be notified as soon as registration opens.
+              Registration for <HackLogo /> is now open. Scroll to the Registration section or click the button below to sign up. We can't wait to see you there!
             </ChipContent>
-            <ChipButton bgcolor="bg-acm-blue" hovercolor="acm-orange" goal="https://ctrl.sdsu.edu">
-              Submit Interest Form
+            <ChipButton bgcolor="bg-acm-blue" hovercolor="acm-orange" goal="register">
+              Register Today
             </ChipButton>
           </InfoChip>
         </div>
