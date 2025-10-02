@@ -41,3 +41,7 @@ code {
     @apply hidden md:block;
   }
 }
+
+ul li {
+  line-height: 1.25; /* similar to Tailwind's leading-tight */
+}

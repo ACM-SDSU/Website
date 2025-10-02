@@ -5,7 +5,7 @@ import { HackLogo } from "../Modules";
 
 export default function Prompt({ headerStyle }) {
     return (
-        <div>
+        <div class="leading-snug">
             <section id="prompt" className="pt-6 pb-12 items-center text-white lg:min-h-screen">
                 <h1 className="hackheader">Hackathon Theme: <HackLogo /></h1>
                 <div className="text-left mt-4 xl:mt-8 p-2 w-full md:w-[90%] lg:w-[45%] mx-auto">
