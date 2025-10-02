@@ -29,7 +29,7 @@ export default function Prompt({ headerStyle }) {
                         <p className="italic text-base xl:text-lg mt-1">
                             How can we create safe and flexible ways for students to study, collaborate, or hang out after hours?
                         </p>
-                        <ul className="list-disc list-inside mt-2 text-base lg:text-base xl:text-xl">
+                        <ul className="list-disc list-inside mt-2 text-base lg:text-base xl:text-lg">
                             <li className="pb-1">An app to crowd-share safe study locations</li>
                             <li className="pb-1">A booking system for classrooms at night</li>
                             <li className="pb-1">A “virtual third space” for late-night collaboration</li>
@@ -44,7 +44,7 @@ export default function Prompt({ headerStyle }) {
                         <p className="italic text-base xl:text-lg mt-1">
                             How can AI be used responsibly to support students without invading their privacy?
                         </p>
-                        <ul className="list-disc list-inside mt-2 text-base lg:text-base xl:text-xl">
+                        <ul className="list-disc list-inside mt-2 text-base lg:text-base xl:text-lg">
                             <li className="pb-1">A study buddy chatbot that doesn’t store personal data</li>
                             <li className="pb-1">An AI tool that helps with scheduling while keeping info local on-device</li>
                         </ul>
@@ -58,7 +58,7 @@ export default function Prompt({ headerStyle }) {
                         <p className="italic text-base xl:text-lg mt-1">
                             How can students feel safer moving around campus, especially at night or during emergencies?
                         </p>
-                        <ul className="list-disc list-inside mt-2 text-base lg:text-base xl:text-xl">
+                        <ul className="list-disc list-inside mt-2 text-base lg:text-base xl:text-lg">
                             <li className="pb-1">A campus safety alert app</li>
                             <li className="pb-1">A “walk-with-me” buddy system</li>
                             <li className="pb-1">A low-cost IoT panic button</li>
@@ -73,7 +73,7 @@ export default function Prompt({ headerStyle }) {
                         <p className="italic text-base xl:text-lg mt-1">
                             How can we reduce stress and give students the right support at the right time?
                         </p>
-                        <ul className="list-disc list-inside mt-2 text-base lg:text-base xl:text-xl">
+                        <ul className="list-disc list-inside mt-2 text-base lg:text-base xl:text-lg">
                             <li className="pb-1">An app that connects students to tutors or study groups instantly</li>
                             <li className="pb-1">A tool that matches students with wellness resources based on their needs</li>
                         </ul>
@@ -87,7 +87,7 @@ export default function Prompt({ headerStyle }) {
                         <p className="italic text-base xl:text-lg mt-1">
                             How can students lead the way in making campus life more sustainable?
                         </p>
-                        <ul className="list-disc list-inside mt-2 text-base lg:text-base xl:text-xl">
+                        <ul className="list-disc list-inside mt-2 text-base lg:text-base xl:text-lg">
                             <li className="pb-1">An app that tracks recycling points or food waste</li>
                             <li className="pb-1">IoT sensors that monitor classroom energy use</li>
                             <li className="pb-1">Gamified challenges for green behavior</li>
@@ -102,7 +102,7 @@ export default function Prompt({ headerStyle }) {
                         <p className="italic text-base xl:text-lg mt-1">
                             You only have 2 days. Keep it simple and working.
                         </p>
-                        <ul className="list-disc list-inside mt-2 text-base lg:text-base xl:text-xl">
+                        <ul className="list-disc list-inside mt-2 text-base lg:text-base xl:text-lg">
                             <li className="pb-1">
                                 <span className="font-bold text-acm-yellow">Software:</span> A mobile app, web app, or dashboard with basic functionality. Doesn’t need full features, but must show a working demo.
                             </li>
@@ -122,8 +122,8 @@ export default function Prompt({ headerStyle }) {
 
             <section id="ai_policy" className="pt-6 pb-12 items-center text-white">
                 <h1 className="hackheader">Generative AI Policy</h1>
-                <div className="text-left mt-4 xl:mt-8 p-2 w-full md:w-[90%] lg:w-1/2 mx-auto">
-                    <div className="rounded-xl border-2 border-acm-yellow bg-black/60 shadow-lg p-6 mb-8">
+                <div className="text-left mt-4 xl:mt-8 p-2 w-full md:w-[90%] lg:w-2/3 mx-auto">
+                    <div className="rounded-xl border-2 border-acm-yellow bg-black/60 shadow-lg p-6 mb-8 w-[90%] mx-auto">
                         <span className="flex items-center">
                             <span className="font-bold text-xl xl:text-3xl text-acm-yellow text-center mx-auto w-full">
                                 Use GenAI to <i>accelerate</i> your work, not <i>replace</i> it.
@@ -133,7 +133,7 @@ export default function Prompt({ headerStyle }) {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-[90%] lg:w-[90%] mx-auto">
                         <div className="rounded-xl border border-acm-orange bg-black/40 shadow p-5">
                             <span className="font-bold text-xl xl:text-2xl text-acm-orange">What’s Allowed:</span>
-                            <ul className="list-disc list-inside mt-1 text-base lg:text-base xl:text-xl">
+                            <ul className="list-disc list-inside mt-1 text-base lg:text-base xl:text-lg">
                                 <li className="pb-1">Coding help (debugging, boilerplate, explanations)</li>
                                 <li className="pb-1">Design mockups (logos, UI, visuals)</li>
                                 <li className="pb-1">Brainstorming (ideas, starter text)</li>
@@ -141,8 +141,8 @@ export default function Prompt({ headerStyle }) {
                             </ul>
                         </div>
                         <div className="rounded-xl border border-acm-orange bg-black/40 shadow p-5">
-                            <span className="font-bold text-xl xl:text-2xl text-acm-orange">What’s Not Allowed:</span>
-                            <ul className="list-disc list-inside mt-1 text-base lg:text-base xl:text-xl">
+                            <span className="font-bold text-xl xl:text-2xl text-acm-orange">What’s <u>NOT</u> Allowed:</span>
+                            <ul className="list-disc list-inside mt-1 text-base lg:text-base xl:text-lg">
                                 <li className="pb-1">Submitting end-to-end AI-generated projects</li>
                                 <li className="pb-1">Hiding AI usage or claiming AI’s work as your own</li>
                                 <li className="pb-1">Feeding real student/private data into AI tools</li>
@@ -151,7 +151,7 @@ export default function Prompt({ headerStyle }) {
                         </div>
                         <div className="rounded-xl border border-acm-orange bg-black/40 shadow p-5">
                             <span className="font-bold text-xl xl:text-2xl text-acm-orange">Expectations:</span>
-                            <ul className="list-disc list-inside mt-1 text-base lg:text-base xl:text-xl">
+                            <ul className="list-disc list-inside mt-1 text-base lg:text-base xl:text-lg">
                                 <li className="pb-1">Judges will look at your process as much as your demo</li>
                                 <li className="pb-1">Be ready to explain what you built vs. what AI generated</li>
                                 <li className="pb-1">Bonus points for showing ethical and effective AI use</li>
