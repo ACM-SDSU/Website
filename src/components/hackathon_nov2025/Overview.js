@@ -47,39 +47,39 @@ export default function Overview() {
         </h1>
 
         <h2 className="text-center text-2xl lg:text-4xl text-gray-300 w-full font-bold mb-4 drop-shadow-[0px_0px_3px_black]">
-          Proudly hosted by <AcmAtSdsu /> and <CtrlSdsu />
+          Proudly hosted by <CtrlSdsu />
         </h2>
 
         <div className="flex flex-row flex-wrap gap-4 p-4 justify-center">
-          <InfoChip bgcolor="bg-gray-200" textcolor="text-gray-900">
+          <InfoChip bgcolor="bg-black/60 border-2 border-acm-orange" textcolor="text-gray-100">
             <ChipTitle>About the Hackathon</ChipTitle>
             <ChipContent>
               The <HackLogo /> Hackathon invites all SDSU students to compete in
               teams to develop projects that benefit the SDSU community.
             </ChipContent>
-            <ChipButton bgcolor="bg-acm-blue" hovercolor="acm-orange" goal="prompt">
+            <ChipButton bgcolor="bg-acm-orange" hovercolor="acm-orange" goal="prompt">
               Learn More
             </ChipButton>
           </InfoChip>
 
-          <InfoChip bgcolor="bg-gray-200" textcolor="text-gray-900">
+          <InfoChip bgcolor="bg-black/60 border-2 border-acm-orange" textcolor="text-gray-100">
             <ChipTitle>Time and Location</ChipTitle>
             <ChipContent>
               The <HackLogo /> Hackathon will take place on <b>Saturday & Sunday, November 15 & 16, 2025 </b>
               from 9:00am–7:00pm in Templo Mayor, Aztec
               Student Union.
             </ChipContent>
-            <ChipButton bgcolor="bg-acm-blue" hovercolor="acm-orange" goal="timeline">
+            <ChipButton bgcolor="bg-acm-orange" hovercolor="acm-orange" goal="timeline">
               Event Timeline
             </ChipButton>
           </InfoChip>
 
-		  <InfoChip bgcolor="bg-gray-200" textcolor="text-gray-900">
+		  <InfoChip bgcolor="bg-black/60 border-2 border-acm-orange" textcolor="text-gray-100">
             <ChipTitle>Registration Now Open</ChipTitle>
             <ChipContent>
               Registration for <HackLogo /> is now open. Scroll to the Registration section or click the button below to sign up. We can't wait to see you there!
             </ChipContent>
-            <ChipButton bgcolor="bg-acm-blue" hovercolor="acm-orange" goal="register">
+            <ChipButton bgcolor="bg-acm-orange" hovercolor="acm-orange" goal="register">
               Register Today
             </ChipButton>
           </InfoChip>

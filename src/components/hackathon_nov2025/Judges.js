@@ -27,7 +27,7 @@ export default function Judges({headerStyle}) {
                 {judges.map((judge, idx) => (
                     <div
                         key={idx}
-                        className="flex items-start bg-gray-900 bg-opacity-70 rounded-lg shadow-lg p-5 hover:scale-[1.02] transition-transform"
+                        className="flex items-start bg-black/60 bg-opacity-70 rounded-xl shadow-lg border-4 border-acm-blue p-5 hover:scale-[1.02] transition-transform"
                     >
                         <img
                             src={judge.photo}

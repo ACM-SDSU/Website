@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.42b3bc51.css",
-    "main.js": "/static/js/main.8aa1a169.js",
+    "main.css": "/static/css/main.ddf443c9.css",
+    "main.js": "/static/js/main.a68d2c11.js",
     "static/js/453.779f1c83.chunk.js": "/static/js/453.779f1c83.chunk.js",
     "static/media/manju.jpg": "/static/media/manju.1f44df623bcc31bc07e3.jpg",
     "static/media/everett.jpg": "/static/media/everett.f2733e877429cbfb7769.jpg",
     "static/media/kurt.png": "/static/media/kurt.1b668424f342da7490a2.png",
     "static/media/everett.png": "/static/media/everett.58c6ed25caad8df4f5ed.png",
     "static/media/lecture.jpg": "/static/media/lecture.2532c94afee880543218.jpg",
-    "static/media/sponsors1.jpg": "/static/media/sponsors1.cfdeca7ddaf3887cbae1.jpg",
     "static/media/welcome_event.png": "/static/media/welcome_event.7998e24e6371b25a2c47.png",
     "static/media/hackathon_bg_compressed.jpg": "/static/media/hackathon_bg_compressed.7ee07fe1a61b4f330e18.jpg",
-    "static/media/sponsors3.jpg": "/static/media/sponsors3.3bca9a530df32a6663f7.jpg",
     "static/media/sponsors2.jpg": "/static/media/sponsors2.f51c8365d3128934ef64.jpg",
     "static/media/tanish.png": "/static/media/tanish.201e6d06c4d03adb5d93.png",
     "static/media/thea.png": "/static/media/thea.d83a125faa1025df92ea.png",
@@ -28,9 +26,9 @@
     "static/media/proposal_final.jpeg": "/static/media/proposal_final.9402c2ea352ec98224b0.jpeg",
     "static/media/nadeem_photo.jpeg": "/static/media/nadeem_photo.72e3d74e381f29e01b99.jpeg",
     "static/media/parker.jpeg": "/static/media/parker.4f0edac0f716ea961a11.jpeg",
+    "static/media/acm_banner.jpg": "/static/media/acm_banner.b6e29eca1223c274b524.jpg",
     "static/media/ian.png": "/static/media/ian.48855c99a92709f9f522.png",
     "static/media/nitin.png": "/static/media/nitin.03af7e6527472e6b5847.png",
-    "static/media/acm_banner.jpg": "/static/media/acm_banner.be8e43fab175055089ca.jpg",
     "static/media/social.jpg": "/static/media/social.61e04dc87925edd486b8.jpg",
     "static/media/jp.png": "/static/media/jp.1d7ccfde4fd7f78a30dd.png",
     "static/media/big_meeting.jpg": "/static/media/big_meeting.4f7a620cf1c5af9c6a59.jpg",
@@ -41,12 +39,12 @@
     "static/media/cssc.svg": "/static/media/cssc.00be85fe56095382c05902f61cf97ba7.svg",
     "static/media/jake.JPG": "/static/media/jake.d8f8df7d9bc597b26b61.JPG",
     "index.html": "/index.html",
-    "main.42b3bc51.css.map": "/static/css/main.42b3bc51.css.map",
-    "main.8aa1a169.js.map": "/static/js/main.8aa1a169.js.map",
+    "main.ddf443c9.css.map": "/static/css/main.ddf443c9.css.map",
+    "main.a68d2c11.js.map": "/static/js/main.a68d2c11.js.map",
     "453.779f1c83.chunk.js.map": "/static/js/453.779f1c83.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42b3bc51.css",
-    "static/js/main.8aa1a169.js"
+    "static/css/main.ddf443c9.css",
+    "static/js/main.a68d2c11.js"
   ]
 }
