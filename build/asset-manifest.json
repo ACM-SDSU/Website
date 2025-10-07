@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ddf443c9.css",
-    "main.js": "/static/js/main.a68d2c11.js",
+    "main.css": "/static/css/main.39f42f40.css",
+    "main.js": "/static/js/main.da47a756.js",
     "static/js/453.779f1c83.chunk.js": "/static/js/453.779f1c83.chunk.js",
     "static/media/manju.jpg": "/static/media/manju.1f44df623bcc31bc07e3.jpg",
     "static/media/everett.jpg": "/static/media/everett.f2733e877429cbfb7769.jpg",
@@ -13,6 +13,8 @@
     "static/media/sponsors2.jpg": "/static/media/sponsors2.f51c8365d3128934ef64.jpg",
     "static/media/tanish.png": "/static/media/tanish.201e6d06c4d03adb5d93.png",
     "static/media/thea.png": "/static/media/thea.d83a125faa1025df92ea.png",
+    "static/media/balak_photo.jpg": "/static/media/balak_photo.32da7610ab80d8b13fc2.jpg",
+    "static/media/logan_photo.jpeg": "/static/media/logan_photo.9b909c6d5b708a8aa477.jpeg",
     "static/media/shelvy.png": "/static/media/shelvy.3900d7ae124ede7cf0d7.png",
     "static/media/matt.png": "/static/media/matt.ca7f52b902e13954eb63.png",
     "static/media/hackathon_final.jpeg": "/static/media/hackathon_final.b16f109e9d490080e2e1.jpeg",
@@ -39,12 +41,12 @@
     "static/media/cssc.svg": "/static/media/cssc.00be85fe56095382c05902f61cf97ba7.svg",
     "static/media/jake.JPG": "/static/media/jake.d8f8df7d9bc597b26b61.JPG",
     "index.html": "/index.html",
-    "main.ddf443c9.css.map": "/static/css/main.ddf443c9.css.map",
-    "main.a68d2c11.js.map": "/static/js/main.a68d2c11.js.map",
+    "main.39f42f40.css.map": "/static/css/main.39f42f40.css.map",
+    "main.da47a756.js.map": "/static/js/main.da47a756.js.map",
     "453.779f1c83.chunk.js.map": "/static/js/453.779f1c83.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddf443c9.css",
-    "static/js/main.a68d2c11.js"
+    "static/css/main.39f42f40.css",
+    "static/js/main.da47a756.js"
   ]
 }
