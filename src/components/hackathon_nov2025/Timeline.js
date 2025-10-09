@@ -18,17 +18,17 @@ let chips = [
         icon: require("../../images/hack25/lastday_final.jpeg"),
     },
     {
-        date: "November 5",
+        date: "November 8",
         weekday: "Wednesday",
         event: "Final Registration Deadline. No registrations will be accepted after this date.",
         icon: require("../../images/hack25/proposal_final.jpeg"),
     },
-    {
-        date: "November 13",
-        weekday: "Thursday",
-        event: "Project Proposal Submission Deadline by 11:59 PM. Late submissions will not be accepted.",
-        icon: require("../../images/hack25/projectdue_final.jpeg"),
-    },
+    // {
+    //     date: "November 13",
+    //     weekday: "Thursday",
+    //     event: "Project Proposal Submission Deadline by 11:59 PM. Late submissions will not be accepted.",
+    //     icon: require("../../images/hack25/projectdue_final.jpeg"),
+    // },
     {
         date: "November 15 & 16",
         weekday: "Saturday & Sunday",
