@@ -2,7 +2,7 @@ import React from "react";
 
 function OfficerCards({officers}) {
     return (
-        <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 justify-center items-stretch gap-2 md:gap-4 m-4">
+        <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 justify-center items-stretch gap-2 md:gap-4 m-4">
             {officers.map((officer) => (
                 <a href={officer.url ? officer.url : `mailto:${officer.email}`} target="_blank">
                     <div key={officer.id} className="min-h-12 min-w-16 text-center text-gray-200
@@ -10,7 +10,7 @@ function OfficerCards({officers}) {
                     p-2 md:p-4 rounded-lg flex flex-col items-center justify-center h-full"
                     >
                         <img src={officer.photo} class="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 xl:w-48 xl:h-48 mb-1 rounded-xl bg-gray-300"></img>
-                        <p class="text-base md:text-2xl xl:text-3xl flex items-center justify-center space-x-2 font-bold">
+                        <p class="text-base md:text-xl xl:text-2xl flex items-center justify-center space-x-2 font-bold">
                             {officer.name}
                         </p>
                         <p class="text-sm md:text-lg xl:text-xl">{officer.position}</p>
@@ -21,7 +21,7 @@ function OfficerCards({officers}) {
     );
 }
 
-const blank = "https://static.vecteezy.com/system/resources/previews/001/921/566/non_2x/businessman-elegant-with-infographic-presentation-free-vector.jpg"
+const blank = "https://img.freepik.com/premium-vector/default-avatar-profile-icon-social-media-user-image-gray-avatar-icon-blank-profile-silhouette-vector-illustration_561158-3407.jpg"
 
 const committee = [
     {
@@ -41,18 +41,18 @@ const committee = [
     },
     {
         name: "Amelia Grevin",
-        position: "Member",
+        position: "Member, GWC President",
         photo: blank,
     },
     {
         name: "Enzo Weiss",
-        position: "Member",
+        position: "Member, WCO President",
         photo: blank,
     },
     {
         name: "Caleb Dickson",
         position: "Member",
-        photo: blank,
+        photo: "https://media.discordapp.net/attachments/1415038021379555398/1425959451311210496/calebProf.png?ex=68e97bba&is=68e82a3a&hm=83250db65cbf5aca310a5abd121326075d3d1146be579ebdf0f613b13dc22bad&=&format=webp&quality=lossless&width=698&height=902",
     },
     {
         name: "Richie Walcher",
@@ -78,6 +78,11 @@ const committee = [
         name: "Avishka Wickramaratna",
         position: "Member",
         photo: blank,
+    },
+    {
+        name: "Tanish Gheewala",
+        position: "Member",
+        photo: require("../../images/officers25/tanish.png"),
     },
     {
         name: "Priya Manju Muralidharan",

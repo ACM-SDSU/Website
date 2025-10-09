@@ -30,7 +30,7 @@ export function CtrlSdsu({ children }) {
 export function AcmAtSdsuLightBg({ children }) {
     return (
         // <ILink to="overview">
-        <a href="https://ctrl.sdsu.edu">
+        <a href="https://acm.sdsu.edu">
             <span class="acm-at-sdsu font-bold hover:text-yellow-500 cursor-pointer">
                 <span class="text-acm-blue">ACM</span> @<span class="text-acm-red">SDSU</span>
             </span>
