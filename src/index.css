@@ -45,3 +45,7 @@ code {
 ul li {
   line-height: 1.25; /* similar to Tailwind's leading-tight */
 }
+
+img {
+    object-fit: cover;
+}

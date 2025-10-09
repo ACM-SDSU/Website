@@ -41,15 +41,20 @@ const sponsorLevels = [
         amount: "$250+",
         sponsors: [
             {
-                name: "SDSU Girls Who Code",
+                name: "Girls Who Code",
                 logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQic3yRLq7DnSa78uICVXLu2Mf5r3NGOgR7A&s",
                 url: "https://www.instagram.com/sdsu.gwc/?hl=en"
             },
             {
-                name: "San Diego VR - Escape Reality",
+                name: "World Computing Organization (WCO)",
+                logo: "https://media.discordapp.net/attachments/1415038021379555398/1425967275231547502/WCO_Logo.png?ex=68e98303&is=68e83183&hm=f5c7cab5cbe901ce4b7512e9349f1843ebe5926ef15e33f5f8f912cf1559d184&=&format=webp&quality=lossless",
+                url: "https://worldcomputing.org/",
+            },
+            {
+                name: "San Diego VR",
                 logo: "https://www.sandiegovr.com/_next/image?url=%2Flogo-light.png&w=1080&q=75",
                 url: "https://www.sandiegovr.com/",
-            }
+            },
         ]
     }
 ];
