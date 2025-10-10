@@ -24,8 +24,13 @@ const blank = "https://img.freepik.com/premium-vector/default-avatar-profile-ico
 const committee = [
     {
         name: "Isabella King",
-        position: "Chair",
+        position: "Committee Chair",
         photo: require("../../images/officers25/bella.png"),
+    },
+    {
+        name: "Manju Muralidharan Priya",
+        position: "Faculty Advisor",
+        photo: require("../../images/hack25/committee/manju.jpg"),
     },
     {
         name: "Everett Richards",
@@ -35,17 +40,17 @@ const committee = [
     {
         name: "Justin Pelak",
         position: "Member, CTRL President, AI Club President",
-        photo: blank,
+        photo: "https://media.licdn.com/dms/image/v2/D5603AQHUSG5rSdE5Pg/profile-displayphoto-shrink_800_800/B56ZSgCEzGHQAg-/0/1737851686946?e=1762992000&v=beta&t=KVwsQ6h4OPr7v-eNs7kaPMKDmDzcMSEx33A41vA2c2Q",
     },
     {
         name: "Amelia Grevin",
         position: "Member, GWC President",
-        photo: blank,
+        photo: "https://media.licdn.com/dms/image/v2/D5603AQFIxWLKgqLoWw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1690661812589?e=1762992000&v=beta&t=H82zR8fFDcqGDuOqiH39gxdpYw0oQsYB4z2mVhSTxd8",
     },
     {
         name: "Enzo Weiss",
         position: "Member, WCO President",
-        photo: blank,
+        photo: require("../../images/hack25/committee/enzo.jpg"),
     },
     {
         name: "Caleb Dickson",
@@ -55,37 +60,32 @@ const committee = [
     {
         name: "Richie Walcher",
         position: "Member",
-        photo: blank,
+        photo: "https://media.licdn.com/dms/image/v2/D5603AQG7mi5bb9xDZQ/profile-displayphoto-shrink_800_800/B56ZY6GWUAGoAc-/0/1744731465337?e=1762992000&v=beta&t=TVRAvgy0GVrpF0T-E9mAClozOhaX88iXgmjx59LeNLs",
     },
     {
         name: "Paul Steitz",
         position: "Member",
-        photo: blank,
+        photo: "https://media.licdn.com/dms/image/v2/D5603AQFd9sSEDP8WGw/profile-displayphoto-crop_800_800/B56ZelLua.HQAI-/0/1750823004234?e=1762992000&v=beta&t=4_45YChgor_AOrqnzuzPmYlk-P63UloGIYdFqEsUoWA",
     },
     {
-        name: "Matthew Hernandez",
+        name: "Mathew Hernandez",
         position: "Member",
         photo: blank,
     },
     {
         name: "Patricia Alfonso",
         position: "Member",
-        photo: blank,
+        photo: "https://media.licdn.com/dms/image/v2/D4D03AQEx6NRYOVWYAQ/profile-displayphoto-shrink_400_400/B4DZUsqwfEHAAg-/0/1740211161315?e=1762992000&v=beta&t=kCMZc-PWu8tUcQev8AWJHExkN4EgakaOt0iC62gJSAg",
     },
     {
         name: "Avishka Wickramaratna",
         position: "Member",
-        photo: blank,
+        photo: "https://sdsucyb.org/images/Avi_headshot.jpg",
     },
     {
         name: "Tanish Gheewala",
         position: "Member",
         photo: require("../../images/officers25/tanish.png"),
-    },
-    {
-        name: "Priya Manju Muralidharan",
-        position: "Faculty Advisor",
-        photo: require("../../images/hack25/committee/manju.jpg"),
     },
 ]
 
