@@ -83,6 +83,11 @@ const committee = [
         photo: "https://sdsucyb.org/images/Avi_headshot.jpg",
     },
     {
+        name: "Roger",
+        position: "Member",
+        photo: blank,
+    },
+    {
         name: "Tanish Gheewala",
         position: "Member",
         photo: require("../../images/officers25/tanish.png"),
