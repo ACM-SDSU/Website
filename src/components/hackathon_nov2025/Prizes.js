@@ -1,5 +1,5 @@
 import React from "react";
-import {HackLogo} from "../Modules"
+import { HackLogo } from "../Modules"
 
 const blank = "https://www.booksie.com/files/profiles/22/mr-anonymous_230x230.png?0000-00-00%2000:00:00"
 
@@ -33,13 +33,18 @@ const prizes = [
     // },
 ]
 
-export default function Prizes({headerStyle}) {
+export default function Prizes({ headerStyle }) {
     return (
         <section id="prizes" class="pt-6 pb-12 items-center text-white">
             <h1 class="hackheader">Prizes</h1>
-            <p class="w-4/5 lg:w-2/3 mx-auto text-center md:text-xl xl:text-2xl">
-            Participants who develop creative, high-impact projects, are eligible to receive the following prizes.
-            </p>
+            <div class="w-4/5 lg:w-2/3 mx-auto text-center">
+                <p class="md:text-xl xl:text-2xl">
+                    Participants who develop innovative, creative, high-impact projects, will have the chance to win exciting prizes!
+                </p>
+                <p class="md:text-lg xl:text-xl mt-2 italic">
+                    Participants in the top three teams will get to choose from a pool of 12 prizes, including but not limited to the below.
+                </p>
+            </div>
             <div className="grid grid-cols-2 lg:grid-cols-3  md:w-[70%] lg:w-1/2 mx-auto justify-center gap-4 m-4">
                 {prizes.map((prize) => (
                     <div key={prize.id} className="min-h-32 min-w-16 text-center text-gray-200 p-2 bg-black/50 rounded-2xl border-2 border-acm-orange flex flex-col items-center justify-center">
@@ -55,7 +60,7 @@ export default function Prizes({headerStyle}) {
                     </div>
                 ))}
             </div>
-            <p class="w-4/5 lg:w-2/3 mx-auto text-center xl:text-2xl">...and many more!</p>
+            <p class="w-4/5 lg:w-2/3 mx-auto text-center xl:text-2xl">There will also be opportunities for additional prizes and giveaways throughout the event!</p>
         </section>
     );
 }

@@ -47,7 +47,7 @@ const sponsorLevels = [
             },
             {
                 name: "World Computing Organization (WCO)",
-                logo: "https://media.discordapp.net/attachments/1415038021379555398/1425967275231547502/WCO_Logo.png?ex=68e98303&is=68e83183&hm=f5c7cab5cbe901ce4b7512e9349f1843ebe5926ef15e33f5f8f912cf1559d184&=&format=webp&quality=lossless",
+                logo: "https://media.licdn.com/dms/image/v2/D4E0BAQHWLibSwnkGMQ/company-logo_200_200/company-logo_200_200/0/1734993524761/wcosdsu_logo?e=2147483647&v=beta&t=egpTDcruaLsCbt-Fa6Gj9-S-42OHE_TKycTDYCZtHq0",
                 url: "https://worldcomputing.org/",
             },
             {

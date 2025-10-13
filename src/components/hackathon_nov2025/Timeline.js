@@ -23,12 +23,6 @@ let chips = [
         event: "Final Registration Deadline. No registrations will be accepted after this date.",
         icon: require("../../images/hack25/proposal_final.jpeg"),
     },
-    // {
-    //     date: "November 13",
-    //     weekday: "Thursday",
-    //     event: "Project Proposal Submission Deadline by 11:59 PM. Late submissions will not be accepted.",
-    //     icon: require("../../images/hack25/projectdue_final.jpeg"),
-    // },
     {
         date: "November 15 & 16",
         weekday: "Saturday & Sunday",
@@ -39,16 +33,14 @@ let chips = [
 
 export default function Timeline({headerStyle}){
     return (
-        <section id="timeline" className="pt-6 pb-12 items-center text-white">
-            <h1 className="hackheader">Hackathon Timeline</h1>
-            {/* <p className="text-center text-2xl mt-6 p-2">
-                View the Hackathon Timeline below for more information about important dates and times.
-            </p> */}
-            <div className="flex flex-wrap justify-center gap-6 py-6">
+        // <section id="timeline" className="pt-6 pb-12 items-center text-white">
+        <section id="timeline">
+            {/* <h1 className="hackheader">Hackathon Timeline</h1> */}
+            <div className="flex flex-wrap justify-center gap-6 py-0">
                 {chips.map((chip) => (
                     <div
                         key={chip.date}
-                        className="rounded-xl shadow-lg flex flex-col items-center w-full max-w-xs p-6 m-2 border-2 shadow-lg duration-200 bg-black/60 border-acm-yellow"
+                        className="rounded-xl shadow-lg flex flex-col items-center w-full max-w-xs px-5 py-3 m-2 border-2 shadow-lg duration-200 bg-black/60 border-acm-yellow"
                     >
                         <div className="text-center mb-2">
                             <div className="text-base lg:text-lg font-semibold text-acm-blue">{chip.weekday}</div>

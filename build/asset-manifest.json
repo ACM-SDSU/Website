@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.9ee030fe.css",
-    "main.js": "/static/js/main.0086a3b7.js",
+    "main.css": "/static/css/main.48510153.css",
+    "main.js": "/static/js/main.4c2e7ef6.js",
     "static/js/453.779f1c83.chunk.js": "/static/js/453.779f1c83.chunk.js",
+    "static/media/caleb.png": "/static/media/caleb.beb49b8efb2dfec81a5c.png",
     "static/media/manju.jpg": "/static/media/manju.1f44df623bcc31bc07e3.jpg",
     "static/media/everett.jpg": "/static/media/everett.f2733e877429cbfb7769.jpg",
+    "static/media/patricia.jpg": "/static/media/patricia.d0c3ec8036fa6386fe52.jpg",
     "static/media/kurt.png": "/static/media/kurt.1b668424f342da7490a2.png",
     "static/media/everett.png": "/static/media/everett.58c6ed25caad8df4f5ed.png",
     "static/media/lecture.jpg": "/static/media/lecture.2532c94afee880543218.jpg",
@@ -40,15 +42,16 @@
     "static/media/small_meeting.JPG": "/static/media/small_meeting.8d4bf1390d5596cb3a9c.JPG",
     "static/media/google.png": "/static/media/google.1a0437279553e2e75d52.png",
     "static/media/competition.jpg": "/static/media/competition.cddb31550f1c368a0088.jpg",
+    "static/media/mathew.jpg": "/static/media/mathew.3366034ab0c2ac750838.jpg",
     "static/media/cssc.svg": "/static/media/cssc.13d48460ab01d087e79ca512a5f959b3.svg",
     "static/media/jake.JPG": "/static/media/jake.d8f8df7d9bc597b26b61.JPG",
     "index.html": "/index.html",
-    "main.9ee030fe.css.map": "/static/css/main.9ee030fe.css.map",
-    "main.0086a3b7.js.map": "/static/js/main.0086a3b7.js.map",
+    "main.48510153.css.map": "/static/css/main.48510153.css.map",
+    "main.4c2e7ef6.js.map": "/static/js/main.4c2e7ef6.js.map",
     "453.779f1c83.chunk.js.map": "/static/js/453.779f1c83.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ee030fe.css",
-    "static/js/main.0086a3b7.js"
+    "static/css/main.48510153.css",
+    "static/js/main.4c2e7ef6.js"
   ]
 }

@@ -23,7 +23,7 @@ const hackathon_buttons = [
   ["Prizes", "prizes"],
   ["Prompt", "prompt"],
   ["GenAI Policy", "ai_policy"],
-  ["Timeline", "timeline"],
+  // ["Timeline", "timeline"],
   // ["Logistics","logistics"],
   ["Register","register"],
   // ["FAQs", "faq"],
@@ -48,7 +48,7 @@ function Hackathon() {
         <Judges headerStyle={headerStyle} />
         <Prizes headerStyle={headerStyle} />
         <Prompt headerStyle={headerStyle} />
-        <Timeline headerStyle={headerStyle} />
+        {/* <Timeline headerStyle={headerStyle} /> */}
         {/* <Logistics headerStyle={headerStyle} /> */}
         <Register headerStyle={headerStyle} />
         <Committee headerStyle={headerStyle} />

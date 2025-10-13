@@ -43,6 +43,11 @@ const committee = [
         photo: "https://media.licdn.com/dms/image/v2/D5603AQHUSG5rSdE5Pg/profile-displayphoto-shrink_800_800/B56ZSgCEzGHQAg-/0/1737851686946?e=1762992000&v=beta&t=KVwsQ6h4OPr7v-eNs7kaPMKDmDzcMSEx33A41vA2c2Q",
     },
     {
+        name: "Tanish Gheewala",
+        position: "Member, CTRL Secretary",
+        photo: require("../../images/officers25/tanish.png"),
+    },
+    {
         name: "Amelia Grevin",
         position: "Member, GWC President",
         photo: "https://media.licdn.com/dms/image/v2/D5603AQFIxWLKgqLoWw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1690661812589?e=1762992000&v=beta&t=H82zR8fFDcqGDuOqiH39gxdpYw0oQsYB4z2mVhSTxd8",
@@ -55,7 +60,7 @@ const committee = [
     {
         name: "Caleb Dickson",
         position: "Member",
-        photo: "https://media.discordapp.net/attachments/1415038021379555398/1425959451311210496/calebProf.png?ex=68e97bba&is=68e82a3a&hm=83250db65cbf5aca310a5abd121326075d3d1146be579ebdf0f613b13dc22bad&=&format=webp&quality=lossless&width=698&height=902",
+        photo: require("../../images/hack25/committee/caleb.png"),
     },
     {
         name: "Richie Walcher",
@@ -65,17 +70,17 @@ const committee = [
     {
         name: "Paul Steitz",
         position: "Member",
-        photo: "https://media.licdn.com/dms/image/v2/D5603AQFd9sSEDP8WGw/profile-displayphoto-crop_800_800/B56ZelLua.HQAI-/0/1750823004234?e=1762992000&v=beta&t=4_45YChgor_AOrqnzuzPmYlk-P63UloGIYdFqEsUoWA",
+        photo: require("../../images/hack25/committee/paul.jpg"),
     },
     {
         name: "Mathew Hernandez",
         position: "Member",
-        photo: blank,
+        photo: require("../../images/hack25/committee/mathew.jpg"),
     },
     {
         name: "Patricia Alfonso",
         position: "Member",
-        photo: "https://media.licdn.com/dms/image/v2/D4D03AQEx6NRYOVWYAQ/profile-displayphoto-shrink_400_400/B4DZUsqwfEHAAg-/0/1740211161315?e=1762992000&v=beta&t=kCMZc-PWu8tUcQev8AWJHExkN4EgakaOt0iC62gJSAg",
+        photo: require("../../images/hack25/committee/patricia.jpg"),
     },
     {
         name: "Avishka Wickramaratna",
@@ -83,14 +88,9 @@ const committee = [
         photo: "https://sdsucyb.org/images/Avi_headshot.jpg",
     },
     {
-        name: "Roger",
+        name: "Roger Dao",
         position: "Member",
         photo: blank,
-    },
-    {
-        name: "Tanish Gheewala",
-        position: "Member",
-        photo: require("../../images/officers25/tanish.png"),
     },
 ]
 
