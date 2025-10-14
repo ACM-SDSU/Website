@@ -12,7 +12,7 @@ import { HackLogo } from "../Modules";
 
 let chips = [
     {
-        date: "October 24",
+        date: "October 31",
         weekday: "Friday",
         event: "Priority Registration Deadline. We cannot guarantee spots after this date, so register ASAP!",
         icon: require("../../images/hack25/lastday_final.jpeg"),

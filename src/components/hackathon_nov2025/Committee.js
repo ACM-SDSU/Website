@@ -85,7 +85,7 @@ const committee = [
     {
         name: "Avishka Wickramaratna",
         position: "Member",
-        photo: "https://sdsucyb.org/images/Avi_headshot.jpg",
+        photo: require("../../images/hack25/committee/avi.jpg"),
     },
     {
         name: "Roger Dao",

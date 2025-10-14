@@ -34,6 +34,11 @@ const sponsorLevels = [
                 logo: require("../../images/hack25/Sony_Logo_K_Nrule-black.jpg"),
                 url: "https://www.sony.com/"
             },
+            {
+                name: "Society of American Military Engineers (SAME)",
+                logo: require("../../images/hack25/same.png"),
+                url: "https://same.org/"
+            }
         ]
     },
     {
@@ -67,8 +72,8 @@ export default function Sponsors({ headerStyle }) {
                 return "max-w-[400px] max-h-[160px]";
             case "Bit Supporters":
                 return "max-w-[250px] max-h-[125px]";
-            default:
-                return "max-w-[300px] max-h-[140px]";
+            default: // Byte Supporters
+                return "max-w-[300px] max-h-[156px]";
         }
     };
 
@@ -83,7 +88,7 @@ export default function Sponsors({ headerStyle }) {
                                 <h2 className="text-2xl font-bold text-yellow-300 mb-2 lg:mb-5 text-center">
                                     {level.level} <span className="text-white text-lg">({level.amount})</span>
                                 </h2>
-                                <div className="flex flex-wrap justify-center gap-x-8">
+                                <div className="flex flex-wrap justify-center gap-x-8 items-center">
                                     {level.sponsors.map((sponsor) => (
                                         <a
                                             key={sponsor.name}
