@@ -29,7 +29,7 @@ export default function Navbar({ navItems, logotype }) {
 
   return (
     <header className="bg-acm-dark-blue md:sticky top-0 z-[200] border-b-2 border-gray-900">
-      <div className="container flex flex-wrap p-1 xl:py-2 flex-col md:flex-row items-center">
+      <div className="w-full px-4 flex flex-wrap p-1 xl:py-2 flex-col md:flex-row items-center">
         <div className="flex w-auto justify-between items-center">
           {logotype === "acm" && (
             <button
@@ -79,7 +79,7 @@ export default function Navbar({ navItems, logotype }) {
         <nav
           className={`${
             menuOpen ? "flex" : "hidden"
-          } flex-col md:flex md:flex-row md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-900 items-center text-lg justify-center text-gray-200 w-full md:w-auto`}
+          } flex-col md:flex md:flex-row md:flex-wrap md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-900 items-center text-lg justify-center text-gray-200 w-full md:w-auto`}
         >
           {navItems.map((button, index) =>
             button[1] === "hackathon" ? (

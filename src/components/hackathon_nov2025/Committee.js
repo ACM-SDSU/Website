@@ -2,10 +2,10 @@ import React from "react";
 
 function OfficerCards({officers}) {
     return (
-        <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 justify-center items-stretch gap-2 md:gap-4 m-4">
+        <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 justify-center items-stretch gap-2 md:gap-3 m-4">
             {officers.map((officer) => (
                 <div key={officer.id} className="min-h-12 min-w-16 text-center text-gray-200
-                bg-black/60 border-2 border-acm-blue
+                bg-black/60 border-4 border-acm-blue
                 p-1 md:p-4 rounded-lg flex flex-col items-center justify-center h-full"
                 >
                     <img src={officer.photo} class="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 xl:w-48 xl:h-48 mb-1 rounded-xl bg-gray-300"></img>

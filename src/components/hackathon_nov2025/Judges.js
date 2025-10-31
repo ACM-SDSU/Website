@@ -1,7 +1,15 @@
 import React from "react";
-import {HackLogo} from "../Modules"
+import { HackLogo } from "../Modules"
+import { useState } from "react";
 
 const judges = [
+    {
+        name: "Brij Mohan",
+        position: "Vice President, LPL Financial",
+        url: "",
+        photo: require("../../images/hack25/judges_nov25/brij_photo.jpg"),
+        description: "Brij Mohan is an accomplished technology leader with over 25 years of experience architecting enterprise-scale financial solutions. Currently Vice President - Principal Software Dev. at LPL Financial, he leads teams working extensively with AI/ML, Generative AI, Agentic AI, Data analytics, AWS cloud technologies, and API development, where his role involves evaluating innovative technical solutions, assessing their scalability and real-world impact, and mentoring development teams. He has served as a judge for technology innovation, business and leadership awards, evaluating cutting-edge solutions across diverse sectors and assessing technical merit and practical impact. He holds multiple AWS certifications including Solutions Architect Professional and Machine Learning Engineer - Associate, is a PMP, and actively contributes to IEEE as Senior Member and ACM professional communities."
+    },
     {
         name: "Nadeem Bulsara",
         position: "Principal Solutions Architect, AWS",
@@ -24,13 +32,6 @@ const judges = [
         description: "Balakrishnan Srinivasan is an expert in DSP and embedded software and firmware development for wireless communication protocols with focus on physical layer. With extensive experience spanning 3G, 4G, and 5G cellular device design, development, and verification, he has contributed to leading-edge innovations at companies like Motorola Mobility, Intel, and Apple. His work has focused on pre- and post-silicon software validation across multiple generations of wireless chipsets, consistently driving improvements in power, performance, and area. Outside of work, Balakrishnan enjoys cricket, hiking and playing board games."
     },
     {
-        name: "Brij Mohan",
-        position: "Vice President - Principal Software Developer, LPL Financial",
-        url: "",
-        photo: require("../../images/hack25/judges_nov25/brij_photo.jpg"),
-        description: "Brij Mohan is an accomplished technology leader with over 25 years of experience architecting enterprise-scale financial solutions. Currently Vice President - Principal Software Dev. at LPL Financial, he leads teams working extensively with AI/ML, Generative AI, Agentic AI, Data analytics, AWS cloud technologies, and API development, where his role involves evaluating innovative technical solutions, assessing their scalability and real-world impact, and mentoring development teams. He has served as a judge for technology innovation, business and leadership awards, evaluating cutting-edge solutions across diverse sectors and assessing technical merit and practical impact. He holds multiple AWS certifications including Solutions Architect Professional and Machine Learning Engineer - Associate, is a PMP, and actively contributes to IEEE as Senior Member and ACM professional communities."
-    },
-    {
         name: "Shubham Pandey",
         position: "Senior Firmware Engineer, Qualcomm",
         url: "",
@@ -46,40 +47,100 @@ const judges = [
     },
 ]
 
-export default function Judges({headerStyle}) {
-    return (
-        <section id="judges" class="pt-6 pb-12 items-center text-white">
-            <h1 class="hackheader">Project Judges</h1>
-            {/* <p class="w-4/5 lg:w-2/3 mx-auto text-center xl:text-xl"><HackLogo /> has invited a diverse array of judges to evaluate the technical merits and potential impact of each project.<br />More judges will be announced in the coming weeks!</p> */}
-            <div className="mt-10 space-y-8 max-w-2xl mx-auto">
-                {judges.map((judge, idx) => (
-                    <div
-                        key={idx}
-                        className="flex items-start bg-black/60 bg-opacity-70 rounded-xl shadow-lg border-4 border-acm-blue p-5 hover:scale-[1.02] transition-transform"
+export default function Judges({ headerStyle }) {
+    const [/* placeholder to satisfy linter if needed */] = [];
+
+    return (function JudgesComponent() {
+        const [open, setOpen] = useState(() => judges.map(() => false));
+
+        const toggle = (i) =>
+            setOpen((prev) => {
+                const next = [...prev];
+                next[i] = !next[i];
+                return next;
+            });
+
+        const allOpen = open.every(Boolean);
+        const toggleAll = () =>
+            setOpen((prev) => {
+                const all = prev.every(Boolean);
+                return prev.map(() => !all);
+            });
+
+        return (
+            <section id="judges" className="pt-6 pb-12 items-center text-white">
+                <h1 className="hackheader">Industry Judges</h1>
+
+                <div class="w-4/5 lg:w-[55%] mx-auto text-center">
+                    <p class="md:text-xl xl:text-2xl">
+                        Our team of talented industry judges will use their expertise to evaluate hackathon projects based on creativity, technical complexity, impact, and presentation.
+                    </p>
+                </div>
+
+                <div className="flex items-center justify-between mb-4 px-4 lg:px-10">
+                    <button
+                        onClick={toggleAll}
+                        className="px-4 py-2 text-sm bg-blue-600 hover:bg-blue-700 rounded-md text-white transition"
                     >
-                        <img
-                            src={judge.photo}
-                            alt={judge.name}
-                            className="w-20 h-20 rounded-full object-cover border-4 border-blue-500 shadow-md mr-6"
-                        />
-                        <div>
-                            <a
-                                href={judge.url}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-xl font-bold text-blue-400 hover:underline"
-                            >
-                                {judge.name}
-                            </a>
-                            <div className="text-sm text-gray-300 mb-2">{judge.position}</div>
-                            <p className="text-gray-200 lg:text-sm">
-                                {judge.description ||
-                                    "Judge bio coming soon. Stay tuned for more information about our distinguished panel!"}
-                            </p>
+                        {allOpen ? "Hide all" : "Show All Bios"}
+                    </button>
+                </div>
+
+                <div className="mt-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto px-4 lg:px-10">
+                    {judges.map((judge, idx) => (
+                        <div
+                            key={idx}
+                            className="flex flex-col bg-black/60 rounded-xl shadow-lg border-4 border-acm-blue p-5 hover:scale-[1.02] transition-transform"
+                        >
+                            <div className="flex items-start space-x-4">
+                                <img
+                                    src={judge.photo}
+                                    alt={judge.name}
+                                    className="w-28 h-28 lg:w-36 lg:h-36 rounded-3xl object-cover border-4 border-blue-500 shadow-md flex-shrink-0"
+                                />
+                                <div className="flex-1 min-w-0">
+                                    <div className="flex items-start justify-between">
+                                        <div>
+                                            {judge.url ? (
+                                                <a
+                                                    href={judge.url}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="text-lg md:text-xl lg:text-2xl font-bold text-blue-400 hover:underline break-words"
+                                                >
+                                                    {judge.name}
+                                                </a>
+                                            ) : (
+                                                <div className="text-lg md:text-xl lg:text-2xl font-bold text-blue-400 break-words">
+                                                    {judge.name}
+                                                </div>
+                                            )}
+                                            <div className="text-base md:text-lg lg:text-xl text-gray-300 mt-1">{judge.position}</div>
+                                        </div>
+
+                                        <div className="ml-4">
+                                            <button
+                                                onClick={() => toggle(idx)}
+                                                aria-expanded={open[idx]}
+                                                className="inline-block px-3 py-1 text-sm bg-blue-600 hover:bg-blue-700 rounded-md text-white transition"
+                                            >
+                                                {open[idx] ? "Hide Bio" : "Show Bio"}
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    {open[idx] && (
+                                        <p className="text-gray-200 text-sm mt-3 leading-relaxed">
+                                            {judge.description ||
+                                                "Judge bio coming soon. Stay tuned for more information about our distinguished panel!"}
+                                        </p>
+                                    )}
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                ))}
-            </div>
-        </section>
-    );
+                    ))}
+                </div>
+            </section>
+        );
+    })();
 }
