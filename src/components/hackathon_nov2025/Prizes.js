@@ -15,9 +15,14 @@ const prizes = [
         value: "$250",
     },
     {
-        title: "Amazon Gift Card",
-        photo: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6545/6545175_sd.jpg",
+        title: "Apple Watch",
+        photo: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MYG03ref_FV98_VW_34FR+watch-case-44-aluminum-midnight-nc-se3_VW_34FR+watch-face-44-aluminum-midnight-se3_VW_34FR?wid=752&hei=720&bgc=fafafa&trim=1&fmt=p-jpg&qlt=80&.v=OUh6OFdFVEJxVkF6SUo5TWxpTE50MG5TeWJ6QW43NUFnQ2V4cmRFc1VnWWxvMTNVeXVWaTk0Ui9PSEVKVVU0d1lhaWUxTWU2aU04eE1hTy9TdWx3bWRGNnlaeXQ4NGFKQTAzc0NGeHR2aVovaXdUUWpjcUxCU0VQMFk3TFQ4aVV3MWtUbEY3SEFHcklpYWRuOHA5UEEveDMxaWg4TFhITTVrUW41Z084dENpYmZuSTdFUnErS0g3SWYxazQrNDdyRzE3K0tORmZaUy9vOVdqTEp2dmJNMlpHNW80UjJWZzYxTVdqVTNBWWxkVHoxUSt3MXdXOU45RlVNNm9vaUhPUw",
         value: "$250",
+    },
+    {
+        title: "DJI Neo Drone",
+        photo: "https://macstarcamera.com/wp-content/uploads/2024/09/1725526207_IMG_2316075.jpg",
+        value: "$200",
     },
     // {
     //     title: "Anker Bluetooth Speaker",
@@ -42,21 +47,21 @@ export default function Prizes({ headerStyle }) {
                     Participants who develop innovative, creative, high-impact projects, will have the chance to win exciting prizes!
                 </p>
                 <p class="md:text-lg xl:text-xl mt-2 italic">
-                    Participants in the top three teams will get to choose from a pool of 12 prizes, including but not limited to the below.
+                    Participants in the top three teams will get to choose from a pool of 12 prizes, including but not limited to those below.
                 </p>
             </div>
-            <div className="grid grid-cols-2 lg:grid-cols-3  md:w-[70%] lg:w-1/2 mx-auto justify-center gap-4 m-4">
+            <div className="grid grid-cols-2 lg:grid-cols-4  md:w-[70%] lg:w-[58%] mx-auto justify-center gap-4 m-4 lg:my-12">
                 {prizes.map((prize) => (
                     <div key={prize.id} className="min-h-32 min-w-16 text-center text-gray-200 p-2 bg-black/50 rounded-2xl border-2 border-acm-orange flex flex-col items-center justify-center">
                         <img src={prize.photo} class="h-32 xl:h-40 w-auto mx-auto mb-1 rounded-xl bg-none"></img>
                         <p class="text-xl flex items-center justify-center space-x-2 font-bold mt-2">
                             {prize.title}
                         </p>
-                        {prize.value && (
+                        {/* {prize.value && (
                             <p class="text-lg flex items-center justify-center space-x-2">
                                 ({prize.value} value)
                             </p>
-                        )}
+                        )} */}
                     </div>
                 ))}
             </div>

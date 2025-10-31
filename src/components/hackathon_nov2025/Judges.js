@@ -18,11 +18,32 @@ const judges = [
     },
     {
         name: "Balakrishnan Srinivasan",
-        position: "Firmware Engineer, Apple",
+        position: "Firmware Engineer, Apple Inc.",
         url: "",
         photo: require("../../images/hack25/judges_nov25/balak_photo.jpg"),
         description: "Balakrishnan Srinivasan is an expert in DSP and embedded software and firmware development for wireless communication protocols with focus on physical layer. With extensive experience spanning 3G, 4G, and 5G cellular device design, development, and verification, he has contributed to leading-edge innovations at companies like Motorola Mobility, Intel, and Apple. His work has focused on pre- and post-silicon software validation across multiple generations of wireless chipsets, consistently driving improvements in power, performance, and area. Outside of work, Balakrishnan enjoys cricket, hiking and playing board games."
-    }
+    },
+    {
+        name: "Brij Mohan",
+        position: "Vice President - Principal Software Developer, LPL Financial",
+        url: "",
+        photo: require("../../images/hack25/judges_nov25/brij_photo.jpg"),
+        description: "Brij Mohan is an accomplished technology leader with over 25 years of experience architecting enterprise-scale financial solutions. Currently Vice President - Principal Software Dev. at LPL Financial, he leads teams working extensively with AI/ML, Generative AI, Agentic AI, Data analytics, AWS cloud technologies, and API development, where his role involves evaluating innovative technical solutions, assessing their scalability and real-world impact, and mentoring development teams. He has served as a judge for technology innovation, business and leadership awards, evaluating cutting-edge solutions across diverse sectors and assessing technical merit and practical impact. He holds multiple AWS certifications including Solutions Architect Professional and Machine Learning Engineer - Associate, is a PMP, and actively contributes to IEEE as Senior Member and ACM professional communities."
+    },
+    {
+        name: "Shubham Pandey",
+        position: "Senior Firmware Engineer, Qualcomm",
+        url: "",
+        photo: require("../../images/hack25/judges_nov25/shubham_photo.jpg"),
+        description: "Shubham Pandey is a Senior Firmware Engineer at Qualcomm, with nearly a decade of experience in embedded systems, Linux/QNX kernel development, and performance optimization. Before Qualcomm, he worked at Samsung Semiconductor and Intel, contributing to core platform technologies across automotive and consumer devices. He brings deep expertise in system software design, hardware–software integration, and product innovation. Shubham is passionate about mentoring engineers, leveraging AI to enhance development efficiency, and fostering creativity through hands-on innovation challenges. Outside of work, he enjoys traveling and is an avid cinephile.",
+    },
+    {
+        name: "Drishti Idnani",
+        position: "Independent Data Scientist and Analytics Consultant",
+        url: "https://drishtiidnani.com/",
+        photo: require("../../images/hack25/judges_nov25/drishti_photo.jpg"),
+        description: "Drishti Idnani is an independent Data Scientist and analytics consultant who helps organizations design scalable forecasting models, automation pipelines, and data-driven decision systems. She has led large-scale analytics and automation initiatives at ASUS and Intel, where her work shaped data strategy across product, operations, and forecasting domains - driving decisions at the senior leadership level. Beyond her industry experience, Drishti is deeply engaged in the hackathon and academic ecosystem. She has judged at MHacks 17 (University of Michigan), mentored at CalHacks (UC Berkeley) and the AI Futures Hackathon (Laney College), and serves on Laney College’s AI Advisory Board, where she supports efforts to make AI education more applied and accessible. She’s passionate about helping teams bridge creativity and analytics - turning early ideas into solutions that are impactful, explainable, and human-centered.",
+    },
 ]
 
 export default function Judges({headerStyle}) {

@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.c3f90181.css",
-    "main.js": "/static/js/main.523ec1cf.js",
+    "main.css": "/static/css/main.29198384.css",
+    "main.js": "/static/js/main.3826a135.js",
     "static/js/453.779f1c83.chunk.js": "/static/js/453.779f1c83.chunk.js",
     "static/media/caleb.png": "/static/media/caleb.beb49b8efb2dfec81a5c.png",
     "static/media/manju.jpg": "/static/media/manju.1f44df623bcc31bc07e3.jpg",
+    "static/media/brij_photo.jpg": "/static/media/brij_photo.d1fe6be1fcad599ed083.jpg",
     "static/media/everett.jpg": "/static/media/everett.f2733e877429cbfb7769.jpg",
     "static/media/avi.jpg": "/static/media/avi.3492af5e16e99d9422de.jpg",
     "static/media/patricia.jpg": "/static/media/patricia.d0c3ec8036fa6386fe52.jpg",
@@ -26,9 +27,11 @@
     "static/media/hackbg2.jpeg": "/static/media/hackbg2.81e6ab67e9156f58ba34.jpeg",
     "static/media/projectdue_final.jpeg": "/static/media/projectdue_final.e33fa759afae69aae198.jpeg",
     "static/media/Sony_Logo_K_Nrule-black.jpg": "/static/media/Sony_Logo_K_Nrule-black.505ab3d0bac8abae0d10.jpg",
+    "static/media/shubham_photo.jpg": "/static/media/shubham_photo.f4ea8d1559adc33e042b.jpg",
     "static/media/lastday_final.jpeg": "/static/media/lastday_final.6a503ea9f1855c91a6d9.jpeg",
     "static/media/hackbg1.jpeg": "/static/media/hackbg1.86abbd9080bb842a9baa.jpeg",
     "static/media/ComputerChip.jpg": "/static/media/ComputerChip.386e64ab850e6de624e3.jpg",
+    "static/media/Brandon_Garate.jpg": "/static/media/Brandon_Garate.a2ca9038bfd650e78c20.jpg",
     "static/media/bella.png": "/static/media/bella.f337b881f2fc6d1eb83c.png",
     "static/media/proposal_final.jpeg": "/static/media/proposal_final.9402c2ea352ec98224b0.jpeg",
     "static/media/nadeem_photo.jpeg": "/static/media/nadeem_photo.72e3d74e381f29e01b99.jpeg",
@@ -43,17 +46,18 @@
     "static/media/everett_old.jpg": "/static/media/everett_old.2b178de111916b34a3ad.jpg",
     "static/media/small_meeting.JPG": "/static/media/small_meeting.8d4bf1390d5596cb3a9c.JPG",
     "static/media/google.png": "/static/media/google.1a0437279553e2e75d52.png",
+    "static/media/drishti_photo.jpg": "/static/media/drishti_photo.ce55ae829f78f3cc2b77.jpg",
     "static/media/competition.jpg": "/static/media/competition.cddb31550f1c368a0088.jpg",
     "static/media/mathew.jpg": "/static/media/mathew.3366034ab0c2ac750838.jpg",
     "static/media/cssc.svg": "/static/media/cssc.13d48460ab01d087e79ca512a5f959b3.svg",
     "static/media/jake.JPG": "/static/media/jake.d8f8df7d9bc597b26b61.JPG",
     "index.html": "/index.html",
-    "main.c3f90181.css.map": "/static/css/main.c3f90181.css.map",
-    "main.523ec1cf.js.map": "/static/js/main.523ec1cf.js.map",
+    "main.29198384.css.map": "/static/css/main.29198384.css.map",
+    "main.3826a135.js.map": "/static/js/main.3826a135.js.map",
     "453.779f1c83.chunk.js.map": "/static/js/453.779f1c83.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3f90181.css",
-    "static/js/main.523ec1cf.js"
+    "static/css/main.29198384.css",
+    "static/js/main.3826a135.js"
   ]
 }

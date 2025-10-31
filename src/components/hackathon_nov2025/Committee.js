@@ -88,9 +88,9 @@ const committee = [
         photo: require("../../images/hack25/committee/avi.jpg"),
     },
     {
-        name: "Roger Dao",
+        name: "Brandon Garate",
         position: "Member",
-        photo: blank,
+        photo: require("../../images/hack25/committee/Brandon_Garate.jpg"),
     },
 ]
 
