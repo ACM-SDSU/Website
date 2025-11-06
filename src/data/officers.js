@@ -52,6 +52,12 @@ export const officers = [
         photo: require("../images/officers25/shelvy.png"),
     },
     {
+        name: "Patricia Alfonso",
+        position: "Media Chair",
+        major: "Computer Science",
+        photo: require("../images/hack25/committee/patricia.jpg")
+    },
+    {
         name: "Joann Chen",
         position: "Faculty Advisor",
         email: "jchen27@sdsu.edu",
