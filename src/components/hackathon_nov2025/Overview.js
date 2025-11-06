@@ -70,7 +70,7 @@ export default function Overview() {
             <ChipTitle>Time and Location</ChipTitle>
             <ChipContent>
               The <HackLogo /> Hackathon will take place on <b>Saturday & Sunday, November 15 & 16, 2025 </b>
-              from 9:00am–7:00pm in Templo Mayor, Aztec
+              from 9:00am–7:00pm in Montezuma Hall, Aztec
               Student Union.
             </ChipContent>
             <ChipButton bgcolor="bg-acm-orange" hovercolor="acm-orange" goal="timeline">

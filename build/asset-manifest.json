@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.4f7627d6.css",
-    "main.js": "/static/js/main.d19b18a6.js",
+    "main.css": "/static/css/main.3fc47c75.css",
+    "main.js": "/static/js/main.ab1dfec6.js",
     "static/js/453.779f1c83.chunk.js": "/static/js/453.779f1c83.chunk.js",
     "static/media/caleb.png": "/static/media/caleb.beb49b8efb2dfec81a5c.png",
+    "static/media/anishek.png": "/static/media/anishek.73d0ff3c7b06c98891dc.png",
     "static/media/manju.jpg": "/static/media/manju.1f44df623bcc31bc07e3.jpg",
     "static/media/brij_photo.jpg": "/static/media/brij_photo.d1fe6be1fcad599ed083.jpg",
     "static/media/everett.jpg": "/static/media/everett.f2733e877429cbfb7769.jpg",
@@ -49,15 +50,15 @@
     "static/media/drishti_photo.jpg": "/static/media/drishti_photo.ce55ae829f78f3cc2b77.jpg",
     "static/media/competition.jpg": "/static/media/competition.cddb31550f1c368a0088.jpg",
     "static/media/mathew.jpg": "/static/media/mathew.3366034ab0c2ac750838.jpg",
-    "static/media/cssc.svg": "/static/media/cssc.13d48460ab01d087e79ca512a5f959b3.svg",
+    "static/media/cssc.svg": "/static/media/cssc.00be85fe56095382c05902f61cf97ba7.svg",
     "static/media/jake.JPG": "/static/media/jake.d8f8df7d9bc597b26b61.JPG",
     "index.html": "/index.html",
-    "main.4f7627d6.css.map": "/static/css/main.4f7627d6.css.map",
-    "main.d19b18a6.js.map": "/static/js/main.d19b18a6.js.map",
+    "main.3fc47c75.css.map": "/static/css/main.3fc47c75.css.map",
+    "main.ab1dfec6.js.map": "/static/js/main.ab1dfec6.js.map",
     "453.779f1c83.chunk.js.map": "/static/js/453.779f1c83.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f7627d6.css",
-    "static/js/main.d19b18a6.js"
+    "static/css/main.3fc47c75.css",
+    "static/js/main.ab1dfec6.js"
   ]
 }

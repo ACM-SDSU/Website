@@ -13,11 +13,11 @@ export default function Logistics({ headerStyle }) {
                     <div className="rounded-xl border-2 border-acm-yellow bg-black/60 shadow-lg p-6 mb-8">
                         <span className="block">
                             <span className="font-bold text-xl xl:text-3xl text-acm-yellow">
-                                Location: SDSU Engineering Building, Room E-203
+                                Location: Montezuma Hall, Aztec Student Union
                             </span>
                             <br />
-                            <span className="italic text-lg xl:text-2xl">
-                                Enter through the main Engineering entrance. Signs and volunteers will guide you to E-203 on the second floor. Elevator access is available.
+                            <span className="italic text-lg xl:text-xl">
+                                Take the stairs or elevators to Montezuma Hall on the second floor of the Aztec Student Union. Park in <a target="_blank" href="https://maps.app.goo.gl/ofPNuC5knpqCbs7Z8" class="underline">Parking Lot 4</a> if you are driving to campus.
                             </span>
                         </span>
                     </div>
@@ -25,28 +25,13 @@ export default function Logistics({ headerStyle }) {
                     {/* Food */}
                     <div className="rounded-xl border border-acm-orange bg-black/40 shadow p-5 mb-6">
                         <span className="font-bold text-acm-orange text-lg xl:text-2xl">
-                            Food & Drinks
+                            Food & Drinks (EDIT BEFORE PUBLISHING)
                         </span>
                         <ul className="list-disc list-inside mt-2 text-base lg:text-base xl:text-xl">
-                            <li className="pb-1">Breakfast: Bagels, fruit, coffee, and juice (served 9:00–10:00am)</li>
-                            <li className="pb-1">Lunch: Pizza (vegetarian & meat options), salad, and drinks (served 12:30–1:30pm)</li>
-                            <li className="pb-1">Snacks: Chips, granola bars, and soda available all day</li>
-                            <li className="pb-1">Dinner: Burritos (vegan, vegetarian, and meat options) and drinks (served 6:30–7:30pm)</li>
-                        </ul>
-                    </div>
-
-                    {/* Attendance Hours */}
-                    <div className="rounded-xl border border-acm-orange bg-black/40 shadow p-5 mb-6">
-                        <span className="font-bold text-acm-orange text-lg xl:text-2xl">
-                            Attendance & Hours
-                        </span>
-                        <ul className="list-disc list-inside mt-2 text-base lg:text-base xl:text-xl">
-                            <li className="pb-1">Doors open: <span className="font-bold">8:30am</span></li>
-                            <li className="pb-1">Opening ceremony: <span className="font-bold">9:30am</span></li>
-                            <li className="pb-1">Project work: <span className="font-bold">10:00am – 8:00pm</span></li>
-                            <li className="pb-1">Demos & judging: <span className="font-bold">8:00pm – 9:00pm</span></li>
-                            <li className="pb-1">Event ends: <span className="font-bold">9:15pm</span></li>
-                            <li className="pb-1">You are expected to attend the opening, demo, and judging sessions. You may leave the room for breaks, but please check in with an organizer if you step out for more than 30 minutes.</li>
+                            <li className="pb-1">Breakfast: TBA</li>
+                            <li className="pb-1">Lunch: TBA</li>
+                            <li className="pb-1">Snacks: TBA</li>
+                            <li className="pb-1">Dinner: TBA</li>
                         </ul>
                     </div>
 
@@ -55,15 +40,26 @@ export default function Logistics({ headerStyle }) {
                         <span className="font-bold text-2xl xl:text-3xl text-acm-yellow">
                             Event Schedule
                         </span>
+                        <p class="text-lg font-bold text-acm-orange">Day One (Saturday, November 15)</p>
                         <ul className="list-disc list-inside mt-2 text-base lg:text-base xl:text-xl">
-                            <li className="pb-1"><span className="font-bold">8:30am:</span> Doors open, check-in, breakfast</li>
-                            <li className="pb-1"><span className="font-bold">9:30am:</span> Opening ceremony & rules</li>
-                            <li className="pb-1"><span className="font-bold">10:00am:</span> Hacking begins</li>
-                            <li className="pb-1"><span className="font-bold">12:30pm:</span> Lunch served</li>
-                            <li className="pb-1"><span className="font-bold">6:30pm:</span> Dinner served</li>
-                            <li className="pb-1"><span className="font-bold">8:00pm:</span> Project demos & judging</li>
-                            <li className="pb-1"><span className="font-bold">9:00pm:</span> Awards & closing remarks</li>
-                            <li className="pb-1"><span className="font-bold">9:15pm:</span> Event ends, clean up</li>
+                            <li className="pb-1"><span className="font-bold">9:00am:</span> Doors open, check-in, breakfast</li>
+                            <li className="pb-1"><span className="font-bold">9:30am:</span> Opening ceremony</li>
+                            <li className="pb-1"><span className="font-bold">10:30am:</span> Team formation & ice breakers</li>
+                            <li className="pb-1"><span className="font-bold">11:00am:</span> Hacking Time</li>
+                            <li className="pb-1"><span className="font-bold">1:00pm:</span> Lunch served</li>
+                            <li className="pb-1"><span className="font-bold">3:30pm:</span> Social Break & Kahoot Game</li>
+                            <li className="pb-1"><span className="font-bold">7:00pm:</span> End of Day One</li>
+                        </ul>
+                        <p class="text-lg font-bold text-acm-orange mt-4">Day Two (Sunday, November 16)</p>
+                        <ul className="list-disc list-inside mt-2 text-base lg:text-base xl:text-xl">
+                            <li className="pb-1"><span className="font-bold">9:00am:</span> Doors open, check-in, breakfast</li>
+                            <li className="pb-1"><span className="font-bold">9:30am:</span> Hacking Time</li>
+                            <li className="pb-1"><span className="font-bold">11:00am:</span> Social Break & Kahoot Game</li>
+                            <li className="pb-1"><span className="font-bold">1:00pm:</span> Lunch served</li>
+                            <li className="pb-1"><span className="font-bold">3:30pm:</span> Move to the Theater</li>
+                            <li className="pb-1"><span className="font-bold">4:00pm:</span> Project demos & judging</li>
+                            <li className="pb-1"><span className="font-bold">6:30pm:</span> Awards & closing remarks</li>
+                            <li className="pb-1"><span className="font-bold">7:00pm:</span> Event ends, clean up</li>
                         </ul>
                     </div>
                 </div>
