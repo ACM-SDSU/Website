@@ -2,7 +2,7 @@ import React from "react";
 
 function OfficerCards({ officers }) {
     return (
-        <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 justify-center items-stretch gap-2 md:gap-5 m-4">
+        <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 justify-center items-stretch gap-2 md:gap-5 m-4">
             {officers.map((officer) => (
                 <div key={officer.id} className="min-h-12 min-w-16 text-center text-gray-200
                 bg-black/60 border-4 border-acm-blue
@@ -53,6 +53,11 @@ const committee = [
         position: "Cyber Security Engineer, Viasat",
         photo: "https://media.licdn.com/dms/image/v2/D5603AQEm4Cwujwjcuw/profile-displayphoto-crop_800_800/B56ZmDSU0TJ4AM-/0/1758844244231?e=1763596800&v=beta&t=B00lkSswqy2ki-Gyh08eDsx48uUr3XTBFjqyJ7P6yv8",
     },
+    {
+        name: "Anishek Kamal",
+        position: "Founder, Debtzero",
+        photo: require("../../images/hack25/judges_nov25/anishek.png")
+    }
 ]
 
 export default function Mentors() {

@@ -19,7 +19,7 @@ let chips = [
     },
     {
         date: "November 8",
-        weekday: "Wednesday",
+        weekday: "Saturday",
         event: "Final Registration Deadline. No registrations will be accepted after this date.",
         icon: require("../../images/hack25/proposal_final.jpeg"),
     },

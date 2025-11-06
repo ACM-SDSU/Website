@@ -46,8 +46,12 @@ export default function Overview() {
           <HackLogo />
         </h1>
 
-        <h2 className="text-center text-2xl lg:text-4xl text-gray-300 w-full font-bold mb-4 drop-shadow-[0px_0px_3px_black]">
+        {/* <h2 className="text-center text-2xl lg:text-4xl text-gray-300 w-full font-bold mb-4 drop-shadow-[0px_0px_3px_black]">
           Proudly hosted by <CtrlSdsu />
+        </h2> */}
+
+        <h2 className="text-center text-2xl lg:text-4xl text-gray-300 w-full py-2 mb-4 drop-shadow-[0px_0px_3px_black] bg-red-600/70 text-white">
+          REGISTRATION CLOSES SATURDAY, NOVEMBER 8TH AT 11:59 PM
         </h2>
 
         <div className="flex flex-row flex-wrap gap-4 p-4 justify-center">
