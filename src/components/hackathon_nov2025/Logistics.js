@@ -6,37 +6,50 @@ import { HackLogo } from "../Modules";
 export default function Logistics({ headerStyle }) {
     return (
         <div>
-            <section id="logistics" className="pt-6 pb-12 items-center text-white lg:min-h-screen">
+            <section id="logistics" className="pt-6 pb-4 items-center text-white">
                 <h1 className="hackheader">Event Logistics</h1>
                 <div className="text-left mt-4 xl:mt-8 p-2 w-full md:w-[90%] lg:w-[45%] mx-auto">
                     {/* Location */}
                     <div className="rounded-xl border-2 border-acm-yellow bg-black/60 shadow-lg p-6 mb-8">
                         <span className="block">
-                            <span className="font-bold text-xl xl:text-3xl text-acm-yellow">
+                            <p className="font-bold text-xl xl:text-3xl text-acm-yellow">
                                 Location: Montezuma Hall, Aztec Student Union
-                            </span>
-                            <br />
-                            <span className="italic text-lg xl:text-xl">
-                                Take the stairs or elevators to Montezuma Hall on the second floor of the Aztec Student Union. Park in <a target="_blank" href="https://maps.app.goo.gl/ofPNuC5knpqCbs7Z8" class="underline">Parking Lot 4</a> if you are driving to campus.
-                            </span>
+                            </p>
+                            <p className="italic text-lg xl:text-xl mt-1">
+                                Saturday, November 15 - Sunday, November 16, 2025, 9:00 AM - 7:00 PM both days
+                            </p>
+                            <ul class="list-disc pl-4">
+                                <li className="text-base lg:text-lg mt-3">
+                                    Park in <a target="_blank" href="https://maps.app.goo.gl/ofPNuC5knpqCbs7Z8" className="underline">Parking Lot 4</a> if you are driving to campus.
+                                </li>
+                                <li className="text-base lg:text-lg mt-3">
+                                    Take the stairs or elevators to Montezuma Hall on the second floor of the Aztec Student Union.
+                                </li>
+                                <li className="text-base lg:text-lg mt-3">
+                                    Familiarize yourself with the <a href="/CTRLHackathonScheduleNov2025.pdf" target="_blank" className="underline">Printable Schedule</a>
+                                </li>
+                            </ul>
                         </span>
                     </div>
 
                     {/* Food */}
-                    <div className="rounded-xl border border-acm-orange bg-black/40 shadow p-5 mb-6">
-                        <span className="font-bold text-acm-orange text-lg xl:text-2xl">
-                            Food & Drinks (EDIT BEFORE PUBLISHING)
-                        </span>
+                    <div className="rounded-xl border border-acm-orange bg-black/40 shadow p-5">
+                        <p className="font-bold text-acm-orange text-lg xl:text-2xl">
+                            Food & Drinks
+                        </p>
+                        <p className="text-white text-base xl:text-lg">
+                            Complementary food, drinks, and snacks will be provided throughout the event. See the <a href="/CTRLHackathonScheduleNov2025.pdf" target="_blank" className="underline">Printable Schedule</a> for more details.
+                        </p>
                         <ul className="list-disc list-inside mt-2 text-base lg:text-base xl:text-xl">
-                            <li className="pb-1">Breakfast: TBA</li>
-                            <li className="pb-1">Lunch: TBA</li>
-                            <li className="pb-1">Snacks: TBA</li>
-                            <li className="pb-1">Dinner: TBA</li>
+                            <li className="pb-1">Breakfast: Einstein Bros. Bagels, Coffee (9:00am both days)</li>
+                            <li className="pb-1">Lunch: Costco Pizza (1:00pm both days)</li>
+                            <li className="pb-1">Snacks: Chips, Fruit Snacks (available all day)</li>
+                            <li className="pb-1">Drinks: Bottled Water, Soda (available all day)</li>
                         </ul>
                     </div>
 
                     {/* Schedule */}
-                    <div className="rounded-xl border-2 border-acm-yellow bg-black/60 shadow-lg p-6 mt-10 mb-2">
+                    {/* <div className="rounded-xl border-2 border-acm-yellow bg-black/60 shadow-lg p-6 mt-10 mb-2">
                         <span className="font-bold text-2xl xl:text-3xl text-acm-yellow">
                             Event Schedule
                         </span>
@@ -61,11 +74,11 @@ export default function Logistics({ headerStyle }) {
                             <li className="pb-1"><span className="font-bold">6:30pm:</span> Awards & closing remarks</li>
                             <li className="pb-1"><span className="font-bold">7:00pm:</span> Event ends, clean up</li>
                         </ul>
-                    </div>
+                    </div> */}
                 </div>
             </section>
 
-            <section id="bigdata_policy" className="pt-6 pb-12 items-center text-white">
+            <section id="bigdata_policy" className="pt-6 pb-4 items-center text-white">
                 <h1 className="hackheader">Big Data Hackathon Policy</h1>
                 <div className="text-left mt-4 xl:mt-8 p-2 w-full md:w-[90%] lg:w-1/2 mx-auto">
                     <div className="rounded-xl border-2 border-acm-yellow bg-black/60 shadow-lg p-6 mb-8">
@@ -75,7 +88,7 @@ export default function Logistics({ headerStyle }) {
                             </span>
                         </span>
                     </div>
-                    <div className="rounded-xl border border-acm-orange bg-black/40 shadow p-5 mb-6">
+                    <div className="rounded-xl border border-acm-orange bg-black/40 shadow p-5">
                         <span className="font-bold text-acm-orange text-lg xl:text-2xl">
                             Policy for Dual Participants
                         </span>

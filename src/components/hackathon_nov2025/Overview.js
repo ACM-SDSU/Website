@@ -46,12 +46,8 @@ export default function Overview() {
           <HackLogo />
         </h1>
 
-        {/* <h2 className="text-center text-2xl lg:text-4xl text-gray-300 w-full font-bold mb-4 drop-shadow-[0px_0px_3px_black]">
+        <h2 className="text-center text-2xl lg:text-4xl text-gray-300 w-full font-bold mb-4 drop-shadow-[0px_0px_3px_black]">
           Proudly hosted by <CtrlSdsu />
-        </h2> */}
-
-        <h2 className="text-center text-2xl lg:text-4xl text-gray-300 w-full py-2 mb-4 drop-shadow-[0px_0px_3px_black] bg-red-600/70 text-white">
-          REGISTRATION CLOSES SATURDAY, NOVEMBER 8TH AT 11:59 PM
         </h2>
 
         <div className="flex flex-row flex-wrap gap-4 p-4 justify-center">
@@ -73,18 +69,18 @@ export default function Overview() {
               from 9:00am–7:00pm in Montezuma Hall, Aztec
               Student Union.
             </ChipContent>
-            <ChipButton bgcolor="bg-acm-orange" hovercolor="acm-orange" goal="timeline">
-              Event Timeline
+            <ChipButton bgcolor="bg-acm-orange" hovercolor="acm-orange" goal="logistics">
+              Event Logistics
             </ChipButton>
           </InfoChip>
 
 		  <InfoChip bgcolor="bg-black/60 border-2 border-acm-orange" textcolor="text-gray-100">
-            <ChipTitle>Registration Now Open</ChipTitle>
+            <ChipTitle>Registration Closed</ChipTitle>
             <ChipContent>
-              Registration for <HackLogo /> is now open. Scroll to the Registration section or click the button below to sign up. We can't wait to see you there!
+              Registration for <HackLogo /> is now closed. We encourage you to join our Discord server to stay updated on future events!
             </ChipContent>
-            <ChipButton bgcolor="bg-acm-orange" hovercolor="acm-orange" goal="register">
-              Register Today
+            <ChipButton bgcolor="bg-acm-orange" hovercolor="acm-orange" goal="contact">
+              Discord Server & Contact
             </ChipButton>
           </InfoChip>
         </div>

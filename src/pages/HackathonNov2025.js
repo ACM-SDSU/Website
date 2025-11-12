@@ -1,7 +1,8 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Overview from "../components/hackathon_nov2025/Overview";
-import Register from "../components/hackathon_nov2025/Register";
+// import Register from "../components/hackathon_nov2025/Register";
+import Register from "../components/hackathon_nov2025/RegistrationClosed";
 import Sponsors from "../components/hackathon_nov2025/Sponsors";
 import Prompt from "../components/hackathon_nov2025/Prompt";
 import Contact from "../components/hackathon_nov2025/Contact";
@@ -19,6 +20,8 @@ import HackBG2 from "../images/logos/hackbg2.jpeg";
 
 const hackathon_buttons = [
   ["Home", "overview"],
+  ["Logistics","logistics"],
+  ["Registration","register"],
   ["Sponsors", "sponsors"],
   ["Industry Judges", "judges"],
   ["Project Mentors","mentors"],
@@ -26,8 +29,6 @@ const hackathon_buttons = [
   ["Theme & Prompt", "prompt"],
   ["GenAI Policy", "ai_policy"],
   // ["Timeline", "timeline"],
-  ["Logistics","logistics"],
-  ["Registration","register"],
   // ["FAQs", "faq"],
   ["Planning Committee","committee"],
   ["Contact", "contact"],
@@ -46,14 +47,14 @@ function Hackathon() {
       <main className="relative z-10 text-gray-900 body-font font-ACM bg-black/20">
         <Navbar navItems={hackathon_buttons} headerStyle={headerStyle} logotype={"acmctrl"} />
         <Overview headerStyle={headerStyle} />
+        <Logistics headerStyle={headerStyle} />
+        <Register headerStyle={headerStyle} />
         <Sponsors headerStyle={headerStyle} />
         <Judges headerStyle={headerStyle} />
         <Mentors headerStyle={headerStyle} />
         <Prizes headerStyle={headerStyle} />
         <Prompt headerStyle={headerStyle} />
         {/* <Timeline headerStyle={headerStyle} /> */}
-        <Logistics headerStyle={headerStyle} />
-        <Register headerStyle={headerStyle} />
         <Committee headerStyle={headerStyle} />
         {/* <FAQ headerStyle={headerStyle} /> */}
         <Contact headerStyle={headerStyle} />
