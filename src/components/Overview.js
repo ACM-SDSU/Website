@@ -14,14 +14,14 @@ export default function Overview() {
 					Welcome to <AcmAtSdsu />!
 				</h1>
 
-				<RouterLink
+				{/* <RouterLink
 					to="/hack"
 					className="mr-8 ml-1 hover:text-acm-yellow cursor-pointer"
 				>
 					<h2 class="text-4xl text-acm-yellow w-full hover:text-yellow-500 font-bold text-center mb-4 italic drop-shadow-[0px_0px_3px_black]">
 						Learn about the CTRL Hackathon on November 15, 2025
 					</h2>
-				</RouterLink>
+				</RouterLink> */}
 
 				<div class="flex flex-row flex-wrap gap-4 p-2 md:p-4 justify-center">
 					<InfoChip>
@@ -35,18 +35,18 @@ export default function Overview() {
 					<InfoChip>
 						<ChipTitle>Meeting Times</ChipTitle>
 						<ChipContent>
-							We host biweekly tech workshops on specific <b class="text-acm-light-blue">
-								Wednesdays
+							We host weekly tech workshops, competitions, and socials every <b class="text-acm-light-blue">
+								Monday
 							</b>
 							&nbsp;from&nbsp;
 							<b class="text-acm-light-blue">
-								4:00&nbsp;-&nbsp;5:00pm
+								3:30&nbsp;-&nbsp;5:30pm
 							</b> in <a href="https://maps.app.goo.gl/tgdibpQhui853wTw5" target="_blank" class="text-acm-light-blue">
 								<b class="underline hover:text-acm-blue">
-									E-300
+									GMCS 405
 								</b>
-							</a> (Engineering Building, Room 300)
-							, in addition to <b class="text-acm-light-blue">social events</b> and <b class="text-acm-light-blue">competitions</b> throughout the semester.
+							</a>
+							, in addition to <b class="text-acm-light-blue">special events</b> throughout the semester.
 						</ChipContent>
 						<ChipButton goal="events">
 							View Upcoming Events
@@ -59,9 +59,9 @@ export default function Overview() {
 							<ChipButton goal="contact">
 								Connect With Us
 							</ChipButton>
-							<ChipButton goal="https://forms.gle/LVFbpKRk7Aen4CjG9" external={true}>
+							{/* <ChipButton goal="https://forms.gle/LVFbpKRk7Aen4CjG9" external={true}>
 								Pay Your Dues
-							</ChipButton>
+							</ChipButton> */}
 						</div>
 					</InfoChip>
 					{/*<InfoChip>
