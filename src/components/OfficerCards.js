@@ -3,7 +3,7 @@ import { officers as curr } from "../data/officers";
 
 export default function OfficerCards({officers = curr}) {
     return (
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 justify-center items-stretch gap-2 md:gap-4 m-4">
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 justify-center items-stretch gap-2 md:gap-4 m-4">
             {officers.map((officer) => (
                 <a href={officer.url ? officer.url : `mailto:${officer.email}`} target="_blank">
                     <div key={officer.id} className="min-h-12 min-w-16 text-center text-gray-200

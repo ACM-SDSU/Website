@@ -24,13 +24,6 @@ export const officers = [
         photo: require("../images/officers25/matt.png"),
     },
     {
-        name: "Isabella King",
-        position: "Marketing Director",
-        email: "iking4380@sdsu.edu",
-        major: "Computer Science",
-        photo: require("../images/officers25/bella.png"),
-    },
-    {
         name: "Kurt Rosales",
         position: "Curriculum Chair",
         email: "",
