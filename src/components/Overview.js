@@ -1,79 +1,57 @@
 import React from "react";
-import { Link, Element, animateScroll as scroll } from "react-scroll";
-import { Link as RouterLink, useLocation, useNavigate } from "react-router-dom";
 import ComputerChip from "../images/logos/ComputerChip.jpg";
 import { InfoChip, ChipTitle, ChipContent, ChipButton } from "./InfoChip";
-import ILink from "./Link";
 import { AcmAtSdsu } from "./Modules";
 
 export default function Overview() {
 	return (
-		<section id="overview" class="min-h-screen bg-cover bg-center grid" style={{ backgroundImage: `url(${ComputerChip})` }}>
-			<div class="bg-black bg-cover bg-opacity-50 w-full h-full flex flex-col justify-center items-center py-8">
-				<h1 class="text-6xl lg:text-8xl text-gray-100 w-4/5 font-bold text-center mb-4 drop-shadow-[0px_0px_4px_black]">
-					Welcome to <AcmAtSdsu />!
+		<section
+			id="overview"
+			className="min-h-screen bg-cover bg-center grid"
+			style={{ backgroundImage: `url(${ComputerChip})` }}
+		>
+			<div
+				className="w-full h-full flex flex-col justify-center items-center py-12"
+				style={{
+					background:
+						"linear-gradient(180deg, rgba(7,16,37,0.6), rgba(7,16,37,0.78))",
+				}}
+			>
+				<h1 className="text-4xl md:text-6xl lg:text-7xl text-gray-100 w-11/12 md:w-3/4 font-extrabold text-center mb-6 drop-shadow-[0px_6px_18px_rgba(2,6,23,0.8)]">
+					Welcome to <AcmAtSdsu />
 				</h1>
 
-				{/* <RouterLink
-					to="/hack"
-					className="mr-8 ml-1 hover:text-acm-yellow cursor-pointer"
-				>
-					<h2 class="text-4xl text-acm-yellow w-full hover:text-yellow-500 font-bold text-center mb-4 italic drop-shadow-[0px_0px_3px_black]">
-						Learn about the CTRL Hackathon on November 15, 2025
-					</h2>
-				</RouterLink> */}
-
-				<div class="flex flex-row flex-wrap gap-4 p-2 md:p-4 justify-center">
-					<InfoChip>
+				<div className="flex flex-row flex-wrap gap-4 p-2 md:p-4 justify-center w-full max-w-5xl">
+					<InfoChip otherstyle="md:w-1/3 lg:w-1/4">
 						<ChipTitle>About Us</ChipTitle>
-						<ChipContent>We are the <span class="text-acm-light-blue font-bold">Association for Computing Machinery (ACM)</span> Student Chapter at <span class="NOTtext-acm-red NOTfont-bold">San Diego State University!</span>.</ChipContent>
-						<ChipButton goal="about">
-							See What We Offer
-						</ChipButton>
+						<ChipContent>
+							We are the <span className="text-acm-light-blue font-bold">Association for
+							Computing Machinery (ACM)</span> Student Chapter at <span className="font-bold">San Diego
+							State University</span>.
+						</ChipContent>
+						<ChipButton goal="about">See What We Offer</ChipButton>
 					</InfoChip>
 
-					<InfoChip>
+					<InfoChip otherstyle="md:w-1/3 lg:w-1/4">
 						<ChipTitle>Meeting Times</ChipTitle>
 						<ChipContent>
-							We host weekly tech workshops, competitions, and socials every <b class="text-acm-light-blue">
-								Monday
-							</b>
-							&nbsp;from&nbsp;
-							<b class="text-acm-light-blue">
-								3:30&nbsp;-&nbsp;5:30pm
-							</b> in <a href="https://maps.app.goo.gl/tgdibpQhui853wTw5" target="_blank" class="text-acm-light-blue">
-								<b class="underline hover:text-acm-blue">
-									GMCS 405
-								</b>
-							</a>
-							, in addition to <b class="text-acm-light-blue">special events</b> throughout the semester.
+							Weekly tech workshops, competitions, and socials every{' '}
+							<b className="text-acm-light-blue">Monday</b> from{' '}
+							<b className="text-acm-light-blue">3:30 - 5:30pm</b> in{' '}
+							<a href="https://maps.app.goo.gl/tgdibpQhui853wTw5" target="_blank" rel="noreferrer" className="text-acm-light-blue underline">GMCS 405</a>.
 						</ChipContent>
-						<ChipButton goal="events">
-							View Upcoming Events
-						</ChipButton>
+						<ChipButton goal="events">View Upcoming Events</ChipButton>
 					</InfoChip>
-					<InfoChip>
+
+					<InfoChip otherstyle="md:w-1/3 lg:w-1/4">
 						<ChipTitle>Get Involved</ChipTitle>
-						<ChipContent>Join our <a href="https://discord.gg/UuNuggpKYV" target="_blank" class="text-acm-light-blue font-bold underline">Discord Server</a> and follow us on <a href="https://www.instagram.com/sdsu_acm/" target="_blank" class="text-acm-light-blue font-bold underline">Instagram</a> to stay up to date with all the latest ACM news and upcoming events!</ChipContent>
+						<ChipContent>
+							Join our <a href="https://discord.gg/UuNuggpKYV" target="_blank" rel="noreferrer" className="text-acm-light-blue font-bold underline">Discord</a> and follow <a href="https://www.instagram.com/sdsu_acm/" target="_blank" rel="noreferrer" className="text-acm-light-blue font-bold underline">Instagram</a> to stay up to date.
+						</ChipContent>
 						<div className="flex flex-row gap-2">
-							<ChipButton goal="contact">
-								Connect With Us
-							</ChipButton>
-							{/* <ChipButton goal="https://forms.gle/LVFbpKRk7Aen4CjG9" external={true}>
-								Pay Your Dues
-							</ChipButton> */}
+							<ChipButton goal="contact">Connect With Us</ChipButton>
 						</div>
 					</InfoChip>
-					{/*<InfoChip>
-						<ChipTitle>Join the ACM Chapter</ChipTitle>
-						<ChipContent>Join our <span class="text-acm-light-blue font-bold">Discord Server</span> to stay up to date with all the latest ACM news and upcoming events.</ChipContent>
-						<ChipButton>
-							<img class="w-8 h-8 mr-2" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/discord-white-icon.png" />
-							<a href="https://discord.gg/UuNuggpKYV" target="_blank">
-								discord.gg/UuNuggpKYV
-							</a>
-						</ChipButton>
-					</InfoChip>*/}
 				</div>
 			</div>
 		</section>

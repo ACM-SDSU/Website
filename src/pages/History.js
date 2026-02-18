@@ -16,9 +16,14 @@ const headerStyle = "text-white";
 
 function History() {
     return (
-        <main className="text-gray-100 bg-gray-900 body-font font-ACM">
+        <main className="min-h-screen bg-brand-bg text-muted-gray body-font font-ACM">
             <Navbar navItems={navbar_buttons} headerStyle={headerStyle} />
-            <Officers2024 headerStyle={headerStyle} />
+            <div className="max-w-6xl mx-auto px-4">
+                <section className="mt-8 card-surface">
+                    <h1 className="text-4xl md:text-5xl font-bold text-acm-light-blue text-center py-4">History & Leadership</h1>
+                    <Officers2024 headerStyle={headerStyle} />
+                </section>
+            </div>
         </main>
     );
 }

@@ -1,40 +1,54 @@
 /** @type {import('tailwindcss').Config} */
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
-  },
-  plugins: [],
-theme: {
     extend: {
       colors: {
-        'sdsu-bright-red': '#D41736',
-        'sdsu-dark-red': '#A6192E',
-        'sdsu-charcoal': '#2D2828',
-        'sdsu-black': '#000000',
-        'sdsu-bright-teal': '#00A39D',
-        'sdsu-dark-teal': '#008080',
-        'sdsu-light-gray': '#CDCDC8',
-        'sdsu-white': '#FFFFFF',
+        // Dark base
+        'brand-bg': '#071025',
+        'brand-surface': '#0f1724',
+        'brand-muted': '#0b1a2a',
+        // Accents
+        'brand-cyan': '#00c2d8',
+        'brand-blue': '#39A0ED',
+        'brand-neon': '#7CF4FF',
+        'brand-accent': '#8B5CF6',
+        // Neutral
+        'muted-gray': '#94A3B8',
+        'panel-glass': 'rgba(255,255,255,0.04)',
 
-        'acm-blue': 'rgb(0,146,207)',
-        'acm-yellow': 'rgb(255,210,0)',
-        'acm-orange': 'rgb(245,159,26)',
-        'acm-red': 'rgb(239,64,53)',
-        'acm-light-blue': 'rgb(114,205,244)',
-        'acm-green': 'rgb(178,187,29)',
-        'acm-purple': 'rgb(120,29,126)',
-        'acm-dark-blue': 'rgb(0,85,150)',
+        // Keep some legacy tokens (mapped to the new palette)
+        'acm-blue': '#39A0ED',
+        'acm-light-blue': '#7CF4FF',
+        'acm-yellow': '#FFD166',
+        'acm-dark-blue': '#0b3b66',
       },
       fontFamily: {
-        'sans': ['"Montserrat"', 'sans-serif'],
-        'serif': ['"Merriweather"', 'serif'],
-        'mono': ['"Inconsolata"', 'monospace'],
-        'ACM': ['myriad-pro','sans-serif'],
+        sans: ['Inter', 'ui-sans-serif', 'system-ui'],
+        serif: ['Merriweather', 'serif'],
+        mono: ['Inconsolata', 'monospace'],
+        ACM: ['myriad-pro','sans-serif'],
+      },
+      keyframes: {
+        'fade-up': {
+          '0%': { opacity: '0', transform: 'translateY(8px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+        'fade-in': {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+      },
+      animation: {
+        'fade-up': 'fade-up 600ms ease-out both',
+        'fade-in': 'fade-in 500ms ease-out both',
+      },
+      boxShadow: {
+        'glass': '0 6px 24px rgba(2,6,23,0.6)',
       },
     },
-}
+  },
+  plugins: [],
 }
 

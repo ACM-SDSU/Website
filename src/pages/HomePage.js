@@ -18,22 +18,21 @@ const homepage_buttons = [
   //["Guest Speakers", "guestspeakers"],
   // ["Outreach", "outreach"],
   ["Get Involved", "contact"],
-  ["Hackathon","hackathon"],
+  ["Innovate4SDSU","hackathon"],
 ]
 
 function App() {
   return (
-    <main className="text-gray-900 bg-gray-900 body-font font-ACM">
-      <Navbar navItems={homepage_buttons} logotype={"acm"}/>
+    <main className="min-h-screen bg-brand-bg text-muted-gray body-font font-ACM">
+      <Navbar navItems={homepage_buttons} logotype={"acm"} />
       <Overview />
-      <About />
-      <Events />
-      <PastEvents />
-      <Officers />
-      {/* <Outreach /> */}
-      {/*<GuestSpeakers />*/}
-      <Contact />
-      {/*<Footer />*/}
+      <div className="max-w-6xl mx-auto px-4">
+        <About />
+        <Events />
+        <PastEvents />
+        <Officers />
+        <Contact />
+      </div>
     </main>
   );
 }

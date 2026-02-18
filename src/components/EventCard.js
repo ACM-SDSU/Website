@@ -37,32 +37,37 @@ const detectCategory = (summary, description) => {
 const EventCard = ({ event }) => {
   const { summary, start, end, description, location } = event;
 
-  // Parse tag from description (e.g., "#tag: social")
   const category = detectCategory(summary, description);
   const icon = category ? categoryIcons[category] : null;
 
   const startDate = new Date(start.dateTime || start.date);
   const endDate = end?.dateTime ? new Date(end.dateTime) : null;
 
-  const formatDate = date =>
-    date.toLocaleDateString(undefined, { weekday: "long", month: "long", day: "numeric" });
+  const formatDate = (date) =>
+    date.toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' });
 
-  const formatTime = date =>
-    date ? date.toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit", hour12: true }) : "All day";
+  const formatTime = (date) =>
+    date ? date.toLocaleTimeString(undefined, { hour: 'numeric', minute: '2-digit', hour12: true }) : 'All day';
 
   return (
-    <div className="flex flex-col md:flex-row items-center bg-white shadow-lg rounded-lg md:rounded-2xl p-2 md:py-3 md:px-5 xl:p-4 border border-gray-200 mb-4 text-acm-dark-blue">
+    <div className="card-surface mb-4 p-4 flex flex-row items-start gap-4 fade-up">
       {icon && (
-        <div className="hide flex-shrink-0 mb-4 md:mb-0 md:mr-4">
-          <img src={icon} alt={category} className="w-20 md:w-24 lg:w-24 xl:w-26 h-auto object-contain" />
+        <div className="flex-shrink-0">
+          <img src={icon} alt={category} className="w-12 h-12 rounded-md object-cover" />
         </div>
       )}
-      <div>
-        <h3 className="text-lg md:text-xl font-semibold">{summary}</h3>
-        <p className="text-base md:text-lg text-acm-blue">
-          {formatDate(startDate)}, {formatTime(startDate)} {endDate ? ` - ${formatTime(endDate)}` : ""}, {location}
-        </p>
-        {description && <p className="text-sm md:text-lg mt-2 text-gray-800">{cleanDescription(description)}</p>}
+      <div className="flex-1">
+        <div className="flex items-start justify-between gap-4">
+          <div className="max-w-[80%]">
+            <h3 className="text-lg md:text-xl font-semibold text-white">{summary}</h3>
+            <p className="text-sm text-muted-gray">{cleanDescription(description)}</p>
+          </div>
+          <div className="text-right">
+            <p className="text-sm text-acm-light-blue">{formatDate(startDate)}</p>
+            <p className="text-xs text-muted-gray">{formatTime(startDate)}{endDate ? ` - ${formatTime(endDate)}` : ''}</p>
+            {location && <p className="text-xs text-gray-300 mt-1">{location}</p>}
+          </div>
+        </div>
       </div>
     </div>
   );
