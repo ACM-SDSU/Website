@@ -17,7 +17,7 @@ export default function Contact(){
                 </div>
                 <div class="p-2 md:p-4 min-w-1/6">
                     <a href="https://www.instagram.com/sdsu_acm/" target="_blank" class="flex space-x-2 hover:text-acm-blue">
-                        <img class="w-7 h-7 mr-3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/800px-Instagram_logo_2022.svg.png"/>
+                        <img class="w-7 h-7 mr-3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1280px-Instagram_logo_2016.svg.png"/>
                         @sdsu_acm
                     </a>
                 </div>

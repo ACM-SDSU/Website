@@ -5,6 +5,7 @@ import fetchEvents from "./fetchEvents"; // Import your API function
 const EventsList = () => {
 	const [events, setEvents] = useState([]);
 	const [loading, setLoading] = useState(true);
+	const [visibleCount, setVisibleCount] = useState(3);
   
 	useEffect(() => {
 	  const loadEvents = async () => {
@@ -15,13 +16,32 @@ const EventsList = () => {
   
 	  loadEvents();
 	}, []);
+
+	useEffect(() => {
+	  setVisibleCount(5);
+	}, [events]);
   
 	return (
 	  <div className="max-w-3xl xl:max-w-4xl mx-auto p-2 md:p-5 text-white">
 		{loading ? (
 		  <p>Loading events...</p>
 		) : events.length > 0 ? (
-		  events.map(event => <EventCard key={event.id} event={event} />)
+		  <>
+			{events.slice(0, visibleCount).map(event => (
+			  <EventCard key={event.id} event={event} />
+			))}
+			{visibleCount < events.length && (
+			  <div className="mt-4 text-center">
+				<button
+				  type="button"
+				  onClick={() => setVisibleCount(currentCount => Math.min(currentCount + 5, events.length))}
+				  className="text-sm font-semibold text-muted-gray underline underline-offset-4 hover:text-white transition-colors"
+				>
+				  Show more
+				</button>
+			  </div>
+			)}
+		  </>
 		) : (
 		  <p class="text-center">There was an error fetching the latest information on past events. Please refresh the page.</p>
 		)}

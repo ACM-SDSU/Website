@@ -26,12 +26,17 @@ function App() {
     <main className="min-h-screen bg-brand-bg text-muted-gray body-font font-ACM">
       <Navbar navItems={homepage_buttons} logotype={"acm"} />
       <Overview />
-      <div className="max-w-6xl mx-auto px-4">
-        <About />
-        <Events />
-        <PastEvents />
-        <Officers />
-        <Contact />
+      <div className="mx-auto px-4">
+        <div className="max-w-7xl mx-auto">
+          <About />
+        </div>
+        <div className="max-w-5xl mx-auto">
+          <Events />
+          <PastEvents />
+          <Officers />
+          <br />
+          <Contact />
+        </div>
       </div>
     </main>
   );

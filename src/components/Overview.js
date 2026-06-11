@@ -21,36 +21,37 @@ export default function Overview() {
 					Welcome to <AcmAtSdsu />
 				</h1>
 
-				<div className="flex flex-row flex-wrap gap-4 p-2 md:p-4 justify-center w-full max-w-5xl">
+				<div className="flex flex-row flex-wrap gap-4 p-2 md:p-4 justify-center w-full max-w-7xl">
 					<InfoChip otherstyle="md:w-1/3 lg:w-1/4">
-						<ChipTitle>About Us</ChipTitle>
-						<ChipContent>
+						<ChipTitle otherstyle="mx-auto">About Us</ChipTitle>
+						<ChipContent otherstyle="mb-3">
 							We are the <span className="text-acm-light-blue font-bold">Association for
 							Computing Machinery (ACM)</span> Student Chapter at <span className="font-bold">San Diego
 							State University</span>.
 						</ChipContent>
-						<ChipButton goal="about">See What We Offer</ChipButton>
+						<ChipButton goal="about" otherstyle="mx-auto mt-auto text-xl">See What We Offer</ChipButton>
 					</InfoChip>
 
 					<InfoChip otherstyle="md:w-1/3 lg:w-1/4">
-						<ChipTitle>Meeting Times</ChipTitle>
-						<ChipContent>
+						<ChipTitle otherstyle="mx-auto">Meeting Times</ChipTitle>
+						<ChipContent otherstyle="mb-3">
 							Weekly tech workshops, competitions, and socials every{' '}
 							<b className="text-acm-light-blue">Monday</b> from{' '}
 							<b className="text-acm-light-blue">3:30 - 5:30pm</b> in{' '}
 							<a href="https://maps.app.goo.gl/tgdibpQhui853wTw5" target="_blank" rel="noreferrer" className="text-acm-light-blue underline">GMCS 405</a>.
 						</ChipContent>
-						<ChipButton goal="events">View Upcoming Events</ChipButton>
+						<ChipButton goal="events" otherstyle="mx-auto mt-auto text-xl">View Upcoming Events</ChipButton>
 					</InfoChip>
 
 					<InfoChip otherstyle="md:w-1/3 lg:w-1/4">
-						<ChipTitle>Get Involved</ChipTitle>
-						<ChipContent>
-							Join our <a href="https://discord.gg/UuNuggpKYV" target="_blank" rel="noreferrer" className="text-acm-light-blue font-bold underline">Discord</a> and follow <a href="https://www.instagram.com/sdsu_acm/" target="_blank" rel="noreferrer" className="text-acm-light-blue font-bold underline">Instagram</a> to stay up to date.
+						<ChipTitle otherstyle="mx-auto">Get Involved</ChipTitle>
+						<ChipContent otherstyle="mb-3">
+							The best way to stay up-to-date is to join our <b className="text-acm-light-blue">Discord Server</b> and attend our frequent workshops, socials, and competitions!
 						</ChipContent>
-						<div className="flex flex-row gap-2">
-							<ChipButton goal="contact">Connect With Us</ChipButton>
-						</div>
+						{/* <div className="flex flex-row gap-2"> */}
+							<ChipButton goal="https://discord.com/invite/UuNuggpKYV" otherstyle="mx-auto mt-auto text-xl">Join Our Discord</ChipButton>
+							{/* <ChipButton goal="contact" otherstyle="mx-auto mt-3">Connect With Us</ChipButton> */}
+						{/* </div> */}
 					</InfoChip>
 				</div>
 			</div>

@@ -68,13 +68,13 @@ export const officers = [
     },
 ]
 
-export const guests = [
-    {
-        name: "Jaxon Hill",
-        expertise: "Web Scraping, Modern Web Development, Real-World Applications",
-        email: "jhill4135@sdsu.edu",
-        status: "Undergraduate",
-        knownfor: "Created a web scraper, fastclass.io, for the SDSU course catalog",
-        photo: blank
-    },
-]
+// export const guests = [
+//     {
+//         name: "Jaxon Hill",
+//         expertise: "Web Scraping, Modern Web Development, Real-World Applications",
+//         email: "jhill4135@sdsu.edu",
+//         status: "Undergraduate",
+//         knownfor: "Created a web scraper, fastclass.io, for the SDSU course catalog",
+//         photo: blank
+//     },
+// ]

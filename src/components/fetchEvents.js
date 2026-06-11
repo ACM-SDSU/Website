@@ -1,8 +1,8 @@
 const timeOffsets = {
-  social: 31,
-  fundraiser: 31,
-  workshop: 21,
-  competition: 90,
+  social: 180,
+  fundraiser: 180,
+  workshop: 180,
+  competition: 365
 };
 
 const CALENDAR_ID = "1e79b55343290be5c7bf935f61f48f8906b1e91d26116edc26b9ebbfe16d6cf8@group.calendar.google.com";

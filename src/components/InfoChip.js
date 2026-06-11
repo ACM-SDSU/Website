@@ -15,8 +15,8 @@ export function ChipTitle({ children, otherstyle = '' }) {
 	return <p className={`text-xl md:text-2xl font-semibold mb-1 ${otherstyle}`}>{children}</p>;
 }
 
-export function ChipContent({ children }) {
-	return <p className="text-sm md:text-base leading-relaxed">{children}</p>;
+export function ChipContent({ children, otherstyle = '' }) {
+	return <p className={`text-sm md:text-base leading-relaxed ${otherstyle}`}>{children}</p>;
 }
 
 export function ChipButton({ children, variant = 'primary', goal = 'overview', otherstyle = '' }) {

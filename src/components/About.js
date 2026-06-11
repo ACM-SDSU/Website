@@ -10,10 +10,10 @@ import img4 from "../images/media/lecture.jpg";
 export default function About() {
 	return (
 		<section id="about" className="p-6 md:p-12 pb-8">
-			<div className="max-w-6xl mx-auto">
+			<div className="max-w-8xl mx-auto">
 				<h1 className="mainheader text-acm-light-blue">About the ACM</h1>
 
-				<div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start mt-6">
+				<div className="grid grid-cols-1 lg:grid-cols-[0.9fr_1.1fr] gap-8 items-start mt-6">
 					<article className="card-surface fade-up">
 						<h2 className="text-2xl font-semibold text-white mb-3">Who we are</h2>
 						<p className="text-base md:text-lg text-gray-200 mb-4">
@@ -29,16 +29,17 @@ export default function About() {
 							<li>Hands-on workshops (ML, web, security, systems)</li>
 							<li>Project collaborations and competitions</li>
 							<li>Guest talks and industry networking</li>
+							<li>Socials and community events</li>
 						</ul>
 
 						<p className="text-sm text-muted-gray mt-4">Open to all SDSU students—no experience required.</p>
 					</article>
 
 					<div className="flex flex-col gap-4">
-						<div className="card-surface fade-up">
+						{/* <div className="card-surface fade-up">
 							<h3 className="text-lg font-semibold text-white mb-2">Snapshot</h3>
 							<p className="text-gray-200">We host weekly workshops, socials, and regular hackathons. Join us to learn and ship projects.</p>
-						</div>
+						</div> */}
 
 						<div className="card-surface fade-up">
 							<div className="w-full aspect-[4/3] overflow-hidden rounded-lg">

@@ -19,8 +19,8 @@ module.exports = {
         'panel-glass': 'rgba(255,255,255,0.04)',
 
         // Keep some legacy tokens (mapped to the new palette)
-        'acm-blue': '#39A0ED',
-        'acm-light-blue': '#7CF4FF',
+        'acm-blue': '#39b4ed',
+        'acm-light-blue': '#60b1f3',
         'acm-yellow': '#FFD166',
         'acm-dark-blue': '#0b3b66',
       },

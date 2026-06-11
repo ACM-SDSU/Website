@@ -1,5 +1,5 @@
 import React from "react";
-import { officers as curr } from "../data/officers";
+import { officers as curr } from "../data/officers2025";
 
 export default function OfficerCards({officers = curr}) {
     return (
